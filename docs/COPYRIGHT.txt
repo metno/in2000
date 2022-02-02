@@ -1,0 +1,7 @@
+All content not explicitly specified otherwise is licenced by the [NLOD
+and CC BY 4.0 licences](https://api.met.no/license_data.html). The full
+text is included in LICENCE.txt in this repo.
+
+Copyright 2020 The Norwegian Meteorological Institute
+Henrik Mohns Plass 1, 0371 Oslo
+https://www.met.no/
