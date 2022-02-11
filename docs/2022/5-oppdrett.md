@@ -4,7 +4,6 @@ title: Case 5 - Oppdrettsanlegg
 date: 2022-02-09
 ---
 
-# Havbruk – miljøforhold i oppdrettsanlegg
 Lag en app som viser miljøforhold ved et oppdrettsanlegg for laks. Oppdrettsindustrien i Norge foregår for det meste som oppdrett av laks i åpne merder i sjøen. Fisken påvirkes av det omliggende miljøet på en direkte måte. Det fysiske miljøet ved en oppdrettslokalitet, det vil si vannets saltholdighet, temperatur og bevegelse (strøm), kan variere mye fra dag til dag. Det vil være av interesse for fiskeoppdrettere å kunne få en indikasjon på hvordan miljøforholdene på anlegget deres vil endre seg de neste dagene.
 
 Havmodellen NorKyst-800 beregner daglig nødvendige parametere på et horisontalt rutenett med 800 m oppløsning for hele landet time for time og ca. to døgn fram i tid. Andre
@@ -20,19 +19,19 @@ interessant å inkludere. Det samme gjelder muligheten for å beskrive forventet
 
 ## Datakilder
 Primære (obligatisk):
- * Daglige verdier av resultater fra strømmodellen NorKyst-800: https://thredds.met.no/thredds/catalog/fou-hi/norkyst800m-1h/catalog.html 
- * Ukentlige verdier av beregnet smittepress fra lakselus basert på NorKyst-800: http://thredds.nodc.no:8080/thredds/catalog/smittepress_new2018/catalog.html 
+ * Daglige verdier av resultater fra strømmodellen NorKyst-800: <https://thredds.met.no/thredds/catalog/fou-hi/norkyst800m-1h/catalog.html>
+ * Ukentlige verdier av beregnet smittepress fra lakselus basert på NorKyst-800: <http://thredds.nodc.no:8080/thredds/catalog/smittepress_new2018/catalog.html>
 
-Sekundære (valgfritt):
- * Oceanforecast (se generelt på in2000.met.no)
+Sekundære (valgfritt) – se [Generelle ressurser](../general):
+ * Oceanforecast
 
- ## Eksempler på spørring mot THREDDS-server hos MET
+## Eksempler på spørring mot THREDDS-server hos MET
 For å jobbe mot data som ligger i gitter/grid på THREDDS-servere så bruker vi protokollen OPeNDAP. Dette krever litt Java-koding, men ved å se på eksempelkoden rett nedenfor så kommer dere raskt i gang.
 
 ### Minimalt eksempel på bruk av NetCDF Java
 Dette eksempelet bruker litt eldre funksjonalitet, og det er naturligvis flere måter å gjøre dette på.
 
-Brukerdokumentasjon finnes på https://docs.unidata.ucar.edu/netcdf-java/current/userguide/index.html og Javadoc som også dekker pakken ucar.nc2.dt (som brukes i eksempelet nedenfor) kan finnes på http://javadox.com/edu.ucar/netcdf/4.2/overview-summary.html
+Brukerdokumentasjon finnes på <https://docs.unidata.ucar.edu/netcdf-java/current/userguide/index.html> og Javadoc som også dekker pakken ucar.nc2.dt (som brukes i eksempelet nedenfor) kan finnes på <http://javadox.com/edu.ucar/netcdf/4.2/overview-summary.html>
 
 ```
 import java.io.IOException;
@@ -67,8 +66,10 @@ public class TestOpendap {
             return;
 
             // direct indexing (ranges)
-            // note that this way of reading does not apply scale or offset - see variable attributes "scale_factor" and "add_offset"
-            Array data = v.read("2,0:2,200:203,199"); // the string is specifying a range of data per dimension (order is t, z, y, x)
+            // note that this way of reading does not apply scale or offset
+            // see variable attributes "scale_factor" and "add_offset"
+            // the argument for read(...) is specifying a range of data per dimension (order is t, z, y, x)
+            Array data = v.read("2,0:2,200:203,199");
             String arrayStr = Ncdump.printArray(data, "temperature_selection", null);
             System.out.println(arrayStr);
 
@@ -100,11 +101,13 @@ public class TestOpendap {
             double val = data.getDouble(0); // we know its a scalar
             System.out.printf("Value at %f %f == %f%n", lat, lon, val);
 
-            // read the data at that lat, lon and the first time and all z levels/depths - produces a depth profile
+            // read the data at that lat, lon and the first time and all z levels/depths
+            // produces a depth profile
             Array depthData = grid.readDataSlice(0, -1, xy[1], xy[0]); // note order is t, z, y, x
             System.out.println("Depth profile: " + depthData);
 
-            // read the data at that lat, lon and the first z level and all timesteps - produces a time series
+            // read the data at that lat, lon and the first z level and all timesteps
+            // produces a time series
             Array timeSeriesData = grid.readDataSlice(-1, 0, xy[1], xy[0]); // note order is t, z, y, x
             System.out.println("Time series: " + timeSeriesData);
 
@@ -118,7 +121,8 @@ public class TestOpendap {
 
         TestOpendap testodap = new TestOpendap();
 
-        String urlName = "https://thredds.met.no/thredds/dodsC/fou-hi/norkyst800m-1h/NorKyst-800m_ZDEPTHS_his.an.2022020900.nc";
+        String urlName = 
+        "https://thredds.met.no/thredds/dodsC/fou-hi/norkyst800m-1h/NorKyst-800m_ZDEPTHS_his.an.2022020900.nc";
 
         testodap.openWithNetcdfDatasets(urlName);
         
@@ -127,9 +131,9 @@ public class TestOpendap {
 }
 ```
 
- ### Avhengigheter
- * NetCDF Java https://www.unidata.ucar.edu/downloads/netcdf-java/
- * SLF4J https://repo1.maven.org/maven2/org/slf4j/slf4j-jdk14/1.7.36/
+### Avhengigheter
+ * NetCDF Java <https://www.unidata.ucar.edu/downloads/netcdf-java/>
+ * SLF4J <https://repo1.maven.org/maven2/org/slf4j/slf4j-jdk14/1.7.36/>
 
 ## Mest relevante interessenter
 Havforskningsinstituttet, Eide Fjordbruk, SEARIS og andre oppdrettsselskaper.
