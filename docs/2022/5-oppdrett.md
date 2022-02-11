@@ -10,6 +10,8 @@ Havmodellen NorKyst-800 beregner daglig nødvendige parametere på et horisontal
 sammensatte parametere som tykkelsen på blandingslaget eller statistiske forhold kan være
 interessant å inkludere. Det samme gjelder muligheten for å beskrive forventet smittepress fra lakselus.
 
+Miljøforhold ved oppdrettsanlegg er interessant både for havbruksnæringa og de som regulerer denne. Det er viktig å overvåke hvordan denne næringen påvirker miljøet, slik at drift kan skje på en bærekraftig måte.
+
 ## Noen ideer til inspirasjon
  * Kart med plassering av oppdrettsanlegg
  * Tidsserier av saltholdighet, temperatur og strøm fra lokaliteten
