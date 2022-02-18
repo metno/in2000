@@ -14,21 +14,27 @@ på Yr som har blitt svært populær.
 
 Selve varselet kan hentes ut fra
 [NOAA](https://www.swpc.noaa.gov/products/3-day-forecast). Så må man se på
-Kp-tallet og justere dette etter breddegrad (må være høyere i Oslo enn i Tromsø
-for at det skal være synlig). Til sist må dere bruke `locationforecast` for å
-sjekke at det er klar himmel uten skydekke, og `sunrise` for å vise når det er
-mørkt nok til å se fenomenet.
+Kp-indeks og justere dette etter breddegrad (må være høyere i Oslo enn i Tromsø
+for at det skal være synlig, 5 er minimum for Oslo).
+
+Til sist må dere bruke `locationforecast` for å sjekke at det er klar himmel
+uten skydekke, og `sunrise` for å vise når det er mørkt nok til å se fenomenet.
+
 Kan gjerne også kombineres med stjernehimmel og lokalisering av planeter, slik
 et tidligere team gjorde.
 
+- [NOAA](https://www.swpc.noaa.gov/products/3-day-forecast)
+- [Norwegian Centre for Space Weather (NOSWE)](https://site.uit.no/spaceweather/)
 
 ## Seiling i småbåt
 
-- `oceanforecast`: strøm- og bølgeforhold
-- `locationforecast`: vind og nedbør
-- `sunrise`: seiling i mørke krever ekstra forhåndsregler
+- Oceanforecast: strøm- og bølgeforhold
+- Locationforecast: vind og nedbør
+- Sunrise: seiling i mørke krever ekstra forhåndsregler
+
 
 
 ## Klimastatistikk
 
-- <frost.met.no>
+- <https://frost.met.no/>
+- <http://seklima.met.no/>
