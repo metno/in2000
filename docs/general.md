@@ -80,3 +80,8 @@ Havvarsel-Frost fungerer noenlunde på samme måte som Frost, men er en nyere ve
 Det er ikke nødvendig å bruke proxy for Havvarsel-Frost.
 
 For eksempler på bruk av Havvarsel-Frost, se [egen side](/havvarsel/).
+
+## THREDDS
+
+- [Eksempler på bruk av THREDDS](/thredds/)
+- [thredds.met.no](https://thredds.met.no/)

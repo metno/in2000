@@ -27,8 +27,9 @@ For spørsmål vedr METs tjenester, send en epost til en av følgende adresser a
 etter hva dere lurer på:
 
 - api.met.no: <weatherapi-adm@met.no>
-- frost.met.no: <frost-adm@met.no>
-- thredds.met.no: <thredds-adm@met.no>
+- havvarsel-frost: <martinls@met.no>
+- frost.met.no: <frost-adm@met.no>, <in2000-help@met.no>
+- thredds.met.no: <thredds@met.no>
 
 Merk eposten med "IN2000" i subject-feltet så vi skjønner hva det er snakk om.
 

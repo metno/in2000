@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Havvarsel-Frost
-date: 2022-02-13
-author:
+date: 2022-02-09
+author: Martin L. Sætra
 ---
 
 ## Eksempler på spørring mot Havvarsel-Frost-server

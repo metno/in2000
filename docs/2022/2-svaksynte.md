@@ -26,6 +26,7 @@ Se [Generelle ressurser](/general):
 
 ##  Andre ressurser
 
+- [WCAG 2.0](https://www.w3.org/Translations/WCAG20-no/)
 - [Tilsynet for universell utforming av IKT](https://www.uutilsynet.no/)
   - [Universell utforming av apper](https://www.uutilsynet.no/apper/apper/758)
 
