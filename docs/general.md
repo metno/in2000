@@ -10,7 +10,9 @@ author: Geir Aalberg
 Disse produktene kan være nyttige for alle caser. Data fra disse utgjør størsteparten av det som vises på Yr.
 Alt som ligger på api.met.no skal hentes via in2000-apiproxy.
 
-**NB: IFI-proxyene håndterer ikke `If-Modified-Since`.** Ignorer alt som står om dette i Terms of Service og HOWTO.
+Navn på variabler og parametre er forsøkt holdt seg innenfor CF-standarden hvis mulig.
+Denne er ganske omfattende, dere kan finne forklaringer på termene på
+[cfconventions.org](http://cfconventions.org/Data/cf-standard-names/70/build/cf-standard-name-table.html).
 
 ## api.met.no
 

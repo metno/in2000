@@ -7,6 +7,8 @@ author: Geir Aalberg
 
 # Caser 2020
 
+For bruk av APIene, se [veiledning](./guide).
+
 ## 1. Bevegelser i havet
 
 Aktuelle scenarios kan være ferdsel i Oslofjorden eller Nordishavet.

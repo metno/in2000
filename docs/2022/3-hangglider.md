@@ -13,7 +13,24 @@ fly, og på hvilke dager den neste uken det vil være best forhold.
 
 ## Datakilder
 
+Følgende datakilder er **obligatoriske**:
+
+- MetAlerts (farevarsler) - ikke smart å dra opp hvis det er meldt dårlig vær
+- Locationforecast - værvarsel for neste 10 dager
+
+
+
 MET:
 
-- locfc, nowcast, MetAlerts
+- locfc, nowcast, MetAlerts, Sunrise
 
+Regelverk:
+
+- [Luftfartstilsynets sider om hangglider](https://luftfartstilsynet.no/allmenfly-og-luftsport/luftsport/hang--speed-og-paraglider/)
+
+
+- [WindFinder](https://www.windfinder.com/) - dynamisk vindkart
+
+Diskusjonsfora:
+
+- [Hangglider i Norge](https://www.facebook.com/groups/395308510492193) - Facebook-gruppe for utøvere

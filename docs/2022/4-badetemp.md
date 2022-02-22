@@ -35,12 +35,14 @@ funksjonalitet rundt temaet badetemperaturer.
 
 For eksempler på bruk av Havvarsel-Frost, se [egen side](/havvarsel/).
 
-### Sekundære (valgfritt) – se [Generelle ressurser](/general):
+### Sekundære (valgfritt)
 
- * Oceanforecast
- * Locationforecast
- * Nowcast
-
+ * [Oceanforecast](/general)
+ * [Locationforecast](/general)
+ * [Nowcast](/general)
 
 ## Mest relevante interessenter
-Solstrand fjordhotell, Altibox (badetassen.no) og VG
+
+- Solstrand fjordhotell
+- Altibox (badetassen.no)
+- VG

@@ -9,6 +9,7 @@ date: 2022-02-02
 - [Emneside for kurset](https://www.uio.no/studier/emner/matnat/ifi/IN2000/)
 - [Semesterside for 2022](https://www.uio.no/studier/emner/matnat/ifi/IN2000/v22/)
 - [Casebeskrivelser](https://www.uio.no/studier/emner/matnat/ifi/IN2000/v22/prosjekt-og-casebeskrivelser/)
+- [Timeplan](https://www.uio.no/studier/emner/matnat/ifi/IN2000/v22/timeplan/index.html)
 
 ## Ressurser til caser
 
@@ -19,6 +20,3 @@ date: 2022-02-02
 - [Case 5. Miljøforhold i oppdrettsanlegg](./5-oppdrett)
 - [Case 6. Åpent case](./6-opencase)
 
-## Andre nyttige sider
-
-- [Timeplan](https://www.uio.no/studier/emner/matnat/ifi/IN2000/v22/timeplan/index.html)
