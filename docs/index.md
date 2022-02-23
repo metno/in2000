@@ -27,7 +27,7 @@ For spørsmål vedr METs tjenester, send en epost til en av følgende adresser a
 etter hva dere lurer på:
 
 - api.met.no: <weatherapi-adm@met.no>
-- havvarsel-frost: <martinls@met.no>
+- havvarsel-frost.met.no: <joa@met.no>
 - frost.met.no: <observasjon@met.no>
 - thredds.met.no: <thredds@met.no>
 

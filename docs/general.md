@@ -83,6 +83,8 @@ Det er ikke nødvendig å bruke proxy for Havvarsel-Frost.
 
 For eksempler på bruk av Havvarsel-Frost, se [egen side](/havvarsel/).
 
+Se også [presentasjonen om Frost](https://docs.google.com/presentation/d/1X6PvSCHz00X2XPQruRKcpvDUEWbM94LqmKBF0VI6Y2Q/edit?usp=sharing) fra forelesning.
+
 ## THREDDS
 
 - [Eksempler på bruk av THREDDS](/thredds/)
