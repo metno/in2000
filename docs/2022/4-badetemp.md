@@ -18,6 +18,8 @@ som også er tilgjengelig fra Havvarsel-Frost. Ved å kombinere observasjoner me
 varsler/prognoser fra api.met.no så kan det lages en rekke forskjellige
 funksjonalitet rundt temaet badetemperaturer.
 
+Kontaktperson ang dette caset er [Martin Sætra](mailto:martinls@met.no).
+
 ### Noen ideer til inspirasjon
  * Kart med “live” badetemperaturer plottet inn på kjente badesteder.
  * Rangering av strender etter vanntemperatur, lufttemperatur, minste forskjell i vanntemperatur og lufttemperatur osv.

@@ -18,11 +18,9 @@ funksjonalitet.
 
 MET:
 
-Se [Generelle ressurser](/general):
-
-- locationforecast
-- nowcast
-- farevarsel
+- [locationforecast](/general)
+- [nowcast](/general)
+- [farevarsel](/general)
 
 ##  Andre ressurser
 

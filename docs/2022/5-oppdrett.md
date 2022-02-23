@@ -22,6 +22,8 @@ Miljøforhold ved oppdrettsanlegg er interessant både for havbruksnæringa og d
 som regulerer denne. Det er viktig å overvåke hvordan denne næringen påvirker
 miljøet, slik at drift kan skje på en bærekraftig måte.
 
+Kontaktperson ang dette caset er [Martin Sætra](mailto:martinls@met.no).
+
 ## Noen ideer til inspirasjon
 
  * Kart med plassering av oppdrettsanlegg
