@@ -23,7 +23,7 @@ bruke på de forskjellige casene i kurset.
 
 ## Kontaktinfo
 
-For spørsmål vedr METs tjenester, send en epost til en av følgende adresser alt
+For spørsmål vedr METs tjenester, send en epost til *én (og kun én)* av følgende adresser alt
 etter hva dere lurer på:
 
 - api.met.no: <weatherapi-adm@met.no>
