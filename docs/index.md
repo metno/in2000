@@ -23,7 +23,7 @@ bruke på de forskjellige casene i kurset.
 
 ## Kontaktinfo
 
-For spørsmål vedr METs tjenester, send en epost til *én (og kun én)* av følgende adresser alt
+For spørsmål vedr METs tjenester, send en epost til en **(og kun én)** av følgende adresser alt
 etter hva dere lurer på:
 
 - api.met.no: <weatherapi-adm@met.no>
@@ -31,8 +31,8 @@ etter hva dere lurer på:
 - havvarsel-frost.met.no: <martinls@met.no> (kun datainnhold, for teknisk hjelp bruk samme som Frost)
 - thredds.met.no: <thredds@met.no>
 
-Merk eposten med "IN2000" i subject-feltet så vi skjønner hva det er snakk om.
-
+Merk eposten med "IN2000" i subject-feltet så vi skjønner hva det er snakk om. Ikke send til flere adresser
+samtidig, da ender vi opp med multiple saker i forskjellige systemer som genererer mye ekstraarbeid og rot.
 
 {% comment %}
 
