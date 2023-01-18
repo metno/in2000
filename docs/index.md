@@ -1,7 +1,7 @@
 ---
 layout: default
 title: IN2000 kursressurser
-date: 2022-02-01
+date: 2023-02-17
 author: Geir Aalberg
 ---
 
@@ -18,7 +18,7 @@ bruke på de forskjellige casene i kurset.
 - [Generelle API ressurser for alle caser](./general)<br>
   Produkter og tjenester som er relevante uansett case
 
-- [Caseliste for årets kurs](./2022/)<br>
+- [Caseliste for årets kurs](./2023/)<br>
   Ressurser spesifikt for hvert case
 
 ## Kontaktinfo

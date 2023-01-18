@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: page
 title: Generelle ressurser
 date: 2021-02-19
 author: Geir Aalberg
 ---
 
-# Generelle ressurser
+## Tjenester fra MET
 
 Disse produktene kan være nyttige for alle caser. Data fra disse utgjør størsteparten av det som vises på Yr.
 Alt som ligger på api.met.no skal hentes via in2000-apiproxy.
@@ -14,9 +14,9 @@ Navn på variabler og parametre er forsøkt holdt seg innenfor CF-standarden hvi
 Denne er ganske omfattende, dere kan finne forklaringer på termene på
 [cfconventions.org](http://cfconventions.org/Data/cf-standard-names/70/build/cf-standard-name-table.html).
 
-## api.met.no
+### api.met.no
 
-### Locationforecast
+#### Locationforecast
 
 Globalt værvarsel i times (Norden neste 60 timer) og 6-timers intervaller.
 
@@ -26,7 +26,7 @@ Globalt værvarsel i times (Norden neste 60 timer) og 6-timers intervaller.
 - [Datamodell](https://docs.api.met.no/doc/locationforecast/datamodel) med forklaring av variabler
 - [Locationforecast FAQ](https://docs.api.met.no/doc/locationforecast/FAQ): Ofte stilte spørsmål
 
-### Nowcast
+#### Nowcast
 
 Værvarsel for Norge neste 15 minutter, basert på nedbørsradar og temperaturkorrigert med NetAtmo. Samme format som Locationforecast.
 
@@ -34,14 +34,14 @@ Værvarsel for Norge neste 15 minutter, basert på nedbørsradar og temperaturko
   [eksempel](https://api.met.no/weatherapi/nowcast/2.0/complete?lat=59.9333&lon=10.7166)
 - [Datamodell](https://docs.api.met.no/doc/nowcast/datamodel) med forklaring av variabler
 
-### Oceanforecast
+#### Oceanforecast
 
 Havvarsel for Norskekysten.
 
 - [Oceanforecast/2.0](https://api.met.no/weatherapi/oceanforecast/2.0/documentation): JSON versjon
 - [Datamodell](https://docs.api.met.no/doc/oceanforecast/datamodel) med forklaring av variabler
 
-### Farevarsler
+#### Farevarsler
 
 - [MetAlerts](https://api.met.no/weatherapi/metalerts/1.1/documentation)
 
@@ -55,18 +55,19 @@ sted.
 Historiske varsler er tilgjengelige per måned fom januar 2020. Bruk disse for å
 vise sesongvariable varsler som er relevante for appen.
 
-### Sunrise
+#### Sunrise
 
 Viser når sol og måne går opp/ned over horisonten. Kan også vise avanserte astronomiske
 posisjoner for beregning av horoskop(!). Data leveres som XML eller JSON.
 
-- [Sunrise API](https://api.met.no/weatherapi/sunrise/2.0/documentation)
+- [Sunrise 2 API](https://api.met.no/weatherapi/sunrise/2.0/documentation)
+- [Sunrise 3 beta](https://api.met.no/weatherapi/sunrise/3.0/documentation)
 
-### Luftkvalitet
+#### Luftkvalitet
 
 - [AirQualityForecast](https://api.met.no/weatherapi/airqualityforecast/0.1/documentation)
 
-## Frost
+### Frost
 
 Eget API for observasjoner og klimadata fra MET
 
@@ -74,7 +75,7 @@ Eget API for observasjoner og klimadata fra MET
 
 For Frost er det satt opp en egen proxy dersom dere ønsker å bruke denne.
 
-## Havvarsel-Frost
+### Havvarsel-Frost
 
 - [Havvarsel-Frost API](https://havvarsel-frost.met.no/)
 
@@ -85,7 +86,16 @@ For eksempler på bruk av Havvarsel-Frost, se [egen side](/havvarsel/).
 
 Se også [presentasjonen om Frost](https://docs.google.com/presentation/d/1X6PvSCHz00X2XPQruRKcpvDUEWbM94LqmKBF0VI6Y2Q/edit?usp=sharing) fra forelesning.
 
-## THREDDS
+### THREDDS
 
 - [Eksempler på bruk av THREDDS](/thredds/)
 - [thredds.met.no](https://thredds.met.no/)
+
+-------------------------------
+
+## Andre dataleverandører
+
+### Kartverket
+
+- [Adresse-API](https://data.norge.no/dataservices/ef13b2bc-26a3-42d4-afd0-a10ed6a9fd03)
+
