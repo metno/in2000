@@ -41,6 +41,13 @@ Havvarsel for Norskekysten.
 - [Oceanforecast/2.0](https://api.met.no/weatherapi/oceanforecast/2.0/documentation): JSON versjon
 - [Datamodell](https://docs.api.met.no/doc/oceanforecast/datamodel) med forklaring av variabler
 
+#### Tekstvarsler
+
+Generelle tekstlige varsler for spesifiserte områder. Kan være nyttig bl.a. for opplesing.
+
+- [Textforecast 2.0](https://api.met.no/weatherapi/metalerts/2.0/documentation) (XML)
+- [Textforecast 3.0](https://api.met.no/weatherapi/metalerts/3.0/documentation) (GeoJSON - kun land og kyst, ikke hav)
+
 #### Farevarsler
 
 - [MetAlerts](https://api.met.no/weatherapi/metalerts/1.1/documentation)
@@ -52,8 +59,16 @@ CAP-filene inneholder lat/lon-polygoner som er laget for å kunne plottes i kart
 Kombiner gjerne med simulert GPS-posisjon for å finne farevarsel på nåværende
 sted.
 
+**Nyhet!** For våren 2023 har vi laget en eksperimentell versjon av farevarsler
+som pakker alt inn i GeoJSON uten at man trenger å laste ned CAP. Test gjerne
+begge versjoner og gi tilbakemelding i rapporten over hvilken metode dere synes
+er greiest å bruke.
+
+- [MetAlerts](https://api.met.no/weatherapi/metalerts/1.1/.json)
+
 Historiske varsler er tilgjengelige per måned fom januar 2020. Bruk disse for å
-vise sesongvariable varsler som er relevante for appen.
+vise sesongvariable varsler som er relevante for appen, siden det ikke er så mange
+kulingvarsler på vårparten.
 
 #### Sunrise
 
@@ -88,6 +103,8 @@ Se også [presentasjonen om Frost](https://docs.google.com/presentation/d/1X6PvS
 
 ### THREDDS
 
+Rasterdata tilgjengelig for nedlasting i NetCDF-format.
+
 - [Eksempler på bruk av THREDDS](/thredds/)
 - [thredds.met.no](https://thredds.met.no/)
 
@@ -99,3 +116,8 @@ Se også [presentasjonen om Frost](https://docs.google.com/presentation/d/1X6PvS
 
 - [Adresse-API](https://data.norge.no/dataservices/ef13b2bc-26a3-42d4-afd0-a10ed6a9fd03)
 
+### NILU - Norsk institutt for luftforskning
+
+- [api.nilu.no](https://api.nilu.no/) - luftkvalitetsmålinger i større byer
+
+Se også tidligere års caser for eksempler på mer spesialiserte data.

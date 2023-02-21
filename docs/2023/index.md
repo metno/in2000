@@ -13,8 +13,8 @@ date: 2023-01-18
 
 ## Ressurser til caser
 
-- [Case 1. Strømpriser og vær](#) - [Priser](https://www.hvakosterstrommen.no/strompris-api) og [nettleie](https://data.norge.no/dataservices/937a0466-3f12-3219-8552-18689cf8d606)
-- [Case 2. Sol og måne](#)
-- [Case 3. Værvarsel for svaksynte](#)
-- [Case 4. ???](#)
-- [Case 5. Åpent case - havet](#)
+- [Case 1. Sol og måne](./1-sunrise)
+- [Case 2. Strømpriser og vær](2-strompriser) - 
+- [Case 3. Værvarsel for svaksynte](./3-svaksynte)
+- [Case 4. Åpent case i lufta](./4-opencase-luft)
+- [Case 5. Åpent case på havet](./5-opencase-hav)

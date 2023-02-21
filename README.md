@@ -32,10 +32,16 @@ disse hva Git og få løpende oppdateringer.
 ## Testing
 
 Før du commiter endringer bør du teste at siten fungerer på din lokale maskin.
-Installer Jekyll etter [denne
-oppskriften](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
-og kjør `./site run` for å genere den dynamisk. Du vil da kunne se resultatet
-i din browser på følgende adresse:
+
+1. Installer Jekyll etter [denne oppskriften](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+
+2. Installer gems og generer siten:
+
+    $ cd doc
+    $ bundle install
+    $ ./site run
+
+Du vil da kunne se resultatet i din browser på følgende adresse:
 
 - <http://localhost:4000/>
 
