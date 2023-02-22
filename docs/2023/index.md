@@ -14,7 +14,7 @@ date: 2023-01-18
 ## Ressurser til caser
 
 - [Case 1. Sol og måne](./1-sunrise)
-- [Case 2. Strømpriser og vær](2-strompriser) - 
+- [Case 2. Strømpriskalkulator](2-strompriser)
 - [Case 3. Værvarsel for svaksynte](./3-svaksynte)
-- [Case 4. Åpent case i lufta](./4-opencase-luft)
-- [Case 5. Åpent case på havet](./5-opencase-hav)
+- [Case 4. Åpent case - i lufta](./4-opencase-luft)
+- [Case 5. Åpent case - på havet](./5-opencase-hav)

@@ -12,14 +12,9 @@ sikre at digitale tjenester skal kunne benyttes av flest mulig. Fom. 1. februar
 I dette caset skal dere dog ta det litt lenger og lage noe som ikke er beregnet
 for alle, men spesialisert for blinde og svaksynte. Her blir man utfordret til å
 tenke nytt og lage menystrukturer med få og store knapper, fortrinnsvis også med
-tekst-til-tale hvis mulig. Det anbefales å ta kontakt med typiske brukergrupper
-som fx Norsk Blindeforbund og spørre hva de synes er viktig for god
-funksjonalitet.
-
+tekst-til-tale hvis mulig (det er mulig det ikke fungerer i Android Studio).
 
 ## Datakilder
-
-MET:
 
 - [locationforecast](/general)
 - [nowcast](/general)

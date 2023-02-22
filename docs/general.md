@@ -16,6 +16,10 @@ Denne er ganske omfattende, dere kan finne forklaringer på termene på
 
 ### api.met.no
 
+De fleste av METs data leveres via dette apiet. Kursledelsen ved IFI har satt opp
+en egen proxy som dere bør bruke for å kommunisere med apiet, nærmere detaljer
+blir gitt på forelesning.
+
 #### Locationforecast
 
 Globalt værvarsel i times (Norden neste 60 timer) og 6-timers intervaller.
@@ -53,7 +57,8 @@ Generelle tekstlige varsler for spesifiserte områder. Kan være nyttig bl.a. fo
 - [MetAlerts](https://api.met.no/weatherapi/metalerts/1.1/documentation)
 
 Denne leverer en [RSS-feed](https://api.met.no/weatherapi/metalerts/1.1/)
-med linker til gjeldende varsler i CAP-format (XML).
+med linker til gjeldende varsler i CAP-format. Begge er basert på XML, så dere
+trenger en parser for å kunne lese disse.
 
 CAP-filene inneholder lat/lon-polygoner som er laget for å kunne plottes i kartløsninger.
 Kombiner gjerne med simulert GPS-posisjon for å finne farevarsel på nåværende
@@ -64,46 +69,52 @@ som pakker alt inn i GeoJSON uten at man trenger å laste ned CAP. Test gjerne
 begge versjoner og gi tilbakemelding i rapporten over hvilken metode dere synes
 er greiest å bruke.
 
-- [MetAlerts](https://api.met.no/weatherapi/metalerts/1.1/.json)
+- <https://api.met.no/weatherapi/metalerts/1.1/.json>
 
-Historiske varsler er tilgjengelige per måned fom januar 2020. Bruk disse for å
-vise sesongvariable varsler som er relevante for appen, siden det ikke er så mange
-kulingvarsler på vårparten.
+**Arkiv:** Historiske varsler er tilgjengelige per måned fom januar 2020. Bruk
+parameteren `period` for å vise sesongvariable varsler som er relevante for
+appen, siden det ikke er så mange relevante farevarsler på vårparten.
 
 #### Sunrise
 
-Viser når sol og måne går opp/ned over horisonten. Kan også vise avanserte astronomiske
-posisjoner for beregning av horoskop(!). Data leveres som XML eller JSON.
+Viser når sol og måne går opp/ned over horisonten, samt krysser (anti)meridianen.
+Den nye versjonen (3.0) som ligger ute til testing er trolig lettere å forholde
+seg til enn den gamle (som er under utfasing). Kom gjerne med tilbakemeldinger
+om hvilken versjon dere liker best!
 
-- [Sunrise 2 API](https://api.met.no/weatherapi/sunrise/2.0/documentation)
-- [Sunrise 3 beta](https://api.met.no/weatherapi/sunrise/3.0/documentation)
+- [Sunrise 2](https://api.met.no/weatherapi/sunrise/2.0/documentation) (XML)
+- [Sunrise 3 beta](https://api.met.no/weatherapi/sunrise/3.0/documentation) (GeoJSON)
 
 #### Luftkvalitet
+
+Denne tjenesten viser prognoser (varsler) om luftkvalitet fram til neste dag for
+de fleste områder i Norge, i motsetning til NILU som kun har faktiske observasjoner
+for enkelte målestasjoner.
 
 - [AirQualityForecast](https://api.met.no/weatherapi/airqualityforecast/0.1/documentation)
 
 ### Frost
 
-Eget API for observasjoner og klimadata fra MET
+Eget API for observasjoner og klimadata fra MET. Dere kan ignorere det som står
+om registrering og HTTP Basic Auth siden IFI-proxyen håndterer dette automatisk.
 
-- [Frost API](https://frost.met.no/) - krever registrering og HTTP Basic Auth
-
-For Frost er det satt opp en egen proxy dersom dere ønsker å bruke denne.
+- [Frost API](https://frost.met.no/)
 
 ### Havvarsel-Frost
 
 - [Havvarsel-Frost API](https://havvarsel-frost.met.no/)
 
 Havvarsel-Frost fungerer noenlunde på samme måte som Frost, men er en nyere versjon.
-Det er ikke nødvendig å bruke proxy for Havvarsel-Frost.
-
 For eksempler på bruk av Havvarsel-Frost, se [egen side](/havvarsel/).
+Det er ikke nødvendig å bruke proxy for Havvarsel-Frost.
 
 Se også [presentasjonen om Frost](https://docs.google.com/presentation/d/1X6PvSCHz00X2XPQruRKcpvDUEWbM94LqmKBF0VI6Y2Q/edit?usp=sharing) fra forelesning.
 
 ### THREDDS
 
-Rasterdata tilgjengelig for nedlasting i NetCDF-format.
+Rasterdata tilgjengelig for nedlasting i NetCDF-format. Det er ikke trivielt
+å laste ned disse i Android; vi anbefaler i stedet å laste ned til en lokal PC
+eller server som appen leser fra.
 
 - [Eksempler på bruk av THREDDS](/thredds/)
 - [thredds.met.no](https://thredds.met.no/)

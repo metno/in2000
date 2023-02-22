@@ -13,8 +13,8 @@ Kontaktperson ang dette caset er [Martin Sætra](mailto:martinls@met.no).
 
 ## Krav
 
-Følgende tjenester fra api.met.no er obligatoriske for alle apper, siden
-alle som har tilknytning til havet må forholde seg til naturkreftene:
+**Følgende tjenester fra api.met.no er obligatoriske** å bruke for alle apper,
+siden alle som har tilknytning til havet må forholde seg til naturkreftene:
 
 - Oceanforecast [API](/general) - strøm, bølger, temperatur
 - Locationforecast eller Nowcast [API](/general) - vær og vind
@@ -22,11 +22,17 @@ alle som har tilknytning til havet må forholde seg til naturkreftene:
 
 Andre datakilder som kan være nyttige:
 
+**MET APIer**:
+
 - [Havvarsel-Frost](/havvarsel/) - nesten-live observasjoner av temperatur lange norskekysten
 - Gribfiles [API](/general) - værdata for nedlasting til navigasjonsapper
 - Textforecast [API](/general) - tekstvarsler for kyst og fiskebanker
-- [Se havnivå](http://xn--sehavniv-h0a.no) - tidevann- og vannstandsdata langs norskekysten fra Kartverket
+- [Tidalwater](/weatherapi/tidalwater/1.1/documentation) - tidevann for havner
 - Sunrise [API](/general) - ferdsel i mørke krever ekstra forhåndsregler
+
+**Andre dataleverandører:**
+
+- [Se havnivå](http://xn--sehavniv-h0a.no) - tidevann- og vannstandsdata langs norskekysten fra Kartverket
 - [OpenSeaMap](http://www.openseamap.org/index.php?id=openseamap&L=1) - frie sjøkart i WMS-format
 - [Kartlag med værdata](/wms/) i WMS-format (foreløpig noe ustabile i drift)
 - [Oslo Kommunes API for badeplasser](https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser-og-temperaturer/)
@@ -45,12 +51,16 @@ også kombinert med å regne ut effektiv fart og beregnet tid per distanse.
 Noen har også tidligere laget spesialiserte apper for redningsmannskap, som
 har vist seg å bli godt mottatt og hatt kommersielt potensiale.
 
+![Eksempel fra 2020 (appen Fimafeng)](/images/examples/fimafeng.png)
+
 ### Vannsport
 
 **App for sportsdykkere, surfere og brettseilere for å finne tid/sted med fine forhold.**
 Strøm, bølger og tildels temperatur er viktig for å planlegge sportsaktiviteter
 til sjøs, og noe man naturligvis ikke gjør hvis det er utstedt maritime farevarsler.
 Her har det tidligere år kommet inn flere kreative løsninger.
+
+![Eksempel fra 2020 (appen Surfespot)](/images/examples/surfespot.png)
 
 ### Badetemperaturer langs kysten
 
@@ -81,25 +91,3 @@ Noen ideer til inspirasjon:
  * Hvor gode er varslene/prognosene fra api.met.no til å predikere badetemperaturer? Sammenligning av Oceanforecast-varsler og observasjoner.
  * Kombinere observasjoner og varsler - inkludert “nowcasting”?
  * Offshore operasjoner - mulighetsvinduer for vedlikehold osv.
-
-### Fiskeoppdrett
-
-**App som viser miljøforhold ved et oppdrettsanlegg.** Utbredelse av lakselus
-påvirkes bl.a. av vannets saltholdighet, temperatur og bevegelse (strøm), og er et
-mye større problem i Sør-Norge enn i Nord-Norge. Informasjon om dette er nyttig
-for miljøvernere, vetrinærer og ansatte i bransjen, og er også relevant for å finne
-hvor det er mest bærekraftig å legge nye oppdrettsanlegg.
-
-Det er mulig å laste ned [ukentlige verdier av beregnet smittepress fra
-lakselus](http://thredds.nodc.no:8080/thredds/catalog/smittepress_new2018/catalog.html)
-fra NODC vha OPeNDAP-protokollen, se [egen side for THREDDS](/thredds/).
-Nedlasting fra thredds.met.no fungerer ikke så bra siden den krever kryptering,
-noe som Java-biblioteket for Android mangler.
-
-Farevarsler er relevante siden uvær gjerne fører til store skader og rømming
-av oppdrettsfisk som påvirker villfiskbestanden negativt. Man trenger derfor
-tid til å sikre merdene for å minimere skader.
-
-### Eksempler på tidligere løsninger
-
-![Eksempel fra 2020 (appen Fimafeng)](/images/examples/fimafeng.png)
