@@ -22,8 +22,10 @@ alle som har tilknytning til havet må forholde seg til naturkreftene:
 
 Andre datakilder som kan være nyttige:
 
+- [Havvarsel-Frost](/havvarsel/) - nesten-live observasjoner av temperatur lange norskekysten
 - Gribfiles [API](/general) - værdata for nedlasting til navigasjonsapper
 - Textforecast [API](/general) - tekstvarsler for kyst og fiskebanker
+- [Se havnivå](http://xn--sehavniv-h0a.no) - tidevann- og vannstandsdata langs norskekysten fra Kartverket
 - Sunrise [API](/general) - ferdsel i mørke krever ekstra forhåndsregler
 - [OpenSeaMap](http://www.openseamap.org/index.php?id=openseamap&L=1) - frie sjøkart i WMS-format
 - [Kartlag med værdata](/wms/) i WMS-format (foreløpig noe ustabile i drift)
@@ -52,7 +54,7 @@ Her har det tidligere år kommet inn flere kreative løsninger.
 
 ### Badetemperaturer langs kysten
 
-**App som viser badetemperaturer langs Norskekysten.**
+**App som viser temperaturer langs Norskekysten.**
 Det samles inn “live” observasjoner fra bøyer plassert ved populære badesteder
 rundt omkring i hele landet. Flere aktører står for innsamlingen, men alle
 observasjonene kan hentes ut fra en egen Frost-server hos Meteorologisk
@@ -70,6 +72,15 @@ Uansett hvor man bader er det viktig å få med seg værvarslet, siden de færre
 synes det er stas å bade når det regner eller blåser. Farevarsler er det ikke så
 mange av i badesesongen, men det vil etterhvert på våren komme farevarsler om lyn, noe
 som ikke er så kjekt når man er i nærheten av vann.
+
+Noen ideer til inspirasjon:
+ * Kart med “live” badetemperaturer plottet inn på kjente badesteder.
+ * Rangering av strender etter vanntemperatur, lufttemperatur, minste forskjell i vanntemperatur og lufttemperatur osv.
+ * Hvilken tid på døgnet er det mest behagelig å bade?
+ * Legge til flere parametre, som for eksempel soloppgang og solnedgang, eller flo og fjære.
+ * Hvor gode er varslene/prognosene fra api.met.no til å predikere badetemperaturer? Sammenligning av Oceanforecast-varsler og observasjoner.
+ * Kombinere observasjoner og varsler - inkludert “nowcasting”?
+ * Offshore operasjoner - mulighetsvinduer for vedlikehold osv.
 
 ### Fiskeoppdrett
 
