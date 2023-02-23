@@ -31,7 +31,9 @@ de tekniske begrensningene.
 Hjelpemidler og referanser:
 
 - [Astronomy Engine](https://github.com/cosinekitty/astronomy/tree/master/source/kotlin) - astronomisk Kotlin-bibliotek
+- [Almanakk for Norge](https://www.mn.uio.no/astro/tjenester/publikum/almanakken/) - den autorative kilden, med ekstramateriale fra Institutt for teoretisk astrofysikk
 - [Definisjoner på soloppgang og solnedgang](https://aa.usno.navy.mil/faq/RST_defs) fra US Naval Observatory
+- [Kalkulator](https://aa.usno.navy.mil/data/RS_OneDay) fra samme sted
 - [TimeandDate](https://www.timeanddate.no/astronomi/) - nyttig norskutviklet nettsted for alt som har med tid å gjøre
 
 ![Beregning av zenith](/images/examples/zenith.png)
