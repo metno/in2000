@@ -91,3 +91,5 @@ Noen ideer til inspirasjon:
  * Hvor gode er varslene/prognosene fra api.met.no til å predikere badetemperaturer? Sammenligning av Oceanforecast-varsler og observasjoner.
  * Kombinere observasjoner og varsler - inkludert “nowcasting”?
  * Offshore operasjoner - mulighetsvinduer for vedlikehold osv.
+
+![Badetemperaturer](/images/examples/badetemp.jpeg)
