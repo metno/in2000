@@ -108,7 +108,7 @@ Havvarsel-Frost fungerer noenlunde på samme måte som Frost, men er en nyere ve
 For eksempler på bruk av Havvarsel-Frost, se [egen side](/havvarsel/).
 Det er ikke nødvendig å bruke proxy for Havvarsel-Frost.
 
-Se også [presentasjonen om Frost]([https://docs.google.com/presentation/d/1X6PvSCHz00X2XPQruRKcpvDUEWbM94LqmKBF0VI6Y2Q/edit?usp=sharing](https://docs.google.com/presentation/d/10iIwhAMuO-aWkndcIlYwl86kzm9b0CEeequ-Tc2viNk/edit?usp=sharing) fra forelesning.
+Se også [presentasjonen om Frost]([https://docs.google.com/presentation/d/1X6PvSCHz00X2XPQruRKcpvDUEWbM94LqmKBF0VI6Y2Q/edit?usp=sharing](https://docs.google.com/presentation/d/10iIwhAMuO-aWkndcIlYwl86kzm9b0CEeequ-Tc2viNk/edit?usp=sharing)) fra forelesning.
 
 ### THREDDS
 
