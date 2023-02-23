@@ -8,7 +8,6 @@ date: 2023-01-18
 
 - [Emneside for kurset](https://www.uio.no/studier/emner/matnat/ifi/IN2000/)
 - [Semesterside for 2023](https://www.uio.no/studier/emner/matnat/ifi/IN2000/v23/)
-- [Casebeskrivelser](https://www.uio.no/studier/emner/matnat/ifi/IN2000/v22/prosjekt-og-casebeskrivelser/)
 - [Timeplan](https://www.uio.no/studier/emner/matnat/ifi/IN2000/v23/timeplan/index.html)
 
 ## Ressurser til caser
