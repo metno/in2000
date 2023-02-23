@@ -47,6 +47,17 @@ Det finnes mange tjenester som tilbyr data som kan være interessante:
 
 ![FlightRadar](/images/examples/flightradar.png)
 
+### Trafikklys for flyplasser
+
+Etter ønsker fra flygeledere lagde noen OsloMET-studenter i 2022 en prototype
+kalt [Aerodrome Warning Traffic Light System](https://awtl.met.no/). Her kan
+flygelederne justere terskelverdier for været og få vite når det er trygt å
+opererere flyplassen. Piloter kan også bruke den for å sjekke forholdene for
+en flyrute. Denne tjenesten vil nok kunne optimalises mye for mobil ved å lage
+som en app.
+
+![AWTL](/images/examples/awtl.png)
+
 ### Droner og luftrom
 
 Det er mange begrensninger som droneflyvere må forholde seg til. I tillegg til
