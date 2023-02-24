@@ -3,6 +3,12 @@
 
 @import "{{ site.theme }}";
 
+.teal { background-color: #0090A8 !important; height: 100%; }
+a { color: #0090A8; }
+
+.leftcol { color: white; padding: 1rem 1rem 1rem 1rem; width: 200px; }
+.leftcol a { color: white; font-weight: bold; }
+
 div.state {
     background-color: #f8f800;
     color: black;
@@ -35,10 +41,11 @@ p.logo {
 
 body {
     background-color: #e8f8ff;
+    background-image: url("/images/bg_repeat.png");
 }
 
 section {
-    width: 550px;
+    width: 600px;
     background-color: #fff;
     padding: 15px 15px 15px 15px;
 }
