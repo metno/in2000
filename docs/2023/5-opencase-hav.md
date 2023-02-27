@@ -14,8 +14,9 @@ Kontaktperson ang dette caset er [Martin Sætra](mailto:martinls@met.no).
 
 ## Krav
 
-**Følgende tjenester fra api.met.no er obligatoriske** å bruke for alle apper,
-siden alle som har tilknytning til havet må forholde seg til naturkreftene:
+Alle som har tilknytning til havet må forholde seg til naturkreftene, det
+være seg for ferdsel på sjøen, havbruk eller lyn og torden om sommeren.
+**Det er derfor er obligatorisk å bruke *alle* følgende tjenester fra api.met.no:**
 
 - Oceanforecast [API](/general) - strøm, bølger, temperatur
 - Locationforecast eller Nowcast [API](/general) - vær og vind
