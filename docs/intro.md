@@ -26,8 +26,8 @@ bl.a. krever det brukerregistrering og HTTP Basic Auth, se dokumentasjonen:
 
 - [Hvordan bruke Frost](https://frost.met.no/howto.html)
 
-Det er også satt opp en egen instans av Frost-systemet for maritime observasjoner kalt **Havvarsel-Frost**.
-Denne fungerer på samme måte som Frost, men krever egen bruker.
+Det er også satt opp en egen instans av Frost-systemet for maritime observasjoner kalt [Havvarsel-Frost](/havvarsel),
+som kjører en nyere versjon av Frost.
 
 # Åpen datapolitikk
 
