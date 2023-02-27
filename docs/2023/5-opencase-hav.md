@@ -2,6 +2,7 @@
 layout: page
 title: Case 5. Åpent case - på havet
 date: 2023-02-21
+author: Geir Aalberg
 ---
 
 Her er det fritt valg hva slags app man vil lage, men det må være relatert

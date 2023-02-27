@@ -2,6 +2,7 @@
 layout: page
 title: Case 2. Strømpriskalkulator
 date: 2022-02-02
+author: Geir Aalberg
 ---
 
 Strømpriser er et aktuelt tema om dagen, og mange lurer på hvordan de kan spare

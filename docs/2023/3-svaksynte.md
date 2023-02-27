@@ -2,6 +2,7 @@
 layout: page
 title: Case 3. Værvarsel for svaksynte
 date: 2023-02-21
+author: Geir Aalberg
 ---
 
 På kurset har dere lært om WCAG og lovbestemt universiell utforming som skal

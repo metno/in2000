@@ -2,6 +2,7 @@
 layout: page
 title: Case 1. Sol og måne
 date: 2023-02-21
+author: Geir Aalberg
 ---
 
 MET har laget en ny versjon av sin [Sunrise-tjeneste](/general) som er nettopp

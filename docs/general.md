@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Generelle ressurser
-date: 2021-02-19
+date: 2023-02-27
 author: Geir Aalberg
 ---
 
@@ -83,7 +83,7 @@ seg til enn den gamle (som er under utfasing). Kom gjerne med tilbakemeldinger
 om hvilken versjon dere liker best!
 
 - [Sunrise 2](https://api.met.no/weatherapi/sunrise/2.0/documentation) (XML)
-- [Sunrise 3 beta](https://api.met.no/weatherapi/sunrise/3.0/documentation) (GeoJSON)
+- [Sunrise 3 beta](https://api.met.no/weatherapi/sunrise/3.0/documentation) (GeoJSON) [(dokumentasjon)](/sunrise/)
 
 #### Luftkvalitet
 

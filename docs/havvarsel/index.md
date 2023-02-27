@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Havvarsel-Frost
-date: 2022-02-09
+date: 2022-02-22
 author: Martin L. Sætra
 ---
 

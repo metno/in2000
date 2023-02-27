@@ -17,5 +17,5 @@ layout: default
 {{content}}
 
 {% if page.author and page.date %}
-  <p class="date">Sist endret {{ page.date | date: "%Y-%M-%d" }}</p>
+  <p class="date">Sist endret {{ page.date | date: "%Y-%m-%d" }}, {{page.author}}</p>
 {% endif %}
