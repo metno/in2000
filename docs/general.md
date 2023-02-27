@@ -49,8 +49,8 @@ Havvarsel for Norskekysten.
 
 Generelle tekstlige varsler for spesifiserte områder. Kan være nyttig bl.a. for opplesing.
 
-- [Textforecast 2.0](https://api.met.no/weatherapi/metalerts/2.0/documentation) (XML)
-- [Textforecast 3.0](https://api.met.no/weatherapi/metalerts/3.0/documentation) (GeoJSON - kun land og kyst, ikke hav)
+- [Textforecast 2.0](https://api.met.no/weatherapi/textforecast/2.0/documentation) (XML)
+- [Textforecast 3.0](https://api.met.no/weatherapi/textforecast/3.0/documentation) (GeoJSON - kun land og kyst, ikke hav)
 
 #### Farevarsler
 

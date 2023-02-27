@@ -61,7 +61,12 @@ Strøm, bølger og tildels temperatur er viktig for å planlegge sportsaktivitet
 til sjøs, og noe man naturligvis ikke gjør hvis det er utstedt maritime farevarsler.
 Her har det tidligere år kommet inn flere kreative løsninger.
 
-![Eksempel fra 2020 (appen Surfespot)](/images/examples/surfespot.png)
+![Eksempel fra 2022 (appen Surfespot)](/images/examples/surfespot.png)
+
+Prisen for mest kreativ bruk av METs data gikk i fjor til et team som hadde
+kjørt en regresjonsanalyse av data fra Oceanforecast og laget en formel som
+beregnet de beste surfestedene i Norge:
+![Prisvinnende formel](/images/examples/regresjonsmodell_surfespot.png)
 
 ### Badetemperaturer langs kysten
 
