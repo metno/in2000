@@ -23,7 +23,7 @@ som har med hav og kyst å gjøre.
 
 ### Dokumentasjon
 
-Disse spørringene er laget interaktivt ved å bruke Swagger-dokumentasjonen for
+Spørringer til Havvarsel-Frost kan lages interaktivt ved å bruke Swagger-dokumentasjonen for
 `/api/v1/obs/badevann/get`, som er tilgjengelig her:
 
 - <https://havvarsel-frost.met.no/docs/apirefbasic#/obs%2Fbadevann/obsBadevannGet>
