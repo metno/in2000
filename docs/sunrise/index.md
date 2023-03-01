@@ -38,16 +38,16 @@ men varierer grunnet forhold som blant varierende temperatur, har man kommet
 frem til en gjennomsnittsverdi på omtrent 0.566°. Legger man til den
 visuelle Solradien og atmosfærens refraksjon, har man har da kommet frem til en
 definisjon der soloppgang inntreffer når Solen er 0.833° under
-horisonten. For videre lesning, der vi har basert mye av vår informasjon fra,
+horisonten. For videre lesning, der vi har basert mye av vår informasjon,
 anbefales United States Naval Observatory sine nettsider:
 
 <https://aa.usno.navy.mil/faq/RST_defs>
 
-For månen har vi en tilsvarende definisjon. Siden månen er nærmere enn solen så
+For månen har vi en tilsvarende definisjon. Siden Månen er nærmere enn Solen så
 vil dens visuelle størrelse variere i større grad der den beveger seg i sin
 elliptiske bane rundt jorden. Vi har likevel valgt å bruke en gjennomsnittsverdi
 på 0.266° for månens visuelle radius. Tatt i betrakting verdien for
-atmosfæren refrasjon har da månen og sola har samme definisjon på opp- og
+atmosfærens refraksjon har da månen og sola har samme definisjon på opp- og
 nedgang i Sunrise 3.0.
 
 ## Krysning av Meridian/Antimeridian
@@ -57,14 +57,14 @@ Meridian er den linjen som går mellom Nord- og Sydpolen ved en gitt lengdegrad.
 I grove trekk er det tidspunktet der et himmellegeme krysser denne linjen, sett
 fra en observatør, også det tidspunktet der det gitte legemet står høyest på
 himmelen. Tilsvarende står det lavest på himmelen når det krysser antimeridianen
-(motsatt side av jordkloden). For beregninger av meridianskrysninger operer vi
+(motsatt side av jordkloden). For beregninger av meridiankrysninger operer vi
 med når senteret av henholdsvis månen og sola krysser meridianen. Vi har ikke
 tatt hensyns til refraksjon på denne kalkulasjonen.
 
 Merk at for månen kan det være dager krysning av meridian og antimeridian ikke
 forekommer. Dette er ikke en feil, men er et resultat av at månen, som går i
 bane rundt jorden som roterer, bruker mer enn 24 timer før den igjen krysser
-samme longitude parameter. 
+samme longitude koordinat. 
 
 ## Definisjon av døgn i Sunrise 3.0
 
@@ -77,8 +77,12 @@ døgn for observatøren har vi valgt å basere tidssintervallet for selve
 kalkulasjonen på longitude koordinaten det spørres om.
 
 Offset fra UTC tid i kalkulasjonene beregnes utifra å dele longitude koordinaten
-med 15. Slik definerer vi offset i antall timer fra UTC tid i tidsintervallet
-for våre beregniner. Svaret som finnes i responsen er regnet om til offset man
+med 15. Siden vi har 24 tidssoner og jorden roterer 360°, får vi offset
+i antall timer fra lokal soltid ved å dividere longitude koordinat på 360/24=15.
+Merk at longitude koordinatet kan ha verdier fra -180° til 180, der
+Greenwich observatory i London befinner seg på longitude koordinat 0°.
+Slik definerer vi offset i antall timer fra UTC tid i tidsintervallet
+for våre beregninger. Svaret som finnes i responsen er regnet om til offset man
 har definert i den gitte URL man har brukt for å utføre spørringen. I tillegg
 kan hendelser for soloppgang og solnedgang komme en tid etter midnatt. For å
 være sikker på at vi har definert et tidsintervall som fanger alle hendelser så
