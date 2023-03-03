@@ -1,6 +1,6 @@
 ---
 layout: default
-title: IN2000 2020
+title: IN2000 guide 2020
 date: 2021-02-19
 author: Geir Aalberg
 ---

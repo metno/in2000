@@ -1,11 +1,9 @@
 ---
-layout: default
-title: IN2000 2020
+layout: page
+title: IN2000 guide 2019
 date: 2021-02-19
 author: Geir Aalberg
 ---
-
-# Hvordan bruke api.met.no
 
 ## Generelt
 

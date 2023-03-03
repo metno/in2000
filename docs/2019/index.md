@@ -1,11 +1,9 @@
 ---
-layout: default
-#title: IN2000
+layout: page
+title: IN2000 Caser 2019
 date: 2021-02-19
 author: Geir Aalberg
 ---
-
-# Caser 2019
 
 For bruk av APIene, se [veiledning](./guide).
 

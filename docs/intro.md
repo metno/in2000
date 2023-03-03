@@ -1,6 +1,6 @@
 ---
 layout: default
-title: IN2000 kursressurser
+title: MET APIer
 date: 2022-02-01
 author: Geir Aalberg
 ---

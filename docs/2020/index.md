@@ -1,6 +1,6 @@
 ---
 layout: default
-#title: IN2000: Case 2. Farevarsler
+title: IN2000 Caser 2020
 date: 2021-02-19
 author: Geir Aalberg
 ---
