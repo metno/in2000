@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: IN2000 kursressurser
 date: 2023-02-17
 author: Geir Aalberg

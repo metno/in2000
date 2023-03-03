@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+lang: nb_NO
 title: IN2000
 email: geira@met.no
 description: > # this means to ignore newlines until "baseurl:"
@@ -20,11 +21,14 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "https://api.met.no/images/logo_2013_no.png"
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
 # Build settings
 markdown: kramdown
 #theme: minima
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
+theme: just-the-docs
 plugins:
   - jekyll-feed
 
