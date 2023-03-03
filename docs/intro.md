@@ -1,6 +1,7 @@
 ---
 layout: default
 title: MET APIer
+parent: Generelle ressurser
 date: 2022-02-01
 author: Geir Aalberg
 ---

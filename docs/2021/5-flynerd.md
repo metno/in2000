@@ -1,11 +1,13 @@
 ---
 layout: default
-#title: IN2000: Case 1. Badetemperatur
+title: Case 5. Flynerd-app
+parent: 2021
+grand_parent: Tidligere års caser
 date: 2021-02-19
 author: Geir Aalberg
 ---
 
-# 5. Flynerd-app
+# Case 5. Flynerd-app
 
 Lag en app for alle som er hekta på fly! Mulig eksempler på bruksområde:
 

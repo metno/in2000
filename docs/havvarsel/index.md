@@ -1,9 +1,12 @@
 ---
 layout: page
 title: Havvarsel-Frost
+parent: Generelle ressurser
 date: 2022-02-22
 author: Martin L. Sætra
 ---
+
+# Havvarsel-Frost
 
 ## Badetemperaturer
 

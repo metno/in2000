@@ -1,11 +1,14 @@
 ---
 layout: default
-title: IN2000 Caser 2020
+title: 2020
+has_children: true
+parent: Tidligere års caser
+has_toc: false
 date: 2021-02-19
 author: Geir Aalberg
 ---
 
-# Caser 2020
+# 2020
 
 For bruk av APIene, se [veiledning](./guide).
 

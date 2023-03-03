@@ -1,8 +1,13 @@
 ---
 layout: page
-title: IN2000 caser 2022
+title: 2022
+has_children: true
+parent: Tidligere års caser
+has_toc: false
 date: 2022-02-02
 ---
+
+# 2022
 
 ## Kursoversikt
 

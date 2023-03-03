@@ -1,12 +1,15 @@
 ---
 layout: page
 title: Sunrise 3.0
+parent: Generelle ressurser
 date: 2023-02-26
 author: Håkon Tansem
 email: haakont@met.no
 ---
 
-Sunrise 3.0 er en tjeneste som leverer data om sol og måne.
+# Sunrise 3.0
+
+Dette er en tjeneste som leverer data om sol og måne.
 Tjenesten leverer henholdsvis opp- og nedgangstider, samt når det to legemene
 krysser meridian og antimeridian. Nedenfor følger en beskrivelse av disse
 fenomenene.

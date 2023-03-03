@@ -1,6 +1,8 @@
 ---
 layout: default
-#title: IN2000: Case 1. Badetemperatur
+title: Case 6. Åpent case
+parent: 2021
+grand_parent: Tidligere års caser
 date: 2021-02-19
 author: Geir Aalberg
 ---

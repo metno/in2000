@@ -19,9 +19,11 @@ email: geira@met.no
 description: Kursmateriale for IN2000 (Software Engineering med Prosjektarbeid)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "https://api.met.no/images/logo_2013_no.png"
+logo: "/images/Met_RGB_Horisontal_ENG_Negativ_crop.png"
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  #Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Repository: https://github.com/metno/in2000/
+color_scheme: met
 
 # Build settings
 markdown: kramdown

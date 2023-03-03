@@ -1,6 +1,7 @@
 ---
 layout: home
-title: Home
+title: Hovedside
+nav_order: 1
 date: 2023-02-17
 author: Geir Aalberg
 ---

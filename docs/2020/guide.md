@@ -1,6 +1,8 @@
 ---
 layout: default
-title: IN2000 guide 2020
+title: Guide
+parent: 2020
+grand_parent: Tidligere års caser
 date: 2021-02-19
 author: Geir Aalberg
 ---

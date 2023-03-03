@@ -1,9 +1,12 @@
 ---
 layout: page
 title: THREDDS
+parent: Generelle ressurser
 date: 2022-02-09
 author: Martin L. Sætra
 ---
+
+# THREDDS
 
 ## Spørring mot THREDDS-server hos MET
 

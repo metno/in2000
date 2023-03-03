@@ -1,9 +1,18 @@
 ---
 layout: page
 title: Generelle ressurser
+has_children: true
+nav_order: 2
+has_toc: false
 date: 2023-02-27
 author: Geir Aalberg
 ---
+
+# Generelle ressurser
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## Tjenester fra MET
 

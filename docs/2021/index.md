@@ -1,6 +1,9 @@
 ---
 layout: default
-title: IN2000 kursressurser
+title: 2021
+has_children: true
+parent: Tidligere års caser
+has_toc: false
 date: 2022-02-01
 author: Geir Aalberg
 ---
@@ -16,4 +19,6 @@ author: Geir Aalberg
 - [Case 5. Flynerd-appen](./5-flynerd)
 - [Case 6. Åpent case](./6-opencase)
 
-- [Presentasjoner](https://uio.zoom.us/j/64891569236)
+## Presentasjoner
+
+- [Zoom link](https://uio.zoom.us/j/64891569236)

@@ -1,8 +1,13 @@
 ---
 layout: page
-title: IN2000 caser 2023
+title: Årets caser
 date: 2023-01-18
+has_children: true
+has_toc: false
+nav_order: 3
 ---
+
+# 2023
 
 ## Kursoversikt
 

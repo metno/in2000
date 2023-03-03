@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Tidligere års caser
+has_children: true
+has_toc: false
 date: 2022-02-02
 ---
 

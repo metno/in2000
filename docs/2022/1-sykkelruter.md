@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Case 1. Sykkelruter i Oslo
+parent: 2022
+grand_parent: Tidligere års caser
 date: 2022-02-18
 ---
 

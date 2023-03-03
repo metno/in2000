@@ -1,9 +1,14 @@
 ---
 layout: page
-title: IN2000 Caser 2019
+title: 2019
+has_children: true
+parent: Tidligere års caser
+has_toc: false
 date: 2021-02-19
 author: Geir Aalberg
 ---
+
+# 2019
 
 For bruk av APIene, se [veiledning](./guide).
 

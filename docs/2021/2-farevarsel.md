@@ -1,6 +1,8 @@
 ---
 layout: default
-#title: IN2000: Case 2. Farevarsler
+title: Case 2. Farevarsler
+parent: 2021
+grand_parent: Tidligere års caser
 date: 2021-02-19
 author: Geir Aalberg
 ---

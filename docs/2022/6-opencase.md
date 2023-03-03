@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Case 6. Åpent case
+parent: 2022
+grand_parent: Tidligere års caser
 date: 2022-02-02
 ---
 

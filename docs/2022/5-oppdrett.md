@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Case 5 - Oppdrettsanlegg
+parent: 2022
+grand_parent: Tidligere års caser
 date: 2022-02-09
 ---
 
