@@ -6,6 +6,8 @@ date: 2023-02-17
 author: Geir Aalberg
 ---
 
+![UiO](/images/03_uio_full_logo_no_pos.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![MET](/images/Met_RGB_Horisontal.jpg)
+
 # Kursressurser for IN2000
 
 Dette er en oversikt over ressurser (primært fra MET) som studentene kan
@@ -21,6 +23,9 @@ bruke på de forskjellige casene i kurset.
 
 - [Caseliste for årets kurs](./2023/)<br>
   Ressurser spesifikt for hvert case
+
+- [Tidligere års kurs](./old)<br>
+  Caselister og annen info
 
 ## Kontaktinfo
 
@@ -51,3 +56,13 @@ samtidig, da ender vi opp med multiple saker i forskjellige systemer som generer
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 {% endcomment %}
+
+## Lisensiering og kreditering
+
+Alt innhold på disse sidene kan lastes ned fra
+[GitHub](https://github.com/metno/in2000/) og er lisensiert under Norsk lisens
+for offentlige data (NLOD) og Creative Commons 4.0 BY International, se [Frie
+meteorologiske data](https://www.met.no/frie-meteorologiske-data/lisensiering-og-kreditering).
+
+Innholdet er generert vha [Jekyll](https://jekyllrb.com/) og [Just the
+Docs](https://github.com/just-the-docs/just-the-docs).

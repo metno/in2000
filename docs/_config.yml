@@ -13,17 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-lang: nb_NO
+lang: no
 title: IN2000
 email: geira@met.no
 description: Kursmateriale for IN2000 (Software Engineering med Prosjektarbeid)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/images/Met_RGB_Horisontal_ENG_Negativ_crop.png"
+#logo: "/images/Met_RGB_Horisontal_ENG_Negativ_crop.png"
+favicon_ico: "/images/met_favicon.ico"
+color_scheme: met
 aux_links:
   #Template Repository: https://github.com/just-the-docs/just-the-docs-template
-  Repository: https://github.com/metno/in2000/
-color_scheme: met
+  #Repository: https://github.com/metno/in2000/
 
 # Build settings
 markdown: kramdown

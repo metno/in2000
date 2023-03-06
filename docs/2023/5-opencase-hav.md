@@ -3,7 +3,7 @@ layout: page
 title: Case 5. Åpent case - på havet
 parent: Årets caser
 date: 2023-02-21
-author: Geir Aalberg
+author: Geir Aalberg og Martin Sætra
 ---
 
 Her er det fritt valg hva slags app man vil lage, men det må være relatert

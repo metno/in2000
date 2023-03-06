@@ -1,9 +1,16 @@
 
 $teal: #0090A8;
-$sidebar-color: $teal;
+$dk_purple: #712C56;
+$sidebar-color: $dk_purple;
 
 .side-bar { color: white; }
 .side-bar a { color: white; font-weight: bold; }
 
-$link-color: $teal;
+$link-color: $dk_purple;
 $nav-child-link-color: white;
+
+.nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
+  background-image: linear-gradient(-90deg, $dk_purple 0%, rgba(0, 0, 0, 0.8) 80%, rgba(0, 0, 0, 0) 100%) !important;
+}
+
+footer.main { text-align: right; font-style: italic; font-size: small; color: #666; }
