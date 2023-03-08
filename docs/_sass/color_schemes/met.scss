@@ -1,7 +1,8 @@
 
 $teal: #0090A8;
 $dk_purple: #712C56;
-$sidebar-color: $dk_purple;
+$main_profile: $dk_purple;
+$sidebar-color: $main_profile;
 
 .side-bar { color: white; }
 .side-bar a { color: white; font-weight: bold; }
@@ -9,8 +10,15 @@ $sidebar-color: $dk_purple;
 $link-color: $dk_purple;
 $nav-child-link-color: white;
 
-.nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
-  background-image: linear-gradient(-90deg, $dk_purple 0%, rgba(0, 0, 0, 0.8) 80%, rgba(0, 0, 0, 0) 100%) !important;
+.nav-list .nav-list-item .nav-list-link:hover,
+.nav-list .nav-list-item .nav-list-link.active {
+  background-image: linear-gradient(-90deg, $main_profile 0%, rgba(0, 0, 0, 0.8) 80%, rgba(0, 0, 0, 0) 100%) !important;
 }
+.nav-list .nav-list-item.active .nav-list-expander,
+.nav-list .nav-list-item.active .nav-list-expander:hover {
+  background-image: linear-gradient(-90deg, $main_profile 0%, $main_profile 80%, $main_profile 100%) !important;
+}
+
+.feather-chevron-right { stroke: white !important; }
 
 footer.main { text-align: right; font-style: italic; font-size: small; color: #666; }
