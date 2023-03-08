@@ -73,7 +73,7 @@ CAP-filene inneholder lat/lon-polygoner som er laget for å kunne plottes i kart
 Kombiner gjerne med simulert GPS-posisjon for å finne farevarsel på nåværende
 sted.
 
-**Nyhet!** For våren 2023 har vi laget en eksperimentell versjon av farevarsler
+**Nyhet!**{: style="color: red"} For våren 2023 har vi laget en eksperimentell versjon av farevarsler
 som pakker alt inn i GeoJSON uten at man trenger å laste ned CAP. Test gjerne
 begge versjoner og gi tilbakemelding i rapporten over hvilken metode dere synes
 er greiest å bruke.
