@@ -28,6 +28,9 @@ defaults:
   run:
     working-directory: docs
 
+env:
+  BUNDLE_GEMFILE="docs/Gemfile"
+
 jobs:
   # Build job
   build:
