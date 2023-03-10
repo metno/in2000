@@ -29,7 +29,7 @@ defaults:
     working-directory: docs
 
 env:
-  BUNDLE_GEMFILE="docs/Gemfile"
+  BUNDLE_GEMFILE: docs/Gemfile
 
 jobs:
   # Build job
