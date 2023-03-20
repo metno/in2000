@@ -30,9 +30,15 @@ beregninger med dagens mobilteknoligi, er dette også et fullt ut godkjent resul
 I så fall er det ikke selve appen som vil vektlegges, men rapporten hvor dere forklarer
 de tekniske begrensningene.
 
-Hjelpemidler og referanser:
+## Hjelpemidler og referanser:
+
+### Kode
 
 - [Astronomy Engine](https://github.com/cosinekitty/astronomy/tree/master/source/kotlin) - astronomisk Kotlin-bibliotek
+- [Kildekode for Sunrise/3.0 (Python)](https://github.com/metno/in2000/tree/master/resources/sunrise/celestial-0.2.5.zip) - 30 MB zip-fil inntil vi får lagt den ut på Github
+
+### Data og dokumentasjon
+
 - [Almanakk for Norge](https://www.mn.uio.no/astro/tjenester/publikum/almanakken/) - den autorative kilden, med ekstramateriale fra Institutt for teoretisk astrofysikk
 - [Definisjoner på soloppgang og solnedgang](https://aa.usno.navy.mil/faq/RST_defs) fra US Naval Observatory
 - [Kalkulator](https://aa.usno.navy.mil/data/RS_OneDay) fra samme sted
