@@ -7,8 +7,6 @@ author: Håkon Tansem
 email: haakont@met.no
 ---
 
-# Sunrise 3.0
-
 Dette er en tjeneste som leverer data om sol og måne.
 Tjenesten leverer henholdsvis opp- og nedgangstider, samt når det to legemene
 krysser meridian og antimeridian. Nedenfor følger en beskrivelse av disse
@@ -67,7 +65,7 @@ tatt hensyns til refraksjon på denne kalkulasjonen.
 Merk at for månen kan det være dager krysning av meridian og antimeridian ikke
 forekommer. Dette er ikke en feil, men er et resultat av at månen, som går i
 bane rundt jorden som roterer, bruker mer enn 24 timer før den igjen krysser
-samme longitude koordinat. 
+samme longitude koordinat.
 
 ## Definisjon av døgn i Sunrise 3.0
 

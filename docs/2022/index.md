@@ -7,8 +7,6 @@ has_toc: false
 date: 2022-02-02
 ---
 
-# 2022
-
 ## Kursoversikt
 
 - [Emneside for kurset](https://www.uio.no/studier/emner/matnat/ifi/IN2000/)
@@ -24,4 +22,3 @@ date: 2022-02-02
 - [Case 4. Badetemperaturer](./4-badetemp)
 - [Case 5. Miljøforhold i oppdrettsanlegg](./5-oppdrett)
 - [Case 6. Åpent case](./6-opencase)
-

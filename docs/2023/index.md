@@ -7,8 +7,6 @@ has_toc: false
 nav_order: 3
 ---
 
-# 2023
-
 ## Kursoversikt
 
 - [Emneside for kurset](https://www.uio.no/studier/emner/matnat/ifi/IN2000/)

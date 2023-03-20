@@ -2,6 +2,7 @@
 layout: default
 title: MET APIer
 parent: Generelle ressurser
+nav_order: 1
 date: 2022-02-01
 author: Geir Aalberg
 ---

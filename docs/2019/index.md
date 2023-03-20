@@ -8,8 +8,6 @@ date: 2021-02-19
 author: Geir Aalberg
 ---
 
-# 2019
-
 For bruk av APIene, se [veiledning](./guide).
 
 Casebeskrivelsene kan [lastes ned som PDF](./case.pdf).
@@ -99,4 +97,3 @@ er relevant - oppgaven er jo mer eller mindre å bygge
 
 - [Frost](https://frost.met.no/api.html) - historiske klimadata
 - [THREDDS](http://thredds.met.no/thredds/obs.html) - griddede observasjonsdata
-

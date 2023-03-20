@@ -6,39 +6,39 @@ date: 2022-02-09
 author: Martin L. Sætra
 ---
 
-# THREDDS
-
 ## Spørring mot THREDDS-server hos MET
 
 For å jobbe mot data som ligger i gitter/grid på THREDDS-servere så bruker vi
 protokollen OPeNDAP. Denne kan aksesseres via HTTP, men det er vanligst å bruke
 et eget bibliotek for dette, som f.eks. [FIMEX](https://wiki.met.no/fimex/start)
 (C) eller [NetCDF-Java](https://www.unidata.ucar.edu/downloads/netcdf-java/) (Java).
-Sistnevnte kan også brukes direkte i Kotlin. **Det er imidlertid problemer med å
-bruke dette under Android.** Som ett av teamene i 2022 forklarer:
+Sistnevnte kan også brukes direkte i Kotlin.
 
-> Problemet med Netcdf i Android Studio ligger i hvordan Netcdf utfører
-> HTTPS-forespørsler. I filen `EasySSLProtocolSocketFactory.java` prøves det å
-> lage en instans av klassen `KeyManagerFactory` med en hardkodet algoritme
-> "SunX509". Denne algoritmen er ikke tilgjengelig i Android sin kjøretid, så
-> det kastes en `NoSuchAlgorithmException`. Her er en enkel reproduksjon av
-> problemet (med stacktrace i README-filen):
+{: .warning }
+> Det er problemer med å kompilere NetCDF-Java under Android. Som ett av teamene i 2022 forklarer:
 >
-> <https://github.com/filiphorvei/NetcdfError>
->
-> Vi prøvde oss frem med litt forskjellige versjoner av Netcdf, inkludert
-> netCdfAll-5.5.2 som det er lenket til i kursdokumentasjonen, og
-> "edu.ucar:netcdf:4.3.22" fra Maven. Vi endte til slutt opp med å bruke 4.3.22
-> i appen, så vidt jeg husker fordi den versjonen fungerte helt fint på
-> HTTP-lenker (smittepress), imens 5.5.2 ikke fungerte på noe som helst.
->
-> Her er en åpen GitHub-issue med noen som hadde samme feil som oss på
-> netCdfAll-5.5.2, ikke med Netcdf men likevel:
->
-> <https://github.com/rubenlagus/TelegramBots/issues/1012>
->
-> Så det er noe som fungerer i et vanlig Java-miljø, men ikke når man kjører på
-> Android.
+> > Problemet med Netcdf i Android Studio ligger i hvordan Netcdf utfører
+> > HTTPS-forespørsler. I filen `EasySSLProtocolSocketFactory.java` prøves det å
+> > lage en instans av klassen `KeyManagerFactory` med en hardkodet algoritme
+> > "SunX509". Denne algoritmen er ikke tilgjengelig i Android sin kjøretid, så
+> > det kastes en `NoSuchAlgorithmException`. Her er en enkel reproduksjon av
+> > problemet (med stacktrace i README-filen):
+> >
+> > <https://github.com/filiphorvei/NetcdfError>
+> >
+> > Vi prøvde oss frem med litt forskjellige versjoner av Netcdf, inkludert
+> > netCdfAll-5.5.2 som det er lenket til i kursdokumentasjonen, og
+> > "edu.ucar:netcdf:4.3.22" fra Maven. Vi endte til slutt opp med å bruke 4.3.22
+> > i appen, så vidt jeg husker fordi den versjonen fungerte helt fint på
+> > HTTP-lenker (smittepress), imens 5.5.2 ikke fungerte på noe som helst.
+> >
+> > Her er en åpen GitHub-issue med noen som hadde samme feil som oss på
+> > netCdfAll-5.5.2, ikke med Netcdf men likevel:
+> >
+> > <https://github.com/rubenlagus/TelegramBots/issues/1012>
+> >
+> > Så det er noe som fungerer i et vanlig Java-miljø, men ikke når man kjører på
+> > Android.
 
 ### Eksempelkode
 

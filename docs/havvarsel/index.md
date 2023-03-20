@@ -6,8 +6,6 @@ date: 2022-02-22
 author: Martin L. Sætra
 ---
 
-# Havvarsel-Frost
-
 ## Badetemperaturer
 
 Det samles inn “live” observasjoner fra bøyer plassert ved populære badesteder

@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% if page.state == 'draft' %}
+  <p class="highlight">This is a draft, expect sudden changes and come back later</p>
+{% elsif page.state == 'obsolete' %}
+  <p class="warning">This documentation is no longer valid, please see text for instructions</p>
+{% endif %}
+
+<h1>{{ page.title }}</h1>
+
+{% if page.tags %}
+  <p class="tags">tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></p>
+{% endif %}
+
+{{content}}
