@@ -18,7 +18,7 @@ tidspunkter med minuttpresisjon er et åpent spørsmål. Vi vil derfor utfordre
 studentene til å lage en **app for å beregne soloppgang, solnedgang og når solen
 står høyest (krysser meridianen)**.
 
-For å kvalitetssikre at beregningene deres er korrekt skal appen sammenlikne
+For å kvalitetssikre at beregningene deres er korrekte skal appen sammenlikne
 resultatet med følgende datakilder og vise forskjellen i en tabell:
 
 - Sunrise 2.0 [API](/general) (XML) [(dokumentasjon)](https://docs.api.met.no/doc/sunrise/astro)
@@ -26,16 +26,21 @@ resultatet med følgende datakilder og vise forskjellen i en tabell:
 - Sunrise 3.0 [API](/general) (GeoJSON) [(dokumentasjon)](https://docs.api.met.no/doc/sunrise/celestial)
 
 Dersom deres konklusjon er at det ikke er praktisk gjennomførbart å gjøre slike
-beregninger med dagens mobilteknoligi, er dette også et fullt ut godkjent resultat.
+beregninger med dagens mobilteknologi, er dette også et fullt ut godkjent resultat.
 I så fall er det ikke selve appen som vil vektlegges, men rapporten hvor dere forklarer
 de tekniske begrensningene.
+
+{: .note }
+[Yr.no](https://www.yr.no/) har nå gått over fra Sunrise til å bruke et internt
+C#-bibliotek. Ta gjerne stikkprøver derfra med i sammenlikningen, fortrinnsvis i
+perioden nærme midnattsol for å sjekke om solnedgang skjer etter midnatt.
 
 ## Hjelpemidler og referanser:
 
 ### Kode
 
 - [Astronomy Engine](https://github.com/cosinekitty/astronomy/tree/master/source/kotlin) - astronomisk Kotlin-bibliotek
-- [Kildekode for Sunrise/3.0 (Python)](https://github.com/metno/in2000/tree/master/resources/sunrise/celestial-0.2.5.zip) - 30 MB zip-fil inntil vi får lagt den ut på Github
+- [Kildekode for Sunrise/3.0](https://github.com/metno/celestial) - Python, **nå på GitHub**
 
 ### Data og dokumentasjon
 

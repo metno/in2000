@@ -7,7 +7,10 @@ author: Håkon Tansem
 email: haakont@met.no
 ---
 
-Dette er en tjeneste som leverer data om sol og måne.
+Dette er en tjeneste som leverer data om sol og måne. Den er skrevet i Python,
+og kildekoden er tilgjengelig på [GitHub](https://github.com/metno/celestial)
+med fri lisens.
+
 Tjenesten leverer henholdsvis opp- og nedgangstider, samt når det to legemene
 krysser meridian og antimeridian. Nedenfor følger en beskrivelse av disse
 fenomenene.
