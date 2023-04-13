@@ -20,3 +20,7 @@ nav_order: 3
 - [Case 3. Værvarsel for svaksynte](./3-svaksynte)
 - [Case 4. Åpent case - i lufta](./4-opencase-luft)
 - [Case 5. Åpent case - på havet](./5-opencase-hav)
+
+## Fordeling caser
+
+![Antall team per case](./Fordeling_graph.svg)
