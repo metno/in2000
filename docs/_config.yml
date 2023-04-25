@@ -38,6 +38,9 @@ callouts:
   warning:
     title: Advarsel
     color: red
+  news:
+    title: Nyhet
+    color: yellow
   note:
     title: "Nota bene"
     color: blue

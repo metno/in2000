@@ -72,16 +72,20 @@ CAP-filene inneholder lat/lon-polygoner som er laget for å kunne plottes i kart
 Kombiner gjerne med simulert GPS-posisjon for å finne farevarsel på nåværende
 sted.
 
-**Nyhet!**{: style="color: red"} For våren 2023 har vi laget en eksperimentell versjon av farevarsler
+{: .news }
+For våren 2023 har vi laget en [eksperimentell versjon av farevarsler](https://api.met.no/weatherapi/metalerts/1.1/.json)
 som pakker alt inn i GeoJSON uten at man trenger å laste ned CAP. Test gjerne
 begge versjoner og gi tilbakemelding i rapporten over hvilken metode dere synes
 er greiest å bruke.
 
-- <https://api.met.no/weatherapi/metalerts/1.1/.json>
-
 **Arkiv:** Historiske varsler er tilgjengelige per måned fom januar 2020. Bruk
 parameteren `period` for å vise sesongvariable varsler som er relevante for
 appen, siden det ikke er så mange relevante farevarsler på vårparten.
+
+{: .warning }
+Dersom dere ønsker å bruke [farevarselikoner](https://github.com/nrkno/yr-warning-icons)
+som vist på Yr må disse konverteres fra "vanlig" SVG til "Androidsk".
+Dette gjøres vha et verktøy som heter "Vector Assets" i Android Studio.
 
 #### Sunrise
 
@@ -97,7 +101,7 @@ om hvilken versjon dere liker best!
 
 Denne tjenesten viser prognoser (varsler) om luftkvalitet fram til neste dag for
 de fleste områder i Norge, i motsetning til NILU som kun har faktiske observasjoner
-for enkelte målestasjoner.
+for et sett målestasjoner.
 
 - [AirQualityForecast](https://api.met.no/weatherapi/airqualityforecast/0.1/documentation)
 

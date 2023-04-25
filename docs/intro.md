@@ -9,7 +9,7 @@ author: Geir Aalberg
 
 # Introduksjon til MET sine APIer
 
-## Bruke av api.met.no
+## Bruk av api.met.no
 
 - [Betingelser for bruk av APIet](https://docs.api.met.no/doc/TermsOfService).
   Bruk IFI-proxy mot APIet så slipper dere å tenke på autentisering, throttling og `If-Modified-Since`, og vi kan spore trafikken lettere.
