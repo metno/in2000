@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Case 4. Åpent case - i lufta
-parent: Årets caser
+parent: 2023
+grand_parent: Tidligere års caser
 date: 2023-02-21
 author: Geir Aalberg
 ---

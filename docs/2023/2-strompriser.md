@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Case 2. Strømpriskalkulator
-parent: Årets caser
+parent: 2023
+grand_parent: Tidligere års caser
 date: 2022-02-02
 author: Geir Aalberg
 ---

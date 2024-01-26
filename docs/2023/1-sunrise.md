@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Case 1. Sol og måne
-parent: Årets caser
+parent: 2023
+grand_parent: Tidligere års caser
 date: 2023-02-21
 author: Geir Aalberg
 ---
