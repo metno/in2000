@@ -37,8 +37,8 @@ reduset, i tillegg til tåke.
 
 ### Nedbør
 
-Siden vi jobber med elektronikk og kryogensike væsker så er det viktig å varsom
-med fukt og temperatur. Kryogeniske væsker gjør all fukt til is som er
+Siden vi jobber med elektronikk og kryogeniske væsker så er det viktig å være
+varsom med fukt og temperatur. Kryogeniske væsker gjør all fukt til is som er
 problematisk hvis det skjer i ventiler eller inni raketten. Elektronikk liker
 sjeldent vann og fukt, og derfor ønsker vi å skjerme rakett så mye som mulig.
 Derfor er det viktig å vite om det er meldt nedbør innen oppskytningsvinduet
@@ -51,9 +51,9 @@ uforsigbart påvirke nedfallområde på to kritiske stadier i den ballistiske
 banen, oppskytning og ved fallskjermsfasen. Ved oppskytning vil raketten bevege
 seg sakte og vil dermed ikke være like stabil som den når den har en høyere
 hastighet. I fallskjermsfasen daler raketten sakte ned mot bakken etter at
-fallskjermen er løst ut. Dette kan føre til at raketten seg langt horisontalt
-ved for sterk vind. Alt dette kan påvirke nedfallsområde som vi ønsker å
-minimere av sikkerhetsmessige årsaker.
+fallskjermen er løst ut. Dette kan føre til at raketten beveger seg langt
+horisontalt ved for sterk vind. Alt dette kan påvirke nedfallsområde som vi
+ønsker å minimere av sikkerhetsmessige årsaker.
 
 ### Juridiske begrensninger
 
@@ -61,7 +61,7 @@ Med tanke på at løsning skal være for et generelt use case så er det viktig 
 oppskytning skjer på godkjent plass. Vi fokuserer ikke på grunneier eller
 nødetater i denne løsningen ettersom det er individuelle avtaler. For
 Luftfarttilsynets del så må de også kontaktes i god tid før oppskytning, men de
-har klare retningslinjer. Blant annet er det ikke å skyte opp i kontrollert
+har klare retningslinjer. Blant annet er det ikke lov å skyte opp i kontrollert
 luftrom. Dermed kan løsning inkludere om oppskytningsposisjon er innen
 kontrollert luftrom.
 
@@ -103,4 +103,4 @@ på Android pga manglende støtte for kryptering.
 ## Kontaktinformasjon / andre ressurser
 
 - [Portal Space nettside](https://www.portalspace.no/)
-- Håkon Offernes, Chief Electrical Officer, haakono@portalspace.no, +47 466 14 464
+- Håkon Offernes, Chief Electrical Officer, <haakono@portalspace.no>, +47 466 14 464
