@@ -94,7 +94,7 @@ ned GRIB fra apiet og leverer en vertikalprofil som CoverageJSON for et gitt pun
 
 <https://github.com/metno/edrisobaric>
 
-### THREDDS (MEPS)
+### [THREDDS (MEPS)](https://thredds.met.no/thredds/metno.html)
 
 Det er også mulig å laste ned modelldata direkte fra thredds.met.no, men filene er
 kjempestore (5 GB) og biblioteket for å hente data (NetCDF-Java) lar seg ikke kompilere

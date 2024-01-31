@@ -44,4 +44,4 @@ Kontaktperson: [Lars Vagle](https://www.solaflyklubb.no/kontakt-oss)
 En av følgende atmosfæriske produkter fra MET
 
 - [Isobarcgrib](https://api.met.no/weatherapi/isobaricgrib/1.0/documentation) (GRIB2 for southern_norway)
-- THREDDS (vanskelig å bruke direkte fra Android)
+- [THREDDS](https://thredds.met.no/)) (vanskelig å bruke direkte fra Android)

@@ -27,10 +27,7 @@ Dette er delvis knyttet opp mot WMOs prosjekt [Early Warnings for All](https://p
 som har som ambisjon at alle skal kunne varsles om naturfarer som kan true
 liv og verdier.
 
-
 ## Obligatoriske datakilder
 
-- MetAlerts 2.0 beta, i XML- (RSS+CAP) eller JSON-format (begrunn valget)
-- Locationforecast 2.0, i XML- (classic) eller JSON-format (begrunn valget)
-
-
+- [MetAlerts](https://api.met.no/weatherapi/metalerts/2.0/documentation) 2.0 beta, i XML- (RSS+CAP) eller JSON-format (begrunn valget)
+- [Locationforcast](https://api.met.no/weatherapi/locationforecast/2.0/documentation) 2.0, i XML- (classic) eller JSON-format (begrunn valget)
