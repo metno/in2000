@@ -24,7 +24,7 @@ planlegge flyturer. Her spiller faktorer som vind en stor rolle for å beregne
 reell fart over en strekning, men også behov for å unngå farlig vær som
 cumulunimbus-skyer.
 
-Luftfartsverken stiller bl.a. krav til at man alltid må
+Luftfartsverken stiller også krav til at man alltid må
 befinne seg innen en viss avstand av en flyplass i tilfelle nødlanding.
 Dette gjør at man ofte må fly store omveier for å komme fra A til B, og ikke
 kan fly lengre etapper over hav. Det er ønskelig med funksjonalitet i appen
@@ -32,8 +32,8 @@ for å beregne kortest mulig rute under gjeldene omstendigheter.
 
 Oppgaven må også inkludere en rapport som beskriver behov, ønsker og
 konsekvenser av at data (ikke) er tilgjengelige, men denne kan godt flere team
-være med på å utforme (evt at man gjør felles intervju med Sola Flyklubb så de
-slipper å svare på samme spm flere ganger).
+være med på å utforme. Her kan alle team gjerne gjøre et felles intervju med
+Sola Flyklubb så de slipper å svare på samme spørsmål flere ganger.
 
 [Sola Flyklubb](https://www.solaflyklubb.no/)
 
@@ -45,4 +45,3 @@ En av følgende atmosfæriske produkter fra MET
 
 - IsobaricGRIB (GRIB2 for southern_norway)
 - THREDDS (vanskelig å bruke direkte fra Android)
-
