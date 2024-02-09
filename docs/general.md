@@ -90,12 +90,8 @@ Dette gjøres vha et verktøy som heter "Vector Assets" i Android Studio.
 #### Sunrise
 
 Viser når sol og måne går opp/ned over horisonten, samt krysser (anti)meridianen.
-Den nye versjonen (3.0) som ligger ute til testing er trolig lettere å forholde
-seg til enn den gamle (som er under utfasing). Kom gjerne med tilbakemeldinger
-om hvilken versjon dere liker best!
 
-- [Sunrise 2](https://api.met.no/weatherapi/sunrise/2.0/documentation) (XML)
-- [Sunrise 3 beta](https://api.met.no/weatherapi/sunrise/3.0/documentation) (GeoJSON) [(dokumentasjon)](/sunrise/)
+- [Sunrise 3](https://api.met.no/weatherapi/sunrise/3.0/documentation) [(dokumentasjon)](/sunrise/)
 
 #### Luftkvalitet
 

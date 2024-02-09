@@ -6,7 +6,10 @@ date: 2024-01-26
 author: Geir Aalberg
 ---
 
+
+
 Samme hva, men må bruke en eller flere fra en liste av apier.
+
 
 Ellers er vi i gang med å implementere OGC API EDR, som er en ny standard for
 søking i geodata. Selve standarden er nesten uleselig og vanskelig å
@@ -21,4 +24,10 @@ i stedet for
 
 locationforecast/complete?lat=60&lon=10
 
+
+
+- [Tilgjengelige produkter med EDR](https://api.met.no/swagger2-ui/index.html)
+
+
 <https://www.ogc.org/standard/ogcapi-edr/>
+
