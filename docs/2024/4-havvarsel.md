@@ -8,12 +8,13 @@ author: Geir Aalberg og Martin Sætra
 
 ![Havvarsel logo](/images/havvarsel.png)
 
-Havvarsel.no ble lansert for noen få år siden, men har foreløpig ingen "tilhørende" app.
-Dette caset går ut på å lage en Havvarsel-app som er til nytte for de som ferdes ved og på sjøen.
-Det er viktigere å lage en brukervennlig og nyttig app enn å pakke mest mulig funksjonalitet inn i app-en, tenk at dette er en første versjon av Havvarsel-appen.
-Her er det fritt valg hva slags app man vil lage, men det må være relatert
-til havet og bruke de obligatoriske datakildene.
-Forslaget krever godkjenning fra veileder/kursledelsen.
+Havvarsel.no ble lansert for noen få år siden, men har foreløpig ingen
+"tilhørende" app. Dette caset går ut på å lage en Havvarsel-app som er til nytte
+for de som ferdes ved og på sjøen. Det er viktigere å lage en brukervennlig og
+nyttig app enn å pakke mest mulig funksjonalitet inn i app-en, tenk at dette er
+en første versjon av Havvarsel-appen. Her er det fritt valg hva slags app man
+vil lage, men det må være relatert til havet og bruke de obligatoriske
+datakildene.
 
 Kontaktperson ang dette caset er [Martin Sætra](mailto:martinls@met.no).
 
