@@ -18,28 +18,32 @@ datakildene.
 
 Kontaktperson ang dette caset er [Martin Sætra](mailto:martinls@met.no).
 
-## Krav
+## Obligatoriske krav
 
 Alle som har tilknytning til havet må forholde seg til naturkreftene, det
 være seg for ferdsel på sjøen, havbruk eller lyn og torden om sommeren.
-**Det er derfor er obligatorisk å bruke *en av* følgende tjenester fra api.met.no:**
+**Det er derfor er obligatorisk å bruke farevarsler fra api.met.no**:
 
-- Oceanforecast [API](/general) - strøm, bølger, temperatur
-- Locationforecast eller Nowcast [API](/general) - vær og vind
-- MetAlerts [API](/general) (enten XML eller GeoJSON)
+- MetAlerts [API](/intro) (enten XML eller GeoJSON)
 
-Andre datakilder som kan være nyttige:
+I tillegg er det også **obligatorisk** å bruke minst ett av følgende produkter:
 
-**MET og Havforskningsinstituttet sine APIer**:
-
+- Oceanforecast [API](/intro) - strøm, bølger, temperatur
+- Locationforecast [API](/intro) - vær og vind
+- Nowcast [API](/intro) - radarvarsel om nedbør
 - Havvarsel.no [API](https://api.havvarsel.no/) - API benyttet av Havvarsel.no
 - [Havvarsel-Frost](/havvarsel/) - nesten-live observasjoner av temperatur lange norskekysten
-- Gribfiles [API](/general) - værdata for nedlasting til navigasjonsapper
-- Textforecast [API](/general) - tekstvarsler for kyst og fiskebanker
-- [Tidalwater](/weatherapi/tidalwater/1.1/documentation) - tidevann for havner
-- Sunrise [API](/general) - ferdsel i mørke krever ekstra forhåndsregler
+- Gribfiles [API](/intro) - værdata for nedlasting til navigasjonsapper
 
-**Andre dataleverandører:**
+### Andre datakilder som kan være nyttige
+
+#### api.met.no
+
+- Textforecast [API](/intro) - tekstvarsler for kyst og fiskebanker
+- [Tidalwater](/weatherapi/tidalwater/1.1/documentation) - tidevann for havner
+- Sunrise [API](/intro) - ferdsel i mørke krever ekstra forhåndsregler
+
+#### Andre dataleverandører
 
 - [Se havnivå](http://xn--sehavniv-h0a.no) - tidevann- og vannstandsdata langs norskekysten fra Kartverket
 - [OpenSeaMap](http://www.openseamap.org/index.php?id=openseamap&L=1) - frie sjøkart i WMS-format
@@ -94,7 +98,7 @@ institutt, som vi kaller [Havvarsel-Frost](/havvarsel/).
 Oslo Kommune har også et API for badetemperaturer, men de begynner typisk ikke å
 samle inn målinger før 1. juni.
 
-I tillegg er det mange som har observert at prognosene fra [Oceanforecast](/general)
+I tillegg er det mange som har observert at prognosene fra [Oceanforecast](/intro)
 stemmer ganske bra overens med målingene (max 1° differanse). Denne dekker også
 hele kysten, ikke bare offentlige badeplasser og er derfor mer praktisk hvis man
 fx er ute og ferdes i båt.

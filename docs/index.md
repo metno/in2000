@@ -13,12 +13,9 @@ author: Geir Aalberg
 Dette er en oversikt over ressurser (primært fra MET) som studentene kan
 bruke på de forskjellige casene i kurset.
 
-## Generelle APIer
+## APIer
 
-- [Introduksjon til METs APIer](./intro)<br>
-  Hvordan bruke api.met.no, Frost m.m.
-
-- [Generelle API ressurser for alle caser](./general)<br>
+- [Generelle API-ressurser for alle caser](./general)<br>
   Produkter og tjenester som er relevante uansett case
 
 - [Caseliste for årets kurs](./2024/)<br>
@@ -36,6 +33,7 @@ etter hva dere lurer på:
 - frost.met.no: <observasjon@met.no>
 - havvarsel-frost.met.no: <martinls@met.no> (kun datainnhold, for teknisk hjelp bruk samme som Frost)
 - thredds.met.no: <thredds@met.no>
+- PortalSpace: <haakono@portalspace.no>
 
 Merk eposten med "IN2000" i subject-feltet så vi skjønner hva det er snakk om. Ikke send til flere adresser
 samtidig, da ender vi opp med multiple saker i forskjellige systemer som genererer mye ekstraarbeid og rot.

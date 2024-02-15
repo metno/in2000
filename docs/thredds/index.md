@@ -6,6 +6,19 @@ date: 2022-02-09
 author: Martin L. Sætra
 ---
 
+Forskjellige typer rasterdata ligger tilgjengelig for nedlasting fra thredds.metno i NetCDF-format
+eller via OPeNDAP. Som eksempler kan nevnes:
+
+- modelldata med værvarsel for Norden, inkludert atmosfæren (MEPS)
+- modelldata med kystvarsel (NorKyst)
+- skogbrannfareindex
+
+Det er ikke trivielt å laste ned data herfra i Android; vi anbefaler i stedet å
+laste ned til en lokal PC eller server som appen leser fra.
+
+- [Eksempler på bruk av THREDDS](/thredds/)
+- [thredds.met.no](https://thredds.met.no/)
+
 ## Spørring mot THREDDS-server hos MET
 
 For å jobbe mot data som ligger i gitter/grid på THREDDS-servere så bruker vi
@@ -61,8 +74,25 @@ Brukerdokumentasjon finnes her:
 
 ## THREDDS Data Server, OPeNDAP og NetCDF – hvordan forstå, og bruke, data
 
-Hvis en tar en titt på siste varsel (filen med "fc" – altså forecast – i navnet) i https://thredds.met.no/thredds/catalog/fou-hi/norkyst800m-1h/catalog.html, og går inn på "Godiva2" under "Viewers" i bunnen, så kan de ulike variablene som ligger i filen visualiseres. Ved å velge for eksempel sea_water_salinity så kan en bla nedover i dypet, og antall dybdemeter vil vises i dropdown-menyen "height". Oppløsningen i dypet ikke er uniform. Grunnen til at at avstanden mellom lagene øker med dypet er at det skjer mindre i dypet. Vannmassene er mer homogene.
+Hvis en tar en titt på siste varsel (filen med "fc" – altså forecast – i navnet)
+i [norkyst800m-1h](https://thredds.met.no/thredds/catalog/fou-hi/norkyst800m-1h/catalog.html) og
+går inn på "Godiva2" under "Viewers" i bunnen, så kan de ulike variablene som
+ligger i filen visualiseres. Ved å velge for eksempel `sea_water_salinity` så kan
+en bla nedover i dypet, og antall dybdemeter vil vises i dropdown-menyen
+"height". Oppløsningen i dypet ikke er uniform. Grunnen til at at avstanden
+mellom lagene øker med dypet er at det skjer mindre i dypet. Vannmassene er mer
+homogene.
 
-NetCDF-formatet, som dataene ligger på, er også selvdokumenterende. Hvis vi går inn på "OPENDAP" under "Access" (fra kataloglenken ovenfor) så vil vi se at for eksempel salinity har dimensjonene "time", "depth", "Y" og "X". Hvis vi så hadde listet innholdet i dimensjonsvariabelen depth, så ville vi kunne se alle dybdenivåene i meter.
+NetCDF-formatet, som dataene ligger på, er også selvdokumenterende. Hvis vi går
+inn på "OPENDAP" under "Access" (fra kataloglenken ovenfor) så vil vi se at for
+eksempel salinity har dimensjonene "time", "depth", "Y" og "X". Hvis vi så hadde
+listet innholdet i dimensjonsvariabelen depth, så ville vi kunne se alle
+dybdenivåene i meter.
 
-Y og X vs. lat og lon: Det som gjør det litt vanskelig å direkte indeksere i horisontal utstrekning er at en må gå "via" Y og X for å finne geografiske koordinater lat og lon. Grunnen til dette er at alle variablene er lagret med en projeksjon, som gjør at det er forskjellig avstand mellom to gitter-punkter/verdier langt sør og lang nord. Så lenge en kun forholder seg til punkter så betyr imidlertid ikke dette med projeksjonen noe, det blir først viktig i det en vil tegne et felt (altså noe med en 2D-utstrekning).
+Y og X vs. lat og lon: Det som gjør det litt vanskelig å direkte indeksere i
+horisontal utstrekning er at en må gå "via" Y og X for å finne geografiske
+koordinater lat og lon. Grunnen til dette er at alle variablene er lagret med en
+projeksjon, som gjør at det er forskjellig avstand mellom to
+gitter-punkter/verdier langt sør og lang nord. Så lenge en kun forholder seg til
+punkter så betyr imidlertid ikke dette med projeksjonen noe, det blir først
+viktig i det en vil tegne et felt (altså noe med en 2D-utstrekning).

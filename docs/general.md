@@ -3,131 +3,33 @@ layout: page
 title: Generelle ressurser
 has_children: true
 nav_order: 2
-#has_toc: false
+has_toc: false
 date: 2023-02-27
 author: Geir Aalberg
 ---
 
-{: .no_toc }
-
-1. TOC
-{:toc}
-
 ## Tjenester fra MET
 
 Disse produktene kan være nyttige for alle caser. Data fra disse utgjør størsteparten av det som vises på Yr.
-Alt som ligger på api.met.no skal hentes via in2000-apiproxy.
+Alt som ligger på api.met.no og Frost skal hentes via IFI-proxy (hvis mulig).
+
+- [api.met.no](intro)
+- [Frost](frost)
+- [Havvarsel](havvarsel)
+- [THREDDS](thredds)
+
+### Terminologi
 
 Navn på variabler og parametre er forsøkt holdt seg innenfor CF-standarden hvis mulig.
 Denne er ganske omfattende, dere kan finne forklaringer på termene på
 [cfconventions.org](http://cfconventions.org/Data/cf-standard-names/70/build/cf-standard-name-table.html).
 
-### api.met.no
+### Åpen datapolitikk
 
-De fleste av METs data leveres via dette apiet. Kursledelsen ved IFI har satt opp
-en egen proxy som dere bør bruke for å kommunisere med apiet, nærmere detaljer
-blir gitt på forelesning.
+MET har som prinsipp at data og kode vi produserer i utgangspunktet skal være
+fritt tilgjengelig og kan brukes for andre i den grad det anses som samfunnsnyttig.
 
-#### Locationforecast
-
-Globalt værvarsel i times (Norden neste 60 timer) og 6-timers intervaller.
-
-- [Locationforecast/2.0](https://api.met.no/weatherapi/locationforecast/2.0/documentation). Bruk *complete* eller *compact* variant.
-- [JSON dataformat](https://docs.api.met.no/doc/ForecastJSON) med
-  [eksempel](https://api.met.no/weatherapi/locationforecast/2.0/complete?lat=60.10&lon=9.58)
-- [Datamodell](https://docs.api.met.no/doc/locationforecast/datamodel) med forklaring av variabler
-- [Locationforecast FAQ](https://docs.api.met.no/doc/locationforecast/FAQ): Ofte stilte spørsmål
-
-#### Nowcast
-
-Værvarsel for Norge neste 15 minutter, basert på nedbørsradar og temperaturkorrigert med NetAtmo. Samme format som Locationforecast.
-
-- [Nowcast/2.0](https://api.met.no/weatherapi/nowcast/2.0/documentation) med
-  [eksempel](https://api.met.no/weatherapi/nowcast/2.0/complete?lat=59.9333&lon=10.7166)
-- [Datamodell](https://docs.api.met.no/doc/nowcast/datamodel) med forklaring av variabler
-
-#### Oceanforecast
-
-Havvarsel for Norskekysten.
-
-- [Oceanforecast/2.0](https://api.met.no/weatherapi/oceanforecast/2.0/documentation): JSON versjon
-- [Datamodell](https://docs.api.met.no/doc/oceanforecast/datamodel) med forklaring av variabler
-
-#### Tekstvarsler
-
-Generelle tekstlige varsler for spesifiserte områder. Kan være nyttig bl.a. for opplesing.
-
-- [Textforecast 2.0](https://api.met.no/weatherapi/textforecast/2.0/documentation) (XML)
-- [Textforecast 3.0](https://api.met.no/weatherapi/textforecast/3.0/documentation) (GeoJSON - kun land og kyst, ikke hav)
-
-#### Farevarsler
-
-- [MetAlerts](https://api.met.no/weatherapi/metalerts/1.1/documentation)
-
-Denne leverer en [RSS-feed](https://api.met.no/weatherapi/metalerts/1.1/)
-med linker til gjeldende varsler i CAP-format. Begge er basert på XML, så dere
-trenger en parser for å kunne lese disse.
-
-CAP-filene inneholder lat/lon-polygoner som er laget for å kunne plottes i kartløsninger.
-Kombiner gjerne med simulert GPS-posisjon for å finne farevarsel på nåværende
-sted.
-
-{: .news }
-For våren 2023 har vi laget en [eksperimentell versjon av farevarsler](https://api.met.no/weatherapi/metalerts/1.1/.json)
-som pakker alt inn i GeoJSON uten at man trenger å laste ned CAP. Test gjerne
-begge versjoner og gi tilbakemelding i rapporten over hvilken metode dere synes
-er greiest å bruke.
-
-**Arkiv:** Historiske varsler er tilgjengelige per måned fom januar 2020. Bruk
-parameteren `period` for å vise sesongvariable varsler som er relevante for
-appen, siden det ikke er så mange relevante farevarsler på vårparten.
-
-{: .warning }
-Dersom dere ønsker å bruke [farevarselikoner](https://github.com/nrkno/yr-warning-icons)
-som vist på Yr må disse konverteres fra "vanlig" SVG til "Androidsk".
-Dette gjøres vha et verktøy som heter "Vector Assets" i Android Studio.
-
-#### Sunrise
-
-Viser når sol og måne går opp/ned over horisonten, samt krysser (anti)meridianen.
-
-- [Sunrise 3](https://api.met.no/weatherapi/sunrise/3.0/documentation) [(dokumentasjon)](/sunrise/)
-
-#### Luftkvalitet
-
-Denne tjenesten viser prognoser (varsler) om luftkvalitet fram til neste dag for
-de fleste områder i Norge, i motsetning til NILU som kun har faktiske observasjoner
-for et sett målestasjoner.
-
-- [AirQualityForecast](https://api.met.no/weatherapi/airqualityforecast/0.1/documentation)
-
-### Frost
-
-Eget API for observasjoner og klimadata fra MET. Dere kan ignorere det som står
-om registrering og HTTP Basic Auth siden IFI-proxyen håndterer dette automatisk.
-
-- [Frost API](https://frost.met.no/)
-
-### Havvarsel-Frost
-
-- [Havvarsel-Frost API](https://havvarsel-frost.met.no/)
-
-Havvarsel-Frost fungerer noenlunde på samme måte som Frost, men er en nyere versjon.
-For eksempler på bruk av Havvarsel-Frost, se [egen side](/havvarsel/).
-Det er ikke nødvendig å bruke proxy for Havvarsel-Frost.
-
-Se også [presentasjonen om Frost](https://docs.google.com/presentation/d/10iIwhAMuO-aWkndcIlYwl86kzm9b0CEeequ-Tc2viNk/edit?usp=sharing) fra forelesning.
-
-### THREDDS
-
-Rasterdata tilgjengelig for nedlasting i NetCDF-format. Det er ikke trivielt
-å laste ned disse i Android; vi anbefaler i stedet å laste ned til en lokal PC
-eller server som appen leser fra.
-
-- [Eksempler på bruk av THREDDS](/thredds/)
-- [thredds.met.no](https://thredds.met.no/)
-
--------------------------------
+- <https://www.met.no/frie-meteorologiske-data/frie-meteorologiske-data>
 
 ## Andre dataleverandører
 
@@ -140,3 +42,5 @@ eller server som appen leser fra.
 - [api.nilu.no](https://api.nilu.no/) - luftkvalitetsmålinger i større byer
 
 Se også tidligere års caser for eksempler på mer spesialiserte data.
+Det oppfordres til å være kreative med å finne datakilder, da dette vil kunne
+være til nytte for senere års kurs.

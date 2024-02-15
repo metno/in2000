@@ -16,9 +16,7 @@ nav_order: 3
 ## Ressurser til caser
 
 - [Case 1. Rakettoppskytning](./1-rakett)
-- [Case 2. Småflypiloter](./2-pilot)
+- [Case 2. Småfly-app](./2-pilot)
 - [Case 3. Vær- og farevarsel for yngre brukere](./3-yngre)
 - [Case 4. Havvarsel](./4-havvarsel)
-- [Case 5. Åpent case](./5-opencase)
-
-
+- [Case 5. Åpent case – EDR](./5-opencase)

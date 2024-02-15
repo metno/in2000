@@ -10,6 +10,7 @@ author: Geir Aalberg
 
 Samme hva, men må bruke en eller flere fra en liste av apier.
 
+## OGC API - EDR
 
 Ellers er vi i gang med å implementere OGC API EDR, som er en ny standard for
 søking i geodata. Selve standarden er nesten uleselig og vanskelig å
@@ -30,4 +31,3 @@ locationforecast/complete?lat=60&lon=10
 
 
 <https://www.ogc.org/standard/ogcapi-edr/>
-

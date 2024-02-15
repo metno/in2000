@@ -1,12 +1,30 @@
 ---
 layout: page
-title: Havvarsel-Frost
+title: Havvarsel
 parent: Generelle ressurser
 date: 2022-02-22
 author: Martin L. Sætra
 ---
 
-## Badetemperaturer
+
+MET og Havforskningsinstituttet samarbeider om flere APIer med maritime data:
+
+## Havvarsel.no
+
+- [Havvarsel API](https://api.havvarsel.no/) - API som benyttes av havvarsel.no
+
+
+
+## Havvarsel-Frost
+
+- [Havvarsel-Frost API](https://havvarsel-frost.met.no/)
+
+Havvarsel-Frost fungerer noenlunde på samme måte som Frost, men er en nyere versjon.
+Det er ikke satt opp noen iFI-proxy for Havvarsel-Frost.
+
+Se også [presentasjonen om Frost](https://docs.google.com/presentation/d/10iIwhAMuO-aWkndcIlYwl86kzm9b0CEeequ-Tc2viNk/edit?usp=sharing) fra forelesning.
+
+### Badetemperaturer
 
 Det samles inn “live” observasjoner fra bøyer plassert ved populære badesteder
 rundt omkring i hele landet. Flere aktører står for innsamlingen, men alle
@@ -29,4 +47,6 @@ Spørringer til Havvarsel-Frost kan lages interaktivt ved å bruke Swagger-dokum
 
 - <https://havvarsel-frost.met.no/docs/apirefbasic#/obs%2Fbadevann/obsBadevannGet>
 
-Se også eksempler på spørringer mot slutten av denne [presentasjonen om Frost](https://docs.google.com/presentation/d/10iIwhAMuO-aWkndcIlYwl86kzm9b0CEeequ-Tc2viNk/edit?usp=sharing) vist på forelesning.
+Se også eksempler på spørringer mot slutten av denne [presentasjonen om
+Frost](https://docs.google.com/presentation/d/10iIwhAMuO-aWkndcIlYwl86kzm9b0CEeequ-Tc2viNk/edit?usp=sharing)
+vist på forelesning.

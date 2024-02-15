@@ -6,7 +6,7 @@ date: 2024-01-26
 author: Geir Aalberg
 ---
 
-![](/images/portalspace.png)
+![portalspace logo](/images/portalspace.png)
 
 Lag en app for planlegging av rakettoppskytninger!
 
@@ -23,7 +23,7 @@ data på hvordan været kommet til å utvikle seg gjennom oppskytningsvinduet v�
 Dette ville vanligvis vært jobben til en dedikert værstasjon, men vi ønsker å
 undersøke om vi kan bruke åpen værdata til å gjøre et estimat.
 
-## Krav
+## Funksjonelle krav
 
 Det vi all hovedsak ser etter, er om det er forsvarlig å skyte opp i løpet de
 neste timene. For å vite om dette er mulig er det flere kriterier som hukes av.
@@ -67,38 +67,38 @@ kontrollert luftrom.
 
 ## Datakilder
 
-### [Locationforcast](https://api.met.no/weatherapi/locationforecast/2.0/documentation)
+### Obligatoriske datakilder
+
+Følgende produkter skal brukes såfremt mulig. Dersom det er tekniske problemer
+med å bruke en tjeneste skal det begrunnes og dokumenteres i detalj i rapporten.
+
+- [Locationforecast](/intro) på api.met.no
 
 Denne gir mye relevant data på flere av punkter under kravet, men inneholder
 ikke informasjon om vindstyrke på høyder > 10 m over bakken. Til dette trenger vi et annet
 API.
 
-### [Isobarcgrib](https://api.met.no/weatherapi/isobaricgrib/1.0/documentation) (GRIB2 for southern_norway)
+- [Isobarcgrib API](/api/isobaricgrib) (GRIB2 for southern_norway)
 
-Her kan man laste ned filer i GRIB2-format som gir informasjon om trykk på
-forskjellige nivåer. Dette kan vi bruke til å finne vind på forskjellige høyder.
-I filene angis ikke høyde i meter men i trykkflater (isobarer), siden flyenes
-høydemåler baserer seg på trykk.
+Her kan man laste ned filer i GRIB2-format, som gir informasjon om vind og temperatur
+på forskjellige nivåer i atmosføren.
 
-For å regne ut høyde over havet kan man bruke [den hydrostatiske ligningen](https://en.wikipedia.org/wiki/Barometric_formula).
-Da må man vite flg:
+### Andre datakilder
 
-- trykk i høyden (GRIB)
-- temperatur i høyden (GRIB)
-- lufttrykk ved havnivå (locationforecast)
-- (geopotensialet?)
+- [Windy API](https://api.windy.com/)
 
-NB: IsobaricGRIB leverer filer på ca 1.3 MB. Dette er kanskje uegnet å parse i
-en mobilapp? I såfall er det mulig å bruke et Python-basert API som laster
-ned GRIB fra apiet og leverer en vertikalprofil som CoverageJSON for et gitt punkt.
+har høydedata for gitte koordinater. Ved bruk, forklar i rapporten hvorfor deres
+tjeneste fungerer bedre enn METs.
 
-<https://github.com/metno/edrisobaric>
+- [THREDDS](/thredds/) (MEPS post-processed)
 
-### [THREDDS (MEPS)](https://thredds.met.no/thredds/metno.html)
-
-Det er også mulig å laste ned modelldata direkte fra thredds.met.no, men filene er
-kjempestore (5 GB) og biblioteket for å hente data (NetCDF-Java) lar seg ikke kompilere
-på Android pga manglende støtte for kryptering.
+Det er også mulig å laste ned
+[MEPS-modelldata](https://thredds.met.no/thredds/catalog/metpplatest/catalog.html)
+med høydedata direkte fra thredds.met.no, men filene er kjempestore (3+ GB) og
+biblioteket for å hente data (NetCDF-Java) lar seg ikke kompilere på Android pga
+manglende støtte for kryptering. Dette må i så fall løses ved å lage en
+server-backend som henter og parser NetCDF-filene (eller snakker OPeNDAP med
+THREDDS).
 
 ## Kontaktinformasjon / andre ressurser
 

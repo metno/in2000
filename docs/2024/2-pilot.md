@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Case 2. Småflypiloter
+title: Case 2. Småfly-app
 parent: Årets caser
 date: 2024-01-26
 author: Geir Aalberg
@@ -17,7 +17,7 @@ app for småflypiloter, evt andre luftsportsutøvere. Vi holder også på å leg
 GRIB-filer for Avinor for hele Sør-Norge som kanskje kan brukes på mobil (har
 brukt dette selv på båt).
 
-## Krav
+## Funksjonelle krav
 
 Teamene må utrede behovet for meteorologiske data blant hobbypiloter for å
 planlegge flyturer. Her spiller faktorer som vind en stor rolle for å beregne
@@ -39,9 +39,19 @@ Sola Flyklubb så de slipper å svare på samme spørsmål flere ganger.
 
 Kontaktperson: [Lars Vagle](https://www.solaflyklubb.no/kontakt-oss)
 
-## Obligatoriske datakilder
+## Datakilder
 
-En av følgende atmosfæriske produkter fra MET
+En av følgende atmosfæriske produkter fra MET:
 
-- [Isobarcgrib](https://api.met.no/weatherapi/isobaricgrib/1.0/documentation) (GRIB2 for southern_norway)
-- [THREDDS](https://thredds.met.no/)) (vanskelig å bruke direkte fra Android)
+- [IsobaricGRIB](/api/isobaricgrib) (GRIB2 for southern_norway)
+
+Her kan man laste ned filer i GRIB2-format som gir informasjon om trykk på
+forskjellige nivåer. Dette kan vi bruke til å finne vind på forskjellige høyder.
+
+- [THREDDS](/thredds/) (MEPS post-processed)
+
+Det er også mulig å laste ned
+[MEPS-modelldata](https://thredds.met.no/thredds/catalog/metpplatest/catalog.html)
+med høydedata direkte, men filene er svært store (3+ GB) og det er ikke trivielt
+å hente data fra Android.
+
