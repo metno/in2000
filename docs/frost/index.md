@@ -2,6 +2,7 @@
 layout: page
 title: Frost
 parent: Generelle ressurser
+nav_order: 50
 date: 2024-02-15
 author: Geir Aalberg
 ---

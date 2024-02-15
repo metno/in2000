@@ -28,7 +28,7 @@ fra apiet og leverer en vertikalprofil som CoverageJSON for et gitt punkt.
 Koden kan være nyttig å lese for å finne ut hvordan man skal tolke dataene.
 Dersom dere bruker denne får dere også litt trening i å bruke [EDR](/edr):
 
-<https://github.com/metno/edrisobaric>
+- <https://github.com/metno/edrisobaric> - kildekode i Python
 
 ## Beregning av høyde
 

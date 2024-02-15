@@ -23,11 +23,22 @@ alderen 9-25 år som ikke bruker Yr. Finn ut hvorfor de bruker noe annet enn Yr,
 og hva som skal til for at de vil ta i bruk noe som passer bedre til deres
 behov. Lag så en app som oppfyller disse kravene best mulig.
 
-Dette er delvis knyttet opp mot WMOs prosjekt [Early Warnings for All](https://public.wmo.int/en/earlywarningsforall),
-som har som ambisjon at alle skal kunne varsles om naturfarer som kan true
-liv og verdier.
+Dette er delvis knyttet opp mot WMOs prosjekt [Early Warnings for
+All](https://public.wmo.int/en/earlywarningsforall), som har som ambisjon at
+alle skal kunne varsles om naturfarer som kan true liv og verdier.
 
 ## Obligatoriske datakilder
 
 - [MetAlerts](https://api.met.no/weatherapi/metalerts/2.0/documentation) 2.0 beta, i XML- (RSS+CAP) eller JSON-format (begrunn valget)
 - [Locationforcast](https://api.met.no/weatherapi/locationforecast/2.0/documentation) 2.0, i XML- (classic) eller JSON-format (begrunn valget)
+
+## Andre nyttige datakilder
+
+- Nowcast [API](/intro) - radarvarsel om nedbør
+- Textforecast [API](/intro) - tekstvarsler for kyst og fiskebanker
+- Sunrise [API](/intro) - ferdsel i mørke krever ekstra forhåndsregler
+- [AirQualityForecast](https://api.met.no/weatherapi/airqualityforecast/0.1/documentation) - prognoser for luftkvalitet
+- [Frost](/frost/) - historiske observasjoner og klima
+- [Farevarsler fra NVE](https://api.nve.no/doc/) - flom, jordskred, snøskred, kart o.l. (både XML og JSON)
+- [NILU API](https://api.nilu.no/) - luftkvalitetsmålinger i større byer
+

@@ -12,10 +12,10 @@ Lag en app for planlegging av rakettoppskytninger!
 
 ## Bakgrunn
 
-Vi er i kontakt med rakettbyggegruppen på UiO som ønsker værdata, og ser på
-muligheten til å sette opp en egen tjeneste for dette. Her kan da studentene
-bygge en app for dette formålet og kanskje også se en oppskytning live mens de
-bruker appen?
+Vi er i kontakt med [rakettbyggegruppen](https://www.portalspace.no/) på UiO som
+ønsker værdata, og ser på muligheten til å sette opp en egen tjeneste for dette.
+Her kan da studentene bygge en app for dette formålet og kanskje også se en
+oppskytning live mens de bruker appen?
 
 Ved en rakettoppskytning så er det mange faktorer som skal stemme, og en faktor
 som vi ikke kan kontrollere er været. Derfor trenger vi kontinuerlig oppdatert

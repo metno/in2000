@@ -2,6 +2,7 @@
 layout: page
 title: Sunrise
 parent: Generelle ressurser
+nav_order: 20
 date: 2023-02-26
 author: Håkon Tansem
 email: haakont@met.no

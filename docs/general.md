@@ -27,9 +27,8 @@ Denne er ganske omfattende, dere kan finne forklaringer på termene på
 ### Åpen datapolitikk
 
 MET har som prinsipp at data og kode vi produserer i utgangspunktet skal være
-fritt tilgjengelig og kan brukes for andre i den grad det anses som samfunnsnyttig.
-
-- <https://www.met.no/frie-meteorologiske-data/frie-meteorologiske-data>
+[fritt tilgjengelig](https://www.met.no/frie-meteorologiske-data/frie-meteorologiske-data)
+og kan brukes for andre i den grad det anses som samfunnsnyttig.
 
 ## Andre dataleverandører
 

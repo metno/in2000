@@ -2,6 +2,7 @@
 layout: page
 title: Havvarsel
 parent: Generelle ressurser
+nav_order: 70
 date: 2022-02-22
 author: Martin L. Sætra
 ---
