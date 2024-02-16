@@ -39,7 +39,8 @@ Globalt værvarsel i 1-times (neste to døgn) og 6-timers (3-10 døgn) intervall
 
 ### Nowcast
 
-Værvarsel for Norge neste 15 minutter, basert på nedbørsradar og temperaturkorrigert med NetAtmo. Samme format som Locationforecast.
+Værvarsel for Norge neste 90 minutter, i steg på 5 min.
+Basert på nedbørsradar og temperaturkorrigert med NetAtmo. Samme format som Locationforecast.
 
 - [Nowcast/2.0](https://api.met.no/weatherapi/nowcast/2.0/documentation) med
   [eksempel](https://api.met.no/weatherapi/nowcast/2.0/complete?lat=59.9333&lon=10.7166)
@@ -47,14 +48,14 @@ Værvarsel for Norge neste 15 minutter, basert på nedbørsradar og temperaturko
 
 ### Subseasonal
 
-Nytt 21-dagers varsel som nylig er lagt ut på Yr:
+Nytt 21-dagers varsel som nylig er lagt ut på Yr.
 
 - [Subseasonal/1.0](https://api.met.no/weatherapi/subseasonal/1.0/documentation)
 - [Datamodell](https://docs.api.met.no/doc/subseasonal/datamodel) med forklaring av variabler
 
 ### Oceanforecast
 
-Havvarsel for Norskekysten.
+Havvarsel for Norskekysten, inneholder data som strøm, bølger og overflatetemperatur.
 
 - [Oceanforecast/2.0](https://api.met.no/weatherapi/oceanforecast/2.0/documentation): JSON versjon
 - [Datamodell](https://docs.api.met.no/doc/oceanforecast/datamodel) med forklaring av variabler

@@ -102,5 +102,7 @@ THREDDS).
 
 ## Kontaktinformasjon / andre ressurser
 
+- [Presentasjon fra forelesning](portalspace.pdf)
+
 - [Portal Space nettside](https://www.portalspace.no/)
 - Håkon Offernes, Chief Electrical Officer, <haakono@portalspace.no>, +47 466 14 464
