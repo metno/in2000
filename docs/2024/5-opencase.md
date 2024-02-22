@@ -36,12 +36,14 @@ EDR-format. Likevel mener mange at å konsumere EDR bør være ganske lett, side
 det bare er å navigere seg fram til passende URLer med Swagger/OpenAPI som
 hjelp.
 
-Oppgaven til studentene blir derfor å finne ut om EDR er så lett å forstå at alle
+Oppgaven til dere blir derfor å finne ut om EDR er så lett å forstå at alle
 utviklere kan bruke dette som standard søkegrensesnitt, eller om det kun er egnet
 for eksperter innen geofag, og vi må lage enklere alternativer for "vanlige" utviklere.
 
-Vi ønsker derfor å stille som krav at studentene må bruke EDR alle steder hvor
-det er tilgjengelig, inkl api.met.no når dette er klart.
+Vi stiller derfor som krav at teamene må bruke EDR alle steder hvor det er
+tilgjengelig, inkl produkter på api.met.no hvor dette er implementert. Dette skal
+utgjøre hovedfunksjonaliteten i appen.
+
 ## Funksjonelle krav
 
 Her kan man lage hva slags app man vil, men den skal primært hente data via
