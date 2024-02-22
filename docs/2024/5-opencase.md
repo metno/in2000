@@ -66,8 +66,6 @@ Dokumentasjon:
 ### Andre dataleverandører
 
 - [UK Met Office](https://labs.metoffice.gov.uk/edr)
-- [Danmarks Meteorologiske Institut ](https://dmigw.govcloud.dk/v1/forecastedr)
 - [Finske Meteorologiske Institutt](https://opendata.fmi.fi/edr)
 - [Det Kongelige Nederlandske Meteorologiske Institutt](https://developer.dataplatform.knmi.nl/apis)
 - [IBL SWIM](https://swim.iblsoft.com/data/opmet/edr) - METAR for flytrafikk (kan kombineres med Case 2)
-
