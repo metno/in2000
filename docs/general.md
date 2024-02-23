@@ -43,3 +43,11 @@ og kan brukes for andre i den grad det anses som samfunnsnyttig.
 Se også tidligere års caser for eksempler på mer spesialiserte data.
 Det oppfordres til å være kreative med å finne datakilder, da dette vil kunne
 være til nytte for senere års kurs.
+
+## Hjelpemidler
+
+Vi anbefaler å bruke flg verktøy for utvikling:
+
+- [GeoJSON.io](https://geojson.io/) - testing av GeoJSON output
+- [QGIS](https://qgis.org/en/site/) - generell desktop app for geodata, kan lese GeoJSON (Add Layer > Vector) og GRIB (Add Layer > Mesh)
+
