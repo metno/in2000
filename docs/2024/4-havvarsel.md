@@ -32,6 +32,7 @@ I tillegg er det også **obligatorisk** å bruke minst ett av følgende produkte
 - Locationforecast [API](/intro) - vær og vind
 - Nowcast [API](/intro) - radarvarsel om nedbør
 - Havvarsel.no [API](https://api.havvarsel.no/) - API benyttet av Havvarsel.no
+- BarentsWatch [API](https://www.barentswatch.no/artikler/apnedata/) - varsler for ferdsel og industri langs kysten
 - [Havvarsel-Frost](/havvarsel/) - nesten-live observasjoner av temperatur lange norskekysten
 - Gribfiles [API](/intro) - værdata for nedlasting til navigasjonsapper
 

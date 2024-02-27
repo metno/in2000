@@ -49,5 +49,6 @@ være til nytte for senere års kurs.
 Vi anbefaler å bruke flg verktøy for utvikling:
 
 - [GeoJSON.io](https://geojson.io/) - testing av GeoJSON output
+- [GNOME Maps](https://wiki.gnome.org/Apps/Maps) for Linux kan plotte GeoJSON-filer direkte i kartet
 - [QGIS](https://qgis.org/en/site/) - generell desktop app for geodata, kan lese GeoJSON (Add Layer > Vector) og GRIB (Add Layer > Mesh)
 
