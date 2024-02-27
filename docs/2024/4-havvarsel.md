@@ -63,7 +63,8 @@ dybdeforhold og skipsleier, men disse inkluderer vanligvis ikke været.
 Det er mulig å lage en app som viser vind- og strømforhold på sjøkart, gjerne
 også kombinert med å regne ut effektiv fart og beregnet tid per distanse.
 Noen har også tidligere laget spesialiserte apper for redningsmannskap, som
-har vist seg å bli godt mottatt og hatt kommersielt potensiale.
+har vist seg å bli godt mottatt og hatt kommersielt potensiale. Bruk gjerne
+[BarentsWatch Ohoi](https://www.barentswatch.no/ohoi/) som inspirasjonskilde.
 
 ![Eksempel fra 2020 (appen Fimafeng)](/images/examples/fimafeng.png)
 
