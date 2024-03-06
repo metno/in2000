@@ -18,6 +18,8 @@ vite hvordan man skal kunne nå ut disse med våre varsler, da spesielt våre
 farevarsler som ikke er like lett tilgjengelige via internasjonale tjenester
 som Apple Weather, AccuWeather eller Windy.
 
+![Lesere sosiale medier](some.png)
+
 Teamene må kartlegge behov og ønsker i brukergruppen, som er barn og ungdom i
 alderen 9-25 år som ikke bruker Yr. Finn ut hvorfor de bruker noe annet enn Yr,
 og hva som skal til for at de vil ta i bruk noe som passer bedre til deres
