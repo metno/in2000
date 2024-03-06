@@ -44,9 +44,17 @@ Se også tidligere års caser for eksempler på mer spesialiserte data.
 Det oppfordres til å være kreative med å finne datakilder, da dette vil kunne
 være til nytte for senere års kurs.
 
+### API-kataloger
+
+- [Felles Datakatalog](https://data.norge.no/) fra Digitaliseringsdirektoratet
+- [TaData](https://tadata.no/providers) - API-katalog drevet av entusiaster
+- [Ressurser fra kommuner og andre offentlige instanser](https://kapps.no/ressurser-og-apne-data/) fra KommuneApps
+
 ## Hjelpemidler
 
 Vi anbefaler å bruke flg verktøy for utvikling:
+
+### Kart
 
 - [GeoJSON.io](https://geojson.io/) - testing av GeoJSON output
 - [GNOME Maps](https://wiki.gnome.org/Apps/Maps) for Linux kan plotte GeoJSON-filer direkte i kartet
