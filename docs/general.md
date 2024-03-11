@@ -32,6 +32,10 @@ og kan brukes for andre i den grad det anses som samfunnsnyttig.
 
 ## Andre dataleverandører
 
+### NVE
+
+- [Farevarsler](https://api.nve.no/doc/) for flom, jordskred og snøskred i CAP og JSON
+
 ### Kartverket
 
 - [Adresse-API](https://data.norge.no/dataservices/ef13b2bc-26a3-42d4-afd0-a10ed6a9fd03)
@@ -59,4 +63,3 @@ Vi anbefaler å bruke flg verktøy for utvikling:
 - [GeoJSON.io](https://geojson.io/) - testing av GeoJSON output
 - [GNOME Maps](https://wiki.gnome.org/Apps/Maps) for Linux kan plotte GeoJSON-filer direkte i kartet
 - [QGIS](https://qgis.org/en/site/) - generell desktop app for geodata, kan lese GeoJSON (Add Layer > Vector) og GRIB (Add Layer > Mesh)
-
