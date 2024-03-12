@@ -13,6 +13,7 @@ nav_order: 3
 - [Semesterside for 2024](https://www.uio.no/studier/emner/matnat/ifi/IN2000/v24/)
 - [Timeplan](https://www.uio.no/studier/emner/matnat/ifi/IN2000/v24/timeplan/index.html)
 
+
 ## Casebeskrivelser
 
 - [Case 1. Rakettoppskytning](./1-rakett)
@@ -20,6 +21,8 @@ nav_order: 3
 - [Case 3. Vær- og farevarsel for yngre brukere](./3-yngre)
 - [Case 4. Havvarsel](./4-havvarsel)
 - [Case 5. Åpent case – EDR](./5-opencase)
+
+![Fordeling caser](fordeling.svg)
 
 ### Kort oversikt over obligatoriske APIer
 
