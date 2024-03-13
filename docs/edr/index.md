@@ -24,7 +24,7 @@ spesielt beregnet for søk i geodata. Som offentlig institutt er vi derfor påla
 ## Struktur
 
 ```mermaid
-graph TB
+graph TB;
     landingpage --> landingpage
     landingpage --> openapi
     landingpage --> conformance
