@@ -19,10 +19,19 @@ De fleste av METs operasjonelle data leveres via api.met.no.
 - [Yr Utviklerportal](https://developer.yr.no/) inneholder også mye nyttig informasjon
 
 Kursledelsen ved IFI har satt opp en egen proxy som dere bør bruke for å
-kommunisere med apiet, nærmere detaljer blir gitt på forelesning. **NB:
-IFI-proxyene håndterer ikke `If-Modified-Since`.** Ignorer alt som står om dette
-i Terms of Service og HOWTO. Det er heller ikke nødvendig å sette User-Agent så
-lenge dere bruker IFI-proxy.
+kommunisere med apiet, nærmere detaljer blir gitt på forelesning. Proxyen
+fungerer kun mot api.met.no og frost.met.no, ikke andre tjenester som fx
+Havvarsel-Frost.
+
+**NB: IFI-proxyene håndterer ikke `If-Modified-Since`.** Ignorer alt som står om
+dette i Terms of Service og HOWTO. Det er heller ikke nødvendig å sette
+User-Agent så lenge dere bruker IFI-proxy.
+
+{: .warning }
+Vi har fått tilbakemeldinger på at det er problemer med proxyen, inkl.
+korrupte binærfiler (bilder og GRIB) og feil i linker fra available.
+Dersom proxyen ikke funker, bruk adressen in2000.api.met.no så vi kan
+overvåke trafikken.
 
 ## Produkter
 
