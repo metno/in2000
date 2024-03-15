@@ -55,6 +55,11 @@ fallskjermen er løst ut. Dette kan føre til at raketten beveger seg langt
 horisontalt ved for sterk vind. Alt dette kan påvirke nedfallsområde som vi
 ønsker å minimere av sikkerhetsmessige årsaker.
 
+Vær spesielt oppmerksom på *vindskjær* (shear wind eller [wind shear](https://en.wikipedia.org/wiki/Wind_shear))
+som oppstår når vind har forskjellig retning i forskjellige høyder. 
+Dette kan føre til rotasjon i objekter som beveger seg mellom lagene.
+For å beregne dette må man bruke noen enkle [formler](ShearWindCalculationDocumentation.pdf).
+
 ### Juridiske begrensninger
 
 Med tanke på at løsning skal være for et generelt use case så er det viktig at
@@ -81,7 +86,8 @@ API.
 - [Isobarcgrib API](/api/isobaricgrib) (GRIB2 for southern_norway)
 
 Her kan man laste ned filer i GRIB2-format, som gir informasjon om vind og temperatur
-på forskjellige nivåer i atmosføren.
+på forskjellige nivåer i atmosføren. Merk at nivåene angis som trykkflater i hPa,
+og at vind angis som vektor med x- og y-komponent (u og v).
 
 ### Andre datakilder
 
@@ -103,6 +109,5 @@ THREDDS).
 ## Kontaktinformasjon / andre ressurser
 
 - [Presentasjon fra forelesning](portalspace.pdf)
-
 - [Portal Space nettside](https://www.portalspace.no/)
 - Håkon Offernes, Chief Electrical Officer, <haakono@portalspace.no>, +47 466 14 464
