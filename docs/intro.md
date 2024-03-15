@@ -103,6 +103,8 @@ dette være nyttig for å se andre typer farevarsler som er vanlige resten av
 året.
 
 Bruk `/metalerts/2.0/archive?period=...` for å hente disse, enten som RSS eller GeoJSON.
+Merk at varslene i arkivet bruker CAP-profil versjon 1 som ikke inneholder så mye
+data som versjon 2 (både CAP XML og GeoJSON).
 
 {: .warning }
 Dersom dere ønsker å bruke [farevarselikoner](https://github.com/nrkno/yr-warning-icons)
