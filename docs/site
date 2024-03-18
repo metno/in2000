@@ -18,7 +18,7 @@ abort() {
 case "$action" in
 
     run)
-        bundle exec jekyll serve --port 2000
+        bundle exec jekyll serve --port 2000 &
         ;;
 
     blog)

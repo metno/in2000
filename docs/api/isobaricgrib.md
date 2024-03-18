@@ -33,10 +33,11 @@ For å regne ut vindustyrke og -retning må man bruke vektorregning. Flg formler
     vindstyrke = sqrt(u^2 + v^2)
     retning = atan2(u, v)
 
-Se [denne veiledningen](http://colaweb.gmu.edu/dev/clim301/lectures/wind/wind-uv) for detaljer.
+Mer informasjon finnes her:
 
-Mer informasjon om vektorer kan finnes i [hefte for
-MAT1110](https://www.uio.no/studier/emner/matnat/math/MAT1110/v06/Vektorhefte.pdf).
+- [Veiledning til utregning av vind](http://colaweb.gmu.edu/dev/clim301/lectures/wind/wind-uv)
+- [Introduksjon til vektorer](https://www.matematikk.net/side/Introduksjon_til_vektorer)
+- [Vektorhefte for MAT1110](https://www.uio.no/studier/emner/matnat/math/MAT1110/v06/Vektorhefte.pdf).
 
 ## Parsing av data
 
@@ -62,8 +63,8 @@ Denne har flere nyttige kommandolinjeverktøy man kan bruke:
 
 Eksempel på JSON-output fra `grib_ls`:
 
-    $ grib_ls -j /medusa/modpro/isobaricgrib/T_YTNB85_C_ENMI_20240314060000.bin 
-    { "messages" : [ 
+    $ grib_ls -j /medusa/modpro/isobaricgrib/T_YTNB85_C_ENMI_20240314060000.bin
+    { "messages" : [
       {
         "edition": 2,
         "centre": "enmi",

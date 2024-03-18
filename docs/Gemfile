@@ -21,6 +21,7 @@ source "https://rubygems.org"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  #gem "jekyll-mermaid"
 end
 
 gem 'liquid', '~> 4.0', '>= 4.0.4' # needed to avoid "Liquid Exception: undefined method `tainted?'"

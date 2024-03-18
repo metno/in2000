@@ -33,6 +33,10 @@ markdown: kramdown
 theme: just-the-docs
 plugins:
   - jekyll-feed
+  #- jekyll-mermaid
+
+#mermaid:
+#  src: 'path/to/mermaid.js'
 
 callouts:
   warning:
