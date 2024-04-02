@@ -20,37 +20,6 @@ spesielt beregnet for søk i geodata. Som offentlig institutt er vi derfor påla
 - [EDR spesifikasjon](https://www.ogc.org/standard/ogcapi-edr/)
 
 
-
-## Struktur
-
-```mermaid
-graph TB;
-    landingpage --> landingpage
-    landingpage --> openapi
-    landingpage --> conformance
-    landingpage --> collections
-
-    collections --> collection/1
-    collections --> collection/2
-    collections --> collection/3
-
-    collection/2 --> position
-    collection/2 --> area
-    collection/2 --> locations
-    collection/2 --> items
-
-    collection/3 --> instances
-    instances --> instance/1
-    instances --> instance/2
-    instances --> instance/3
-
-    instance/2 --> position'
-    instance/2 --> area'
-    instance/2 --> locations'
-    instance/2 --> items'
-
-```
-
 ## Testverktøy
 
 - UK Met Office sin [kartklient](https://labs.metoffice.gov.uk/edr/static/html/query.html)
