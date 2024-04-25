@@ -34,7 +34,8 @@ Oppgaven må også inkludere en rapport som beskriver behov, ønsker og
 konsekvenser av at data (ikke) er tilgjengelige, men denne kan godt flere team
 være med på å utforme. Her kan alle team gjerne gjøre et felles intervju med
 [Sola Flyklubb](https://www.solaflyklubb.no/) så de slipper å svare på samme
-spørsmål flere ganger.
+spørsmål flere ganger. Denne rapporten blir da et kapittel i den ordinære
+prosjektrapporten som leveres inn på slutten av kurset.
 
 Kontaktperson: [Lars Vagle](https://www.solaflyklubb.no/kontakt-oss)
 
