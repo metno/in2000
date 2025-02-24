@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Case 1. Rakettoppskytning
-parent: Årets caser
+parent: 2024
+grand_parent: Tidligere års caser
 date: 2024-01-26
 author: Geir Aalberg
 ---
@@ -56,7 +57,7 @@ horisontalt ved for sterk vind. Alt dette kan påvirke nedfallsområde som vi
 ønsker å minimere av sikkerhetsmessige årsaker.
 
 Vær spesielt oppmerksom på *vindskjær* (shear wind eller [wind shear](https://en.wikipedia.org/wiki/Wind_shear))
-som oppstår når vind har forskjellig retning i forskjellige høyder. 
+som oppstår når vind har forskjellig retning i forskjellige høyder.
 Dette kan føre til rotasjon i objekter som beveger seg mellom lagene.
 For å beregne dette må man bruke noen enkle [formler](ShearWindCalculationDocumentation.pdf).
 
@@ -83,7 +84,7 @@ Denne gir mye relevant data på flere av punkter under kravet, men inneholder
 ikke informasjon om vindstyrke på høyder > 10 m over bakken. Til dette trenger vi et annet
 API.
 
-- [Isobarcgrib API](/api/isobaricgrib) (GRIB2 for southern_norway)
+- [Isobarcgrib API](/api/grib) (GRIB2 for southern_norway)
 
 Her kan man laste ned filer i GRIB2-format, som gir informasjon om vind og temperatur
 på forskjellige nivåer i atmosføren. Merk at nivåene angis som trykkflater i hPa,

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Årets caser
-date: 2023-01-18
+title: 2024
+date: 2024-01-18
 has_children: true
+parent: Tidligere års caser
 has_toc: false
-nav_order: 3
+#nav_order: 3
 ---
 
 ## Kursoversikt

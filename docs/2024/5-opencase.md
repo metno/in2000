@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Case 5. Åpent case
-parent: Årets caser
+parent: 2024
+grand_parent: Tidligere års caser
 date: 2024-01-26
 author: Geir Aalberg
 ---

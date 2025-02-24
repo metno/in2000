@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Case 4. Havvarsel
-parent: Årets caser
+parent: 2024
+grand_parent: Tidligere års caser
 date: 2024-02-13
 author: Geir Aalberg og Martin Sætra
 ---

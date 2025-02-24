@@ -18,8 +18,8 @@ bruke på de forskjellige casene i kurset.
 - [Generelle API-ressurser for alle caser](./general)<br>
   Produkter og tjenester som er relevante uansett case
 
-- [Caseliste for årets kurs](./2024/)<br>
-  Ressurser spesifikt for hvert case
+- [Caseliste for årets kurs](./2025/)<br>
+  Beskrivelse og ressurser spesifikt for hvert case
 
 - [Tidligere års kurs](./old)<br>
   Caselister og annen info
@@ -31,12 +31,14 @@ etter hva dere lurer på:
 
 - api.met.no: <weatherapi-adm@met.no>
 - frost.met.no: <observasjon@met.no>
+- Yr.kart: <yr-maps@met.no>
 - havvarsel-frost.met.no: <martinls@met.no> (kun datainnhold, for teknisk hjelp bruk samme som Frost)
 - thredds.met.no: <thredds@met.no>
 - PortalSpace: <haakono@portalspace.no>
 
-Merk eposten med "IN2000" i subject-feltet så vi skjønner hva det er snakk om. Ikke send til flere adresser
-samtidig, da ender vi opp med multiple saker i forskjellige systemer som genererer mye ekstraarbeid og rot.
+Merk eposten med "IN2000" i subject-feltet så vi skjønner hva det er snakk om.
+Ikke send til flere adresser samtidig, da ender vi opp med multiple saker i
+forskjellige ticketsystemer, noe som genererer mye ekstraarbeid og rot.
 
 {% comment %}
 

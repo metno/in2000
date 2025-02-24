@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Case 2. Småfly-app
-parent: Årets caser
+parent: 2024
+grand_parent: Tidligere års caser
 date: 2024-01-26
 author: Geir Aalberg
 ---
@@ -43,7 +44,7 @@ Kontaktperson: [Lars Vagle](https://www.solaflyklubb.no/kontakt-oss)
 
 En av følgende atmosfæriske produkter fra MET:
 
-- [IsobaricGRIB](/api/isobaricgrib) (GRIB2 for southern_norway)
+- [IsobaricGRIB](/api/grib) (GRIB2 for southern_norway)
 
 Her kan man laste ned filer i GRIB2-format som gir informasjon om trykk på
 forskjellige nivåer. Dette kan vi bruke til å finne vind på forskjellige høyder.

@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Case 3. Vær- og farevarsel for yngre brukere
-parent: Årets caser
+parent: 2024
+grand_parent: Tidligere års caser
 date: 2024-01-26
 author: Geir Aalberg
 ---
@@ -43,4 +44,3 @@ alle skal kunne varsles om naturfarer som kan true liv og verdier.
 - [Frost](/frost/) - historiske observasjoner og klima
 - [Farevarsler fra NVE](https://api.nve.no/doc/) - flom, jordskred, snøskred, kart o.l. (både XML og JSON)
 - [NILU API](https://api.nilu.no/) - luftkvalitetsmålinger i større byer
-

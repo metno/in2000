@@ -11,7 +11,6 @@ author: Geir Aalberg
 ## Tjenester fra MET
 
 Disse produktene kan være nyttige for alle caser. Data fra disse utgjør størsteparten av det som vises på Yr.
-Alt som ligger på api.met.no og Frost skal hentes via IFI-proxy (hvis mulig).
 
 - [api.met.no](intro)
 - [Frost](frost)
@@ -60,6 +59,6 @@ Vi anbefaler å bruke flg verktøy for utvikling:
 
 ### Kart
 
-- [GeoJSON.io](https://geojson.io/) - testing av GeoJSON output
+- [GeoJSON.io](https://geojson.io/) eller [GeoJSON Studio](https://geojson.studio) - testing av GeoJSON output
 - [GNOME Maps](https://wiki.gnome.org/Apps/Maps) for Linux kan plotte GeoJSON-filer direkte i kartet
 - [QGIS](https://qgis.org/en/site/) - generell desktop app for geodata, kan lese GeoJSON (Add Layer > Vector) og GRIB (Add Layer > Mesh)

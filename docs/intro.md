@@ -12,26 +12,10 @@ De fleste av METs operasjonelle data leveres via api.met.no.
 ## Hvordan bruke APIet
 
 - [Betingelser for bruk av APIet](https://docs.api.met.no/doc/TermsOfService).
-  Bruk IFI-proxy mot APIet så slipper dere å tenke på autentisering, throttling og `If-Modified-Since`, og vi kan spore trafikken lettere.
+  Bruk in2000.api.met.no for API-kall så vi kan overvåke trafikken
 - [Start her](https://docs.api.met.no/doc/GettingStarted): Test ut APIet fra kommandolinjen
 - [Generell bruk av APIet](https://docs.api.met.no/doc/usage): Hvordan APIet fungerer, statuskoder o.l.
 - [FAQ](https://docs.api.met.no/doc/FAQ): Ofte stilte spørsmål ("hvorfor fungerer ikke...")
-- [Yr Utviklerportal](https://developer.yr.no/) inneholder også mye nyttig informasjon
-
-Kursledelsen ved IFI har satt opp en egen proxy som dere bør bruke for å
-kommunisere med apiet, nærmere detaljer blir gitt på forelesning. Proxyen
-fungerer kun mot api.met.no og frost.met.no, ikke andre tjenester som fx
-Havvarsel-Frost.
-
-**NB: IFI-proxyene håndterer ikke `If-Modified-Since`.** Ignorer alt som står om
-dette i Terms of Service og HOWTO. Det er heller ikke nødvendig å sette
-User-Agent så lenge dere bruker IFI-proxy.
-
-{: .warning }
-Vi har fått tilbakemeldinger på at det er problemer med proxyen, inkl.
-korrupte binærfiler (bilder og GRIB) og feil i linker fra available.
-Dersom proxyen ikke funker, bruk adressen in2000.api.met.no så vi kan
-overvåke trafikken.
 
 ## Produkter
 
@@ -72,13 +56,14 @@ Havvarsel for Norskekysten, inneholder data som strøm, bølger og overflatetemp
 ### Tekstvarsler
 
 Generelle tekstlige varsler for spesifiserte områder. Kan være nyttig bl.a. for opplesing.
+Vi anbefaler å bruke versjon 3.0 som leverer GeoJSON i stedet for XML.
 
-- [Textforecast 2.0](https://api.met.no/weatherapi/textforecast/2.0/documentation) (XML)
-- [Textforecast 3.0](https://api.met.no/weatherapi/textforecast/3.0/documentation) (GeoJSON - kun land og kyst, ikke hav)
+- [Textforecast 3.0](https://api.met.no/weatherapi/textforecast/3.0/documentation) (GeoJSON)
 
 ### Farevarsler
 
-Vi jobber denne våren med en ny versjon 2.0 (beta) som dere skal bruke i stedet for 1.1.
+Fare- og kulingvarsler for land og hav.
+Filtrer på geographicDomain hvis dere bare ønsker en av delene.
 
 - [MetAlerts](https://api.met.no/weatherapi/metalerts/2.0/documentation)
 
@@ -98,11 +83,9 @@ noen presiseringer i forhold til den forrige (dagens versjon 1.1).
 
 #### GeoJSON
 
-Vi jobber dessuten med en [eksperimentell versjon av
-farevarsler](https://api.met.no/weatherapi/metalerts/2.0/current.json)
-som pakker alt inn i GeoJSON uten at man trenger å laste ned CAP. Test gjerne
-begge versjoner og gi tilbakemelding i rapporten over hvilken metode dere synes
-er greiest å bruke.
+Varslene kan også leveres som  [GeoJSON](https://api.met.no/weatherapi/metalerts/2.0/current.json)
+så man slipper å laste ned hver eneste CAP-fil. Test gjerne begge versjoner og
+gi tilbakemelding i rapporten over hvilken metode dere synes er greiest å bruke.
 
 #### Arkiv
 
@@ -134,8 +117,12 @@ for et sett målestasjoner.
 
 - [AirQualityForecast](https://api.met.no/weatherapi/airqualityforecast/0.1/documentation)
 
-### IsobaricGRIB
+### GRIBfiles og IsobaricGRIB
 
-Nedlastningstjeneste for rasterdata for luftfart:
+Nedlastningstjeneste for rasterdata, hhv for sjø- og luftfart:
 
-- [IsobaricGRIB](/api/isobaricgrib)
+- [GRIBfiles](https://api.met.no/weatherapi/gribfiles/1.1/documentation)
+- [IsobaricGRIB](https://api.met.no/weatherapi/isobaricgrib/1.0/documentation)
+
+Disse leverer data på et format kalt [GRIB](/api/grib) som er mye brukt innen
+meteorologi.

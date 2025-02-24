@@ -9,18 +9,23 @@ author: Geir Aalberg
 
 ## Frost v0
 
-Frost er et API for observasjons- og klimadata, og fungerer ganske annerledes
-enn api.met.no. Her kan man ikke spørre etter data for tilfeldige koordinater,
-men må først finne en målestasjon med de data man ønsker for gitt periode.
+Frost er et API for observasjons- og klimadata:
 
 - [Frost API](https://frost.met.no/)
 
-Kursledelsen ved IFI har satt opp en egen proxy som dere bør bruke for å
-kommunisere med apiet, nærmere detaljer blir gitt på forelesning.
+Frost fungerer ganske annerledes enn api.met.no.
+Her kan man ikke spørre etter data for tilfeldige koordinater,
+men må først finne en målestasjon som har de datatypene man ønsker for gitt periode.
+Ikke alle målestasjoner har f.eks. sensor for måling av nedbør, og siden stasjoner
+legges ned og nye kommer opp vil måleserier også være begrenset i tid.
 
-Vanligvis krever Frost brukerregistrering og HTTP Basic Auth, men så lenge dere
-bruker IFI-proxy trenger dere ikke tenke på dette.
+For å finne stasjoner som har de data man ønsker kan det ofte være enklest
+å søke de opp på [Norsk Klimaservicesenter](https://klimaservicesenter.no/).
 
+### Autentisering
+
+Frost krever brukerregistrering ved at dere registrerer epostadresse og får
+tilsendt en nøkkel som legges inn som brukernavn (HTTP Basic Auth) på alle kall.
 
 ## Havvarsel-Frost
 

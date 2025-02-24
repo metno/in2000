@@ -12,18 +12,17 @@ MET og Havforskningsinstituttet samarbeider om flere APIer med maritime data:
 
 ## Havvarsel.no
 
-- [Havvarsel API](https://api.havvarsel.no/) - API som benyttes av havvarsel.no
-
-
+- [Havvarsel API](https://api.havvarsel.no/) - API som benyttes av bl.a. havvarsel.no
 
 ## Havvarsel-Frost
 
 - [Havvarsel-Frost API](https://havvarsel-frost.met.no/)
 
 Havvarsel-Frost fungerer noenlunde på samme måte som Frost, men er en nyere versjon.
-Det er ikke satt opp noen iFI-proxy for Havvarsel-Frost.
 
-Se også [presentasjonen om Frost](https://docs.google.com/presentation/d/10iIwhAMuO-aWkndcIlYwl86kzm9b0CEeequ-Tc2viNk/edit?usp=sharing) fra forelesning.
+Se også [presentasjonen om
+Frost](https://docs.google.com/presentation/d/10iIwhAMuO-aWkndcIlYwl86kzm9b0CEeequ-Tc2viNk/edit?usp=sharing)
+fra forelesning.
 
 ### Badetemperaturer
 
