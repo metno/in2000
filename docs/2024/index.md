@@ -23,8 +23,6 @@ has_toc: false
 - [Case 4. Havvarsel](./4-havvarsel)
 - [Case 5. Åpent case – EDR](./5-opencase)
 
-![Fordeling caser](fordeling.svg)
-
 ### Kort oversikt over obligatoriske APIer
 
 |Tjeneste|Case 1|Case 2|Case 3|Case 4|Case 5|
@@ -37,10 +35,9 @@ has_toc: false
 - † eller THREDDS
 - ‡ eller annet passende værvarsel
 
-## Ekstrajobb?
 
-God på Python og lyst på jobb i klima/luftforurensingsavdelinen hos MET?
-Vi trenger en programmerer som kan jobbe én dag i uken våren 2024 +
-fulltid to mnd i sommer, med noe slingringsmonn. Se
-[stillingsannonse](sommerjobb.pdf) for mer informasjon.
-**Obs! Søknadsfrist 4. mars!**
+![Fordeling caser](fordeling.svg)
+
+## Prisvinnere
+
+- [Artikkel](./vinnere) fra METs intranett

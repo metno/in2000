@@ -19,6 +19,6 @@ author: Geir Aalberg
 - [Case 5. Flynerd-appen](./5-flynerd)
 - [Case 6. Åpent case](./6-opencase)
 
-## Presentasjoner
+## Prisvinnere
 
-- [Zoom link](https://uio.zoom.us/j/64891569236)
+- [Artikkel](./vinnere) fra METs intranett
