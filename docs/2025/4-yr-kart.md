@@ -67,4 +67,4 @@ Kartilene bruker WebMercator-projeksjon, som er default i de fleste kartklienter
 ## Spørsmål?
 
 Kontakt <a href="mailto:yr-maps@met.no">yr-maps@met.no</a> for tekniske spørsmål
-angående kartene (men *ikke* om Android/Kotlin).
+angående kartene (men *ikke* om Android/Kotlin, der må dere spørre gruppelærer).

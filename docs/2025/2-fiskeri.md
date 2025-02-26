@@ -24,9 +24,14 @@ greit å bruke de for maritime værkart.
 
 ## Funksjonelle krav
 
-### Vise værinformasjon fra [Gribfiles](https://api.met.no/weatherapi/gribfiles/1.1/documentation) i kart ([liste](https://hjelp.yr.no/hc/en-us/articles/360009342993-GRIB-weather-data))
+### Vise værvarsel fra Gribfiles
 
-Nedbør og bølger er skalarverdier som kan vises med farger, mens vind og strøm
+Appen skal laste ned og vise nedbør, vind, strøm og bølgehøyde fra
+[Gribfiles](https://api.met.no/weatherapi/gribfiles/1.1/documentation)
+([liste](https://hjelp.yr.no/hc/en-us/articles/360009342993-GRIB-weather-data)),
+fortrinnsvis i kart.
+
+Nedbør og bølgehøyde er skalarverdier som kan vises med farger, mens vind og strøm
 er vektorer hvor dere må tegne piler eller på andre måter angi både retning og styrke.
 Dersom noen av verdiene overstiger en viss terskel (satt av bruker) skal dette
 markeres i kartet så man kan unngå å ferdes i området.
@@ -34,8 +39,9 @@ markeres i kartet så man kan unngå å ferdes i området.
 Filene for Vestlandskysten er ganske store (opptil 4.5 MB), så hvis det blir
 minneproblemer kan dere begrense kartet til enkelte deler av kysten.
 
-### Vise [kuling- og farevarsler](https://api.met.no/weatherapi/metalerts/2.0/documentation) i kartet
+### Vise farevarsel fra MetAlerts
 
+Appen må vise [kuling- og farevarsler](https://api.met.no/weatherapi/metalerts/2.0/documentation) i kartet.
 Her kan med fordel GeoJSON-varianten brukes siden denne kan leses direkte av mange
 kartklienter (f.eks. MapLibre).
 
@@ -93,6 +99,7 @@ GRIB-filer produsert av NOAA for andre deler av verden kan lastes ned
 - [FiskInfo fra BarentsWatch](https://www.barentswatch.no/fiskinfo/) med datanedlasting
 - [Kart i Fiskeridirektoratet](https://open-data-fiskeridirektoratet-fiskeridir.hub.arcgis.com/) med [demo](https://portal.fiskeridir.no/portal/apps/webappviewer/index.html?id=9aeb8c0425c3478ea021771a22d43476)
 - [Kystverket WMS](https://kartkatalog.geonorge.no/metadata/kystverket/kystverkets-wms/768a3ca6-0655-45d5-8cd5-76bd7e0e59d2)
+- [Dykkepedia](https://www.dykkepedia.com/wiki/Vrak_tabell) liste over vrak
 
 ####  Hovedled og Biled
 
@@ -137,4 +144,3 @@ Her er eksempel på hvordan lytte på en AIS-stream under Linux:
 - [Kystvær](https://www.kystverket.no/nyheter/2024/kystvar-varsensor-malinger-for-sjofarende/) - Værsensor-målinger for sjøfarende (data fra Frost)
 - [OLEX](https://olex.no/products.html) - kommersiell leverandør av kartplottere
 - [Skipper](https://github.com/norbert259/Skipper) - Båtførerapp med GRIB-nedlasting i Kotlin for Android *(merk: GPL!)*
-
