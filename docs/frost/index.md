@@ -32,3 +32,7 @@ tilsendt en nøkkel som legges inn som brukernavn (HTTP Basic Auth) på alle kal
 Det er også satt opp en egen instans av Frost-systemet for maritime
 observasjoner kalt [Havvarsel-Frost](/havvarsel), som kjører en nyere versjon av
 Frost-koden (v1) som ikke er tilgjengelig på Frost ennå.
+
+## Presentasjoner
+
+- [2025-02-28](frost_preso_2025-02-28.pdf)
