@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Guide
 parent: 2020
 grand_parent: Tidligere års caser

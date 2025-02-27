@@ -25,3 +25,7 @@ has_toc: false
 ## Fordeling caser
 
 ![Antall team per case](./Fordeling_graph.svg)
+
+## Prisvinnere
+
+- [Vinnere](./vinnere) av priser for beste app
