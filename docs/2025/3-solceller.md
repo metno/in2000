@@ -67,6 +67,7 @@ Gjerne også:
 
 ## Dokumentasjon
 
+- [Klimavariabler](./klima) som kan hentes fra Frost
 - [Solcellepanel effekt - hva er virkningsgrad?](https://www.otovo.no/blog/solcellepanel-solceller/solceller-norge-virkningsgrad/)
 - Priseksempler for installasjon: [her](https://www.fjordkraft.no/solcellepanel/solcellepanel-pris/), [her](https://prisnorge.no/2025/01/11/solcellepanel-8-prisguider-for-installasjon/), [her](https://www.solsmart.no/pris/solcellepanel), [her](https://www.boligsmart.no/pris/solcellepanel-tak) og [her](https://solceller.no/panel-pris)
 - [Regjeringens strømtiltak](https://www.regjeringen.no/no/tema/energi/regjeringens-stromtiltak/id2900232/)
