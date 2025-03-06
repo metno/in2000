@@ -37,9 +37,11 @@ Før du commiter endringer bør du teste at siten fungerer på din lokale maskin
 
 2. Installer gems og generer siten:
 
-    $ cd doc
-    $ bundle install
-    $ ./site run
+```
+$ cd doc
+$ bundle install
+$ ./site run
+```
 
 Du vil da kunne se resultatet i din browser på følgende adresse:
 

@@ -131,6 +131,7 @@ Her er eksempel på hvordan lytte på en AIS-stream under Linux:
 - [Frost](https://frost.met.no/index.html) - data fra målestasjoner rundt om i Norge (også historiske)
 - [Havvarsel API](https://api.havvarsel.no/apis/duapi/havvarsel/v2/swagger-ui.html)
 - [OceanForecast](https://api.met.no/weatherapi/oceanforecast/2.0/documentation) - punktbasert prognose for sjø og hav
+- [API for vasstandsdata](https://vannstand.kartverket.no/tideapi_no.html) - Kartverkets vannstandsdatabase
 - [Tidalwater](https://api.met.no/weatherapi/tidalwater/1.1/documentation) - tidevannstabeller for havner
 
 ### Andre
