@@ -68,11 +68,3 @@ Den har et par ekstra innstillinger som ikke trengs, og komma
 og mellomrom og slask er erstatta med koder, så den er litt verre å lese:
 
 <https://frost.met.no/observations/v0.jsonld?elements=cloud_area_fraction&levels=default&qualities=0%2C1%2C2%2C3%2C4%2C5&referencetime=2024-01-01T00%3A00%3A00Z%2F2024-02-01T23%3A59%3A59Z&sources=SN18700&timeoffsets=default&timeresolutions=PT1H%2CPT3H%2CPT6H%2CPT12H>
-
-Forøvrig så har jeg en enkel frost-wrapper hvor jeg nylig har lagt til en
-"query splitter". Altså at du kan be om en lengre tidsperiode enn frost
-godtar per kall, og den looper automatisk for deg og serverer en ferdig
-pandas dataframe:
-
-<https://gitlab.met.no/frost/frost-pandas/-/blob/master/frost2df.py?ref_type=heads#L265>
-
