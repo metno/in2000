@@ -60,7 +60,7 @@ Gjerne også:
 
 ## Datakilder
 
-- Klimadata fra [Frost](https://frost-beta.met.no/) **(obligatorisk)**
+- Klimadata fra [Frost](https://frost.met.no/) (ikke Frost-beta) **(obligatorisk)**
 - [Photovoltaic Geographical Information System (PVGIS)](https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis_en) - historisk innkommende solstråling
 - [HvaKosterStrømmen?](https://www.hvakosterstrommen.no/strompris-api) - strømpriser nå og tidligere
 - [Elhub API](https://tadata.no/providers/c6a9cb66-8b97-4b46-91c2-8225895f514b) - samler inn måledata fra alle Norges strømmålere

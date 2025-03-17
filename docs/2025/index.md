@@ -22,6 +22,10 @@ nav_order: 3
 - [Case 4. Yr-kart til allmenheten](./4-yr-kart)
 - [Case 5. Åpent case - bruk av KI](./5-open-ai)
 
+### Fordeling
+
+![Fordeling av caser](./fordeling.png)
+
 ## Prisutdeling
 
 Info kommer plutselig.
