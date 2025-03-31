@@ -83,11 +83,12 @@ Et enkelt verktøy for å visualisere GRIB-filer er [XyGrib](https://opengribs.o
 Det er også mulig å bruke [QGIS](https://qgis.org/), men det er litt mer tungvint.
 
 For å sjekke innhold i GRIB-filer anbefaler vi å bruke
-[ecCodes](https://confluence.ecmwf.int/display/ECC/ecCodes+Home).
+[ecCodes](https://confluence.ecmwf.int/display/ECC/GRIB+tools).
 Denne har flere nyttige kommandolinjeverktøy man kan bruke:
 
 - `grib_ls` - vis lag og datapunkter
 - `grib_get_data` - lister data for hvert punkt (*mye* output)
+- `grib_dump -j` - vis alt av data som JSON (*enda mer* output)
 - `grib_count` - sjekk antall datalag
 
 Eksempel på JSON-output fra `grib_ls`:
