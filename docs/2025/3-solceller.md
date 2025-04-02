@@ -36,7 +36,8 @@ Det er også mulig å få støtte til fritidsboliger.
 ## Funksjonelle krav
 
 Det forventes at brukeren selv oppgir gateadresse, og manuelt legger inn
-areal/vinkel/retning for aktuelle takflater.
+areal/vinkel/retning for aktuelle takflater, evt også virkningsgrad for aktuelle
+solcellepaneler.
 
 Må kunne:
 
@@ -58,7 +59,25 @@ Gjerne også:
 - la bruker tegne inn polygon i kart for takflate og beregne areal/innfallsvinkel
 - beregne lønnsomhet for andre [private strømkilder](https://www.enova.no/privat/alle-energitiltak/solenergi/solcelleanlegg/) (vindkraft, vannkraft, [kjernekraft](https://allthatsinteresting.com/david-hahn))
 
+Det overlates til studentene å finne passende formler (gjerne ved sammenlikning
+mot PVGIS), disse må dokumenteres i rapporten men vi tar ikke hensyn til hvor
+korrekte de er.
+
 ## Datakilder
+
+{: .note }
+Noen team har meldt at de har problemer med å finne data i Frost, og spør om det
+er greit om de kun bruker PVGIS. Svaret er nei: For det første får da MET ingen
+nyttige tilbakemeldinger på våre data, for det andre virker PVGIS å være basert
+på mangelfulle reanalyser (modellkjøringer basert på observasjoner, bl.a.
+satellittdata) hvor de plukker den mest typiske måneden fra en klimanormal for
+2005-2020.<br><br>
+Dersom det er trivielt å bruke kalkulatoren til PVGIS kan dere først hente inn
+global innkommende stråling derfra og så forsøke å beregne verdier ut fra Frost.
+Deretter kan dere sammenlikne disse med PVGIS-resultatet og vise differanser i
+appen. Hvis det er umulig å finne passende data for et sted i Frost kan dere falle
+tilbake til kun PVGIS, men dersom man velger et punkt rett ved en stasjon med
+data skal dere bruke begge.
 
 - Klimadata fra [Frost](https://frost.met.no/) **(obligatorisk)** – vi anbefaler å bruke v0, ikke Frost-beta (v1)
 - [Photovoltaic Geographical Information System (PVGIS)](https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis_en) - historisk innkommende solstråling
