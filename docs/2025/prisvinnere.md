@@ -36,10 +36,9 @@ Hamre og Neha Zahid.
 
 ![Rakettbane](./soar.png)
 
-På hhv andre og tredje plass kom Team 5 (Solrik) og Team 28 (VAFF). Førstnevnte
-hadde importert data om alle takflater i Norge og viste disse med fargeskala
-hvor egnet de var for solceller. Det andre teamet hadde laget en backend som
-konverterte kartflisene fra beta.yr-maps til ordentlige bilder med transparens.
+På hhv andre og tredje plass kom Team 5 (Solrik) og Team 54 (SunSaver). Begge
+hadde valgt case 3 og importert data om takflater for hele Norge for optimal
+beregning av effekt fra solceller.
 
 ![](solrik.png)![](vaff.png)
 
