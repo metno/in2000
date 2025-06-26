@@ -40,6 +40,6 @@ På hhv andre og tredje plass kom Team 5 (Solrik) og Team 54 (SunSaver). Begge
 hadde valgt case 3 og importert data om takflater for hele Norge for optimal
 beregning av effekt fra solceller.
 
-![](solrik.png)![](vaff.png)
+![](solrik.png)![](sunsaver.png)
 
 Imponerende innsats av alle nominerte team!
