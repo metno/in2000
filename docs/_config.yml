@@ -38,6 +38,9 @@ plugins:
 #mermaid:
 #  src: 'path/to/mermaid.js'
 
+exclude:
+- site
+
 callouts:
   warning:
     title: Advarsel
