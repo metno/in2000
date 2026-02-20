@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Klimavariabler
-parent: Årets caser
+parent: 2025
+grand_parent: Tidligere års caser
 date: 2025-02-27
 author: Ketil Tunheim
 ---

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Portalspace kravspesifikasjon
-parent: Årets caser
-#grand_parent: Tidligere års caser
+parent: 2025
+grand_parent: Tidligere års caser
 date: 2024-02-03
 author: Håkon Offernes
 ---

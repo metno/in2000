@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Case 2. Kart for fiskebåter
-parent: Årets caser
+parent: 2025
+grand_parent: Tidligere års caser
 date: 2025-01-30
 author: Geir Aalberg og Martin Sætra
 ---

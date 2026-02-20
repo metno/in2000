@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Case 5. Åpent case - bruk av KI
-parent: Årets caser
+parent: 2025
+grand_parent: Tidligere års caser
 date: 2025-01-30
 author: Geir Aalberg
 ---

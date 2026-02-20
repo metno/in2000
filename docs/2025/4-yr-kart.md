@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Case 4. Yr-kart til folket!
-parent: Årets caser
+parent: 2025
+grand_parent: Tidligere års caser
 date: 2025-01-30
 author: Geir Aalberg
 ---

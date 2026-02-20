@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Case 1. Rakettoppskytning
-parent: Årets caser
-#grand_parent: Tidligere års caser
+parent: 2025
+grand_parent: Tidligere års caser
 date: 2024-01-26
 author: Geir Aalberg
 ---

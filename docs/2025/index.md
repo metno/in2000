@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Årets caser
+title: 2025
 date: 2025-01-30
 has_children: true
+parent: Tidligere års caser
 has_toc: false
-nav_order: 3
+#nav_order: 3
 ---
 
 ## Kursoversikt
