@@ -33,6 +33,7 @@ author: Geir Aalberg
 
 - [Iceberg](https://api.met.no/weatherapi/iceberg/0.1/documentation) - satellittobservasjoner av isfjell
 - [Drifty](https://in2000.drifty.met.no/) openberg - drivbanesimuleringer (krever registrering)
+- [MetAlerts](https://api.met.no/weatherapi/metalerts/2.0/documentation) - maritime farevarsler
 
 ### Andre kartlag
 
@@ -71,7 +72,9 @@ beregnes ut fra flg variabler:
 >
 > Men i netCDF-fila som man kan laste ned vil man se at variabelen "moving"
 > blir satt til 0 når isfjellene grunnstøter. Denne kan bli 1 igjen dersom
-> tidevann hever isfjellet fra grunnen. — Knut Frode Dagestad
+> tidevann hever isfjellet fra grunnen.
+>
+> — Knut Frode Dagestad
 
 
 <!--
@@ -113,4 +116,3 @@ SAR Sea Ice Berg Concentration and Individual Icebergs Observed with Sentinel-1 
 omvendt oljedrift
 
 -->
-

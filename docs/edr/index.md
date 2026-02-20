@@ -28,7 +28,7 @@ Noen eksempler:
 - **locations** - navngitte lokasjoner (`/locations/andoya`)
 - **position** - lengde/breddegrad og høyde (`/position?coords=POINT(10.72 59.9423)&z=91` - Blindern)
 - **area** - område som polygon (`/area?coords=POLYGON((20.82 61.46,25.83 61.73,30.62 61.56,28.08 60.08,24.96 59.86,22.36 59.73,20.91 60.58,20.82 61.46))` - sørlige Finland)
-- **cube** - bounding box og høyde (`/cube?bbox=5.0,52.0,6.0,52.1&z=1000/..` luftrommet over sentrale Nederland 1000 moh)
+- **cube** - bounding box og høyde (`/cube?bbox=5.0,52.0,6.0,52.1&z=1000/..` - luftrommet over sentrale Nederland 1000 moh)
 
 For å se hvilke metoder som støttes av en collection må man se på `data_queries`
 i responsen.
@@ -40,7 +40,7 @@ Dersom tjenesten støtter det kan man også avgrense spørringer i tid:
 
 Eller filtrere output på en eller flere parametre:
 
-- `?parameter-name=air_temperature:0:mean:-P1M
+- `?parameter-name=air_temperature:0:mean:-P1M`
 - `?parameter-name=surface_snow_thickness:0:point:PT0S,precipitation_amount:2:sum:-PT1H`
 
 Dette eksemplet henter månedlig middeltemperatur for Blindern mellom 1935 og 1956 (da stasjonen var i drift)

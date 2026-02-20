@@ -13,6 +13,6 @@ author: Geir Aalberg
 
 ## Datakilder
 
-- [Frost v1](https://frost-rc.met.no/) - ny versjon, forventet lansert over sommeren
+- [Frost v1](https://frost-rc.met.no/) - ny versjon i beta, offisiell lansering forventet over sommeren
 - [EUMETNET Climate Observations](https://api.meteogate.eu/eu-eumetnet-climate-observations/v1) - aggregerte europeiske klimadata
 

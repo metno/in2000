@@ -18,7 +18,7 @@ bruke på de forskjellige casene i kurset.
 - [Generelle API-ressurser for alle caser](./general)<br>
   Produkter og tjenester som er relevante uansett case
 
-- [Caseliste for årets kurs](./2025/)<br>
+- [Caseliste for årets kurs](./2026/)<br>
   Beskrivelse og ressurser spesifikt for hvert case
 
 - [Tidligere års kurs](./old)<br>
