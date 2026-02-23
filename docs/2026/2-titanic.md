@@ -35,14 +35,20 @@ author: Geir Aalberg
 - [Drifty](https://in2000.drifty.met.no/) openberg - drivbanesimuleringer (krever registrering)
 - [MetAlerts](https://api.met.no/weatherapi/metalerts/2.0/documentation) - maritime farevarsler
 
-### Andre kartlag
+### Polaris kart
 
 ![iskant](https://victoria.met.no/wms?REQUEST=GetMap&SERVICE=WMS&VERSION=1.3.0&FORMAT=image%2Fpng&STYLES=icechart&TRANSPARENT=TRUE&TIME=2026-02-16T00%3A00%3A00Z&LAYERS=Met_Norway_Ice_Chart&WIDTH=3452&HEIGHT=1504&CRS=EPSG%3A3857&BBOX=-25144310.51397454%2C1908272.9190080315%2C17583880.838383913%2C20524495.33903906)
 
-- [WMS iskart](https://victoria.met.no/wms?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.3.0) (DIGER!)
+- [Victoria WMS](https://public-victoria.met.no/wms?service=WMS&version=1.3.0&request=GetCapabilities&format=image%2Fpng&transparent=true&group=in2000)
 
 Bruk LAYERS=Met_Norway_Ice_Chart og STYLES=icechart
 
+### Andre APIer
+
+- [Oceanforecast](https://staging.api.met.no/weatherapi/oceanforecast/2.0/documentation) - punktbasert vær- og havvarsel
+- [BarentsWatch](https://www.barentswatch.no/) - kartdata for hav og kyst
+- [AIS (Automatisk identifikasjonssystem)](https://www.kystverket.no/ais) - posisjonsdata for fartøyer (sanntid og historiske data)
+- [Havvarsel API](https://api.havvarsel.no/apis/duapi/havvarsel/v2/swagger-ui.html)
 
 ## Kommentarer
 
@@ -75,6 +81,13 @@ beregnes ut fra flg variabler:
 > tidevann hever isfjellet fra grunnen.
 >
 > — Knut Frode Dagestad
+
+## Se også
+
+- [ArcticInfo](https://www.barentswatch.no/arcticinfo/) - tjeneste for skipstrafikk
+- [cryo.met.no](https://cryo.met.no/) - portal for arktis
+
+
 
 
 <!--

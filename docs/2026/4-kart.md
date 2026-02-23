@@ -7,8 +7,15 @@ date: 2026-02-18
 author: Geir Aalberg
 ---
 
+![Vind- og nedbørskart fra GeoWeb](geoweb.png)
+
 ## Bakgrunn
 
+MET har lansert en ny karttjeneste [Victoria](/kart/victoria.html), basert
+på WMS-formatet som støttes av de fleste kartklienter. Denne tjenesten erstatter
+mange av de gamle WMS-tjenestene på instututtet som nå er slått av eller utfases.
+Vi trenger hjelp til å teste ut funksjonaliteten og finne evt feil. Gi gjerne
+tilbakemeldinger i rapporten eller evalueringsskjemaet ved slutten av kurset.
 
 ## Funksjonelle krav
 

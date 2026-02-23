@@ -7,10 +7,15 @@ date: 2026-02-20
 author: Geir Aalberg
 ---
 
+![](Victoria.png)
 
-[Victoria](https://public-victoria.met.no/docs) er den nye offentlige karttjenesten fra MET, oppkalt etter det første
-[skipet](https://en.wikipedia.org/wiki/Victoria_(ship)) som gjorde jordomseiling.
+[Victoria](https://public-victoria.met.no/docs) er den nye WMS-baserte
+offentlige karttjenesten fra MET, oppkalt etter det første
+[skipet](https://en.wikipedia.org/wiki/Victoria_(ship)) som gjorde
+jordomseiling.
 
+For en introduksjon til WMS, se [tutorial fra
+NOAA](https://sos.noaa.gov/support/sos/how-to/wms-tutorial/all/).
 
 ## WMS
 
@@ -73,7 +78,7 @@ Vi anbefaler å bruke flg layers:
 |precipitation_amount_1h_ec_vdiv_1h_calculations|Precipitation amount 1h in ECMWF 1 h|
 |wind_10m_vector_ec_vdiv_1h_calculations|Wind 10m vector in ECMWF 1 h|
 
-------------------------------------
+<!--
 
 ## Layers per modell
 
@@ -190,3 +195,4 @@ Vi anbefaler å bruke flg layers:
     wind_pl_speed_knots_ec_vdiv_1h_calculations
     wind_pl_vector_ec_vdiv_1h_calculations
 
+-->
