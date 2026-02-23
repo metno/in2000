@@ -21,3 +21,17 @@ nav_order: 3
 - [Case 3. Klimastatus](./3-klima)
 - [Case 4. Kart til allmenheten](./4-kart)
 - [Case 5. Åpent case - bruk av KI](./5-open-ai)
+
+## Kontaktinfo
+
+For spørsmål vedr METs tjenester, send en epost til en **(og kun én)** av følgende adresser alt
+etter hva dere lurer på:
+
+- api.met.no: <weatherapi-adm@met.no>
+- frost.met.no: <observasjon@met.no>
+- Drifty: [Vegard Bønes](mailto:vegardb@met.no)
+- PortalSpace: [Håkon Offernes](haakono@portalspace.no)
+
+Merk eposten med "IN2000" i subject-feltet så vi skjønner hva det er snakk om.
+Ikke send epost til flere adresser samtidig, da ender vi opp med multiple saker i
+forskjellige ticketsystemer, noe som genererer mye støy, kaos og ekstraarbeid.

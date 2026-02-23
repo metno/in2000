@@ -24,22 +24,6 @@ bruke på de forskjellige casene i kurset.
 - [Tidligere års kurs](./old)<br>
   Caselister og annen info
 
-## Kontaktinfo
-
-For spørsmål vedr METs tjenester, send en epost til en **(og kun én)** av følgende adresser alt
-etter hva dere lurer på:
-
-- api.met.no: <weatherapi-adm@met.no>
-- frost.met.no: <observasjon@met.no>
-- Yr.kart: <yr-maps@met.no>
-- havvarsel-frost.met.no: <martinls@met.no> (kun datainnhold, for teknisk hjelp bruk samme som Frost)
-- thredds.met.no: <thredds@met.no>
-- PortalSpace: <haakono@portalspace.no>
-
-Merk eposten med "IN2000" i subject-feltet så vi skjønner hva det er snakk om.
-Ikke send til flere adresser samtidig, da ender vi opp med multiple saker i
-forskjellige ticketsystemer, noe som genererer mye ekstraarbeid og rot.
-
 {% comment %}
 
 ## Nyheter
@@ -59,10 +43,11 @@ forskjellige ticketsystemer, noe som genererer mye ekstraarbeid og rot.
 
 ## Lisensiering og kreditering
 
-Alt innhold på disse sidene kan lastes ned fra
+All tekst på disse sidene kan lastes ned fra
 [GitHub](https://github.com/metno/in2000/) og er lisensiert under Norsk lisens
 for offentlige data (NLOD) og Creative Commons 4.0 BY International, se [Frie
 meteorologiske data](https://www.met.no/frie-meteorologiske-data/lisensiering-og-kreditering).
+Det samme gjelder illustrasjoner dersom ikke annet er angitt.
 
 Innholdet er generert vha [Jekyll](https://jekyllrb.com/) og [Just the
 Docs](https://github.com/just-the-docs/just-the-docs).
