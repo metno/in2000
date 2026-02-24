@@ -35,9 +35,15 @@ forvrengte jo lenger man kommer mot polene. Dere må derfor bruke
 [Haversines formel](https://www.w3tutorials.net/blog/calculate-distance-between-two-latitude-longitude-points-haversine-formula/)
 for å beregne distansen mellom hvert veipunkt.
 
-Siden vi forutsetter at det ikke er snakk om isbrytere må man også holde avstand
+Man bør være varsom med å ferdes i havområder hvor det er utstedt farevarsel.
+Appen må derfor vise disse som polygoner på kartet. Ved å filtrere på
+`geographicDomain=marine` får dere kun [varsler som gjelder til
+havs](https://api.met.no/weatherapi/metalerts/2.0/current.json?geographicDomain=marine).
+
+Siden vi forutsetter at det ikke er snakk om isbrytere bør man også holde avstand
 til polarisen. Her kan dere fx hente kart fra [Victoria](/kart/victoria) – bruk
-kartlaget `Met_Norway_Ice_Chart`.
+kartlaget `Met_Norway_Ice_Chart`. Det blir da opp til brukeren å sørge for å
+plotte trygg kurs.
 
 Hvis dere ønsker kan dere også korrigere farten vha strømprognose i
 Oceanforecast, men det er ikke noe krav siden den ikke har historiske data.
@@ -76,6 +82,11 @@ beregnes ut fra flg variabler:
 - `IA_BLN`: Maximum horizontal iceberg length in meters at waterline level
 - `BRGARE`: Total iceberg area in square meters
 
+{: .note }
+Siden det ikke er så mange isfjell i juni bør man i appen ha mulighet til å
+velge tidspunkt i fortiden. Både Iceberg, Drifty og MetAlerts har arkiverte data
+for en viss tid tilbake.
+
 ## Datakilder
 
 ### Obligatoriske
@@ -90,7 +101,7 @@ beregnes ut fra flg variabler:
 
 Bruk LAYERS=Met_Norway_Ice_Chart og STYLES=icechart ([eksempel](https://victoria.met.no/wms?REQUEST=GetMap&SERVICE=WMS&VERSION=1.3.0&FORMAT=image%2Fpng&STYLES=icechart&TRANSPARENT=TRUE&TIME=2026-02-16T00%3A00%3A00Z&LAYERS=Met_Norway_Ice_Chart&WIDTH=3452&HEIGHT=1504&CRS=EPSG%3A3857&BBOX=-25144310.51397454%2C1908272.9190080315%2C17583880.838383913%2C20524495.33903906))
 
-### Andre APIer
+### Andre mulige APIer
 
 - [Oceanforecast](https://staging.api.met.no/weatherapi/oceanforecast/2.0/documentation) - punktbasert vær- og havvarsel
 - [BarentsWatch](https://www.barentswatch.no/) - kartdata for hav og kyst

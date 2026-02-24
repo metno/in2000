@@ -14,6 +14,7 @@ De fleste av METs operasjonelle data leveres via api.met.no.
 - [Betingelser for bruk av APIet](https://docs.api.met.no/doc/TermsOfService).
   Bruk in2000.api.met.no for API-kall så vi kan overvåke trafikken
 - [Start her](https://docs.api.met.no/doc/GettingStarted): Test ut APIet fra kommandolinjen
+- **Husk å identifisere dere ved å sende User-Agent header i spørringen!** Verdien skal være à la "IN2000 Team 10"
 - [Generell bruk av APIet](https://docs.api.met.no/doc/usage): Hvordan APIet fungerer, statuskoder o.l.
 - [FAQ](https://docs.api.met.no/doc/FAQ): Ofte stilte spørsmål ("hvorfor fungerer ikke...")
 

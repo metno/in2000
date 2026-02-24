@@ -57,7 +57,7 @@ Mer informasjon finnes her:
 
 - [Veiledning til utregning av vind](http://colaweb.gmu.edu/dev/clim301/lectures/wind/wind-uv)
 - [Introduksjon til vektorer](https://www.matematikk.net/side/Introduksjon_til_vektorer)
-- [Vektorhefte for MAT1110](https://www.uio.no/studier/emner/matnat/math/MAT1110/v06/Vektorhefte.pdf).
+- [Formelsamling for MAT1110](https://www.uio.no/studier/emner/matnat/math/MAT1110/v26/formelsamlingmat1110.pdf).
 
 #### Beregning av høyde
 
@@ -78,9 +78,6 @@ ut fra flg kjente variabler:
 ## Verktøy
 
 ### GRIB verktøy
-
-Et enkelt verktøy for å visualisere GRIB-filer er [XyGrib](https://opengribs.org/en/xygrib).
-Det er også mulig å bruke [QGIS](https://qgis.org/), men det er litt mer tungvint.
 
 For å sjekke innhold i GRIB-filer anbefaler vi å bruke
 [ecCodes](https://confluence.ecmwf.int/display/ECC/GRIB+tools).
@@ -114,6 +111,7 @@ $ grib_ls -j /medusa/modpro/isobaricgrib/T_YTNB85_C_ENMI_20240314060000.bin
 For visualisering av GRIB-filer anbefaler vi også [XyGrib](https://opengribs.org/en/xygrib).
 Merk at denne er laget primært for sjøfart og ikke greier å vise alle parametre
 i høyden (fx vind). Den kan heller ikke parse GRIB1-filer fra IsobaricGRIB.
+Det er også mulig å bruke [QGIS](https://qgis.org/), men det er litt mer tungvint.
 
 ### Parsing av GRIB-filer
 

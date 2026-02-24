@@ -28,14 +28,22 @@ team som har valgt caset vil dere få tilsendt brukernavn og passord.
 - <https://in2000.drifty.met.no/> Drifty testserver
   - Autentisering med HTTP Basic Auth, send epost til [Vegard Bønes](mailto:vegardb@met.no) for passord
   - Tilgjengelige objekt- og oljetyper kan finnes i <https://in2000.drifty.met.no/openapi.yaml>
-- <https://opendrift.github.io/> - kildekode til Drifty
+- <https://opendrift.github.io/> - kildekode til OpenDrift (drivbanemodellen som brukes i Drifty)
 
 ## Eksempel:
 
 - Kall: se [kildekode](https://opendrift.github.io/)
 - Resultat: <https://in2000.drifty.met.no/api/simulation/ccaf8347-a819-438d-aa80-1ec57f6341a4/result>
 
-## Programvare for debugging av NetCDF på PC:
+## Programvare
 
-- ncdump (vis data og metadata - se [eksempel](https://docs.api.met.no/doc/thredds))
-- fimex (nedlasting og konvertering)
+### For Kotlin/Java
+
+- [netcdf-java](https://www.unidata.ucar.edu/software/netcdf-java/) fra Unidata.
+
+### For debugging av NetCDF på PC:
+
+- ncdump - linux kommandolinjeverktøy for å inspisere data/metadata
+- [fimex](https://github.com/metno/fimex/wiki) - C-bibliotek og kommandolinjeverktøy for nedlasting og konvertering
+
+Se <https://docs.api.met.no/doc/thredds> for eksempler
