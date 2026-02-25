@@ -7,7 +7,12 @@ date: 2026-01-30
 author: Geir Aalberg
 ---
 
-![Willy Stöwer: Der Untergang der "Titanic"](titanic.jpg)
+<figure>
+    <img src="titanic.jpg" alt="Der Untergang der Titanic">
+    <figcaption>Willy Stöwer: Der Untergang der "Titanic" (public domain)</figcaption>
+</figure>
+
+![]()
 
 
 ## Bakgrunn
@@ -25,8 +30,8 @@ Service](https://marine.copernicus.eu/).
 ### 1. Plotte skipskurs
 
 Man bør kunne legge inn punkter på kartet og beregne tidspunkt for når man
-ankommer hvert veipunkt. Et containerskip bruker typisk 10-20 dager på å krysse
-Atlanteren. Merk at en skipskurs utgjør en
+ankommer hvert veipunkt, ut fra skipets gjennomsnittsfart i knop. Et containerskip
+bruker typisk 10-20 dager på å krysse Atlanteren. Merk at en rett skipskurs utgjør en
 [storsirkel](https://no.wikipedia.org/wiki/Storsirkel) på havoverflaten, noe som
 ikke alltid utgjør en rett linje på mange kart. Fordelen med
 [Mercator-projeksjon](https://en.wikipedia.org/wiki/Mercator_projection) er
@@ -85,7 +90,7 @@ beregnes ut fra flg variabler:
 {: .note }
 Siden det ikke er så mange isfjell i juni bør man i appen ha mulighet til å
 velge tidspunkt i fortiden. Både Iceberg, Drifty og MetAlerts har arkiverte data
-for en viss tid tilbake.
+for flere år tilbake.
 
 ## Datakilder
 
@@ -95,11 +100,10 @@ for en viss tid tilbake.
 - [Drifty](/drifty/) openberg - drivbanesimuleringer
 - [MetAlerts](https://api.met.no/weatherapi/metalerts/2.0/documentation) - maritime farevarsler
 
-### Polaris kart
+### Kart over polaris
 
-- [Victoria WMS](https://public-victoria.met.no/wms?service=WMS&version=1.3.0&request=GetCapabilities&format=image%2Fpng&transparent=true&group=in2000)
-
-Bruk LAYERS=Met_Norway_Ice_Chart og STYLES=icechart ([eksempel](https://victoria.met.no/wms?REQUEST=GetMap&SERVICE=WMS&VERSION=1.3.0&FORMAT=image%2Fpng&STYLES=icechart&TRANSPARENT=TRUE&TIME=2026-02-16T00%3A00%3A00Z&LAYERS=Met_Norway_Ice_Chart&WIDTH=3452&HEIGHT=1504&CRS=EPSG%3A3857&BBOX=-25144310.51397454%2C1908272.9190080315%2C17583880.838383913%2C20524495.33903906))
+- [Victoria WMS](https://public-victoria.met.no/wms?service=WMS&version=1.3.0&request=GetCapabilities&format=image%2Fpng&transparent=true&group=in2000) –
+  bruk `LAYERS=Met_Norway_Ice_Chart` og `STYLES=icechart` ([eksempel](https://victoria.met.no/wms?REQUEST=GetMap&SERVICE=WMS&VERSION=1.3.0&FORMAT=image%2Fpng&STYLES=icechart&TRANSPARENT=TRUE&TIME=2026-02-16T00%3A00%3A00Z&LAYERS=Met_Norway_Ice_Chart&WIDTH=3452&HEIGHT=1504&CRS=EPSG%3A3857&BBOX=-25144310.51397454%2C1908272.9190080315%2C17583880.838383913%2C20524495.33903906))
 
 ### Andre mulige APIer
 
