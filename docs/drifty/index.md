@@ -17,6 +17,10 @@ redningstjenester for å se hvordan ting i havet beveger seg. Eksempler:
 - skip i havsnød
 - isfjell
 
+Modellen startes ved å sende en POST-request med input-data i JSON-format som body.
+
+![Swagger UI](iceberg_drift.png)
+
 Outputformat er enten bilder eller NetCDF-filer. For sistnevnte må man i Kotlin bruke
 Java-biblioteket [netcdf-java](https://www.unidata.ucar.edu/software/netcdf-java/) fra Unidata.
 
@@ -26,14 +30,14 @@ team som har valgt caset vil dere få tilsendt brukernavn og passord.
 ## Datakilder:
 
 - <https://in2000.drifty.met.no/> Drifty testserver
-  - Autentisering med HTTP Basic Auth, send epost til [Vegard Bønes](mailto:vegardb@met.no) for passord
+  - Autentisering med HTTP Basic Auth, de teamene som velger caset vil få tilsendt brukernavn og passord
   - Tilgjengelige objekt- og oljetyper kan finnes i <https://in2000.drifty.met.no/openapi.yaml>
 - <https://opendrift.github.io/> - kildekode til OpenDrift (drivbanemodellen som brukes i Drifty)
 
 ## Eksempel:
 
-- Kall: se [kildekode](https://opendrift.github.io/)
-- Resultat: <https://in2000.drifty.met.no/api/simulation/ccaf8347-a819-438d-aa80-1ec57f6341a4/result>
+- Kall: se [OpenDrift kildekode](https://opendrift.github.io/)
+- Resultat: <https://in2000.drifty.met.no/api/simulation/ccaf8347-a819-438d-aa80-1ec57f6341a4/result> **(BROKEN)**
 
 ## Programvare
 

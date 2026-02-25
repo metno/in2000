@@ -7,7 +7,7 @@ date: 2026-01-30
 author: Geir Aalberg
 ---
 
-
+![Vær-robot](ai_weather.jpg)
 
 ## Bakgrunn
 
@@ -28,6 +28,12 @@ Locationforecast og MetAlerts, og vi håper å få på plass kobling mot Frost A
 Har dere ønsker om kobling mot flere datakilder hos MET tar vi gjerne mot forslag.
 
 
+Talegjenkjenning?
+
+Kom med ønsker om ønsket funksjonalitet
+
+Åpenbare standardprompts?
+
 ## Datakilder
 
 - [MET MCP-server](https://webapi.met.no/mcp-docs/) - **obligatorisk**
@@ -40,6 +46,7 @@ Eventuelt kan dere også gjerne skrive deres egen MCP server hvis dere har lyst.
 ## Dokumentasjon
 
 - [What is the Model Context Protocol (MCP)?](https://modelcontextprotocol.io/docs/getting-started/intro)
+- [Eksempel på hvordan bygge klient i Kotlin](https://modelcontextprotocol.io/docs/develop/build-client) - (forutsetter Claude)
 - [Connect to remote MCP Servers](https://modelcontextprotocol.io/docs/develop/connect-remote-servers)
 - [Add an MCP server in Android Studio](https://developer.android.com/studio/gemini/add-mcp-server)
 

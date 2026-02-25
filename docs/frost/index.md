@@ -30,6 +30,8 @@ Frost v0 er planlagt å utfases høsten 2026.
 
 Den nye versjonen, som i vårsemesteret 2026 er i beta er planlagt å avløse v0 senere på året.
 Endringer underveis må påregnes, men vi vil forsøke å kommunisere disse i god tid.
+I betaperioden vil ikke alle data være tilgjengelige i starten, i så fall kan det lønne
+seg å sjekke om de finnes i v0.
 
 - [Frost API v1](https://frost-rc.met.no/)
 
