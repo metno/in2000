@@ -46,7 +46,8 @@ Google.
 
 ### KI-demo: MET MCP-server
 
-Foredragsholder: Håvard Futsæter <havardf@met.no>
+Håvard Futsæter <havardf@met.no> holder eget digitalt foredrag tirsdag 3. mars
+kl 10:30 – 11:30. Link til videomøte gis senere.
 
 {% comment %}
 - Tuesday 3 Mar 2026 10:30–11:30

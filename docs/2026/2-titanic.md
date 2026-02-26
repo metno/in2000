@@ -73,7 +73,9 @@ fra skipets posisjon på samme tid.
 ### 3. Beregne drivbaner i Drifty
 
 Hvis man finner et isfjell som ser ut til å utgjøre en fare for valgt kurs,
-består oppgaven å kjøre en simulering for dette i Drifty.
+består oppgaven å kjøre en simulering for dette i Drifty og plotte estimerte
+drivbaner på kartet sammen med valgt rute.
+
 Legg merke til at observasjonen kan være fra flere dager tilbake, så da må
 korrekt starttidspunkt angis i input til Drifty. Så må dere sammenlikne
 resultatet (som er et sett med simulerte baner) og finne ut hvor mange som er
