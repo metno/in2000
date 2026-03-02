@@ -57,17 +57,28 @@ Appen bør komme med anbefalinger på klimatilpasning/andre tiltak for valgte m�
 Appen bør vise på kart områder som er spesielt utsatt for naturskader.
 
 Det bør være mulig å vise klimastatistikk (vind, nedbør, snømengde) for valgte
-områder, fx ved aggregerte tidsserier fra meteorologiske målestasjoner i
+områder.  ved aggregerte tidsserier fra meteorologiske målestasjoner i
 nærheten, gjerne for hele Europa hvis dere greier å finne nok data.
 
 ## Datakilder
 
 ### Klimadata
 
-- [Frost v1](https://frost-rc.met.no/) - ny versjon i beta, offisiell lansering forventet over sommeren
+Begge versjoner av Frost har observasjonsdata, men aggregerte data (fx
+middeltemperatur/mnd eller nedbør per døgn) er ikke kopiert inn i v1 ennå.
+For disse bør man bruke v0 hvis man ikke finner de i v1.
+
+- [Frost v0](https://frost.met.no/) - dagens versjon (under utfasing)
+- [Frost v1](https://frost-rc.met.no/) - ny versjon i beta, lanseres til høsten
 - [EUMETNET Climate Observations](https://api.meteogate.eu/eu-eumetnet-climate-observations/v1) - aggregerte europeiske klimadata
+
+I tillegg anbefaler vi SeKlima for manuelt å finne data:
+
+- [seklima.met.no](https://seklima.met.no/) - GUI, ikke API
 
 ### Karttjenester
 
 - [NVEs Kartkatalog](https://kartkatalog.nve.no/#wms) . har bl.a. flom- og skredkart i WMS-format
 - [NVE Sikringshåndbok](https://veiledere.nve.no/sikringshandboka/moduler/modul-f1-300-mulige-tiltak-mot-flom-og-oversvommelse/) - Mulige tiltak mot flom og oversvømmelse
+
+

@@ -24,14 +24,18 @@ For å finne stasjoner som har de data man ønsker kan det ofte være enklest
 
 - [Frost API v0](https://frost.met.no/)
 
-Frost v0 er planlagt å utfases høsten 2026.
+Frost har vært METs primære kilde for observasjons- og klimadata siden 2017.
+Dagens versjon (v0) er planlagt å utfases høsten 2026, for å erstattes av v1.
 
 ### Frost v1
 
 Den nye versjonen, som i vårsemesteret 2026 er i beta er planlagt å avløse v0 senere på året.
+Tidligere års studenter har kommentert at den var enklere å bruke enn v0.
 Endringer underveis må påregnes, men vi vil forsøke å kommunisere disse i god tid.
-I betaperioden vil ikke alle data være tilgjengelige i starten, i så fall kan det lønne
-seg å sjekke om de finnes i v0.
+
+Det meste av observasjonsdata skal være kopiert over til v1, men den mangler fortsatt
+endel aggregerte data (fx middeltemperatur eller akkumulert nedbør per måned). Hvis
+man ikke finner disse på frost-rc må man bruke Frost v0.
 
 - [Frost API v1](https://frost-rc.met.no/)
 

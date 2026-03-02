@@ -74,7 +74,8 @@ fra skipets posisjon på samme tid.
 
 Hvis man finner et isfjell som ser ut til å utgjøre en fare for valgt kurs,
 består oppgaven å kjøre en simulering for dette i Drifty og plotte estimerte
-drivbaner på kartet sammen med valgt rute.
+drivbaner på kartet sammen med valgt rute. Av kapasitetshensyn bør appen ikke
+kjøre mer enn én simularing om gangen.
 
 Legg merke til at observasjonen kan være fra flere dager tilbake, så da må
 korrekt starttidspunkt angis i input til Drifty. Så må dere sammenlikne
