@@ -31,17 +31,11 @@ Mer tekst kommer
 
 ## KI – MET MCP-server
 
-MET har laget en prototype på en MCP-server som vi ønsker å teste.
+MET har laget en prototype på en MCP-server som er åpen for testing.
 
 - [MET MCP-server](https://webapi.met.no/mcp-docs/) - se [introduksjon](/ai/mcp)
 
-Håvard Futsæter <havardf@met.no> holder eget digitalt foredrag tirsdag 3. mars
-kl 10:30 – 11:30 på [Zoom](https://uio.zoom.us/j/7259977899) med flg innhold:
-
-- Hva er MCP-protokollen?
-- Presentasjon av METs MCP-server (prototype)
-- Demo av hvordan kode agent med copilot (mest for MET-ansatte)
-- Demo av hvordan kode agent mot lokal LLM (kjørende på laptop)
-
-Foredraget er åpent for både studenter og MET-ansatte, og vil bli tatt opp
-(kun for studentene).
+Merk at denne ikke er satt opp for IN2000, men etter påtrykk fra brukere av
+api.met.no. Det er foreløpig uvisst om IFI har LLM-ressurser som kan benytte
+MCP, i så fall er det mulig å kjøre en lokal instans av [Ollama](https://ollama.com/)
+med [gpt-oss](https://ollama.com/library/gpt-oss) på en server.

@@ -20,7 +20,7 @@ nav_order: 3
 - [Case 2. Redd Titanic!](./2-titanic)
 - [Case 3. Klimastatus](./3-klima)
 - [Case 4. Kart til allmenheten](./4-kart)
-- [Case 5. Åpent case - bruk av KI](./5-open-ai)
+- [Case 5. Åpent case](./5-open)
 
 ## Kontaktinfo
 

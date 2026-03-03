@@ -18,8 +18,8 @@ varsler, og mer er i kjømda.
 
 En av tingene vi jobber med er en MCP-server, som er et eget grensesnitt for
 KI-baserte agenter. Denne har allerede koblinger mot Locationforecast og
-MetAlerts, og vi håper å få på plass kobling mot Frost ASAP. Har dere ønsker om
-kobling mot flere features tar vi gjerne mot forslag.
+MetAlerts, og vi håper å få på plass kobling mot Frost ASAP. Vi tar gjerne imot
+forslag om nye tjenester og features som kan integreres.
 
 MCP-serveren skal i prinsippet fungere mot alle AI-modeller som støtter MCP (dvs
 de fleste), men vi har bare testet den med Copilot og Claude. Det er usikkert om
@@ -33,8 +33,9 @@ før de velger å bruke serveren.
 
 ## Dokumentasjon
 
+- [Presentasjon](/ai/MET_Norway_MCP_server.pdf) fra MET 3. mars
 - [What is the Model Context Protocol (MCP)?](https://modelcontextprotocol.io/docs/getting-started/intro)
 - [Eksempel på hvordan bygge klient i Kotlin](https://modelcontextprotocol.io/docs/develop/build-client) - (forutsetter Claude)
 - [Connect to remote MCP Servers](https://modelcontextprotocol.io/docs/develop/connect-remote-servers)
 - [Add an MCP server in Android Studio](https://developer.android.com/studio/gemini/add-mcp-server)
-
+- [Ollama](https://ollama.com/) med [gpt-oss](https://ollama.com/library/gpt-oss)
