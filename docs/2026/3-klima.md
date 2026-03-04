@@ -57,8 +57,11 @@ Appen bør komme med anbefalinger på klimatilpasning/andre tiltak for valgte m�
 Appen bør vise på kart områder som er spesielt utsatt for naturskader.
 
 Det bør være mulig å vise klimastatistikk (vind, nedbør, snømengde) for valgte
-områder.  ved aggregerte tidsserier fra meteorologiske målestasjoner i
-nærheten, gjerne for hele Europa hvis dere greier å finne nok data.
+områder. Anbefaler bruk av aggregerte tidsserier fra meteorologiske målestasjoner i
+nærheten, gjerne for hele Europa hvis dere greier å finne nok data. Slik gjør de
+det på Wikipedia:
+
+![Klima for Oslo tabell](./oslo_climate.png)
 
 ## Datakilder
 
@@ -80,5 +83,3 @@ I tillegg anbefaler vi SeKlima for manuelt å finne data:
 
 - [NVEs Kartkatalog](https://kartkatalog.nve.no/#wms) . har bl.a. flom- og skredkart i WMS-format
 - [NVE Sikringshåndbok](https://veiledere.nve.no/sikringshandboka/moduler/modul-f1-300-mulige-tiltak-mot-flom-og-oversvommelse/) - Mulige tiltak mot flom og oversvømmelse
-
-
