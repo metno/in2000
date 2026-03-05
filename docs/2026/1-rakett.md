@@ -64,11 +64,21 @@ legges ut som en egen instans. Det kjøres nye simuleringer hver tredje time,
 og man kan finne kjøringer for tre dager tilbake. Det er normalt ingen grunn
 til å bruke annet enn den nyeste kjøringen (siste instans i listen).
 
+PortalSpace kommer sannsynligvis til å skyte opp fra [Spaceport
+Utsira](https://www.uisaerospace.no/spaceport-utsira), som tilfeldigvis allerede
+ligger inne i Interpol:
+
 - <https://interpol.met.no/collections/meps-det-vertical/instances> - liste over modellkjøringer
-- <https://interpol.met.no/collections/meps-det-vdiv/instances/2026-02-24T06:00Z/locations> - liste over lokasjoner (endre dato)
-- <https://interpol.met.no/collections/meps-det-vdiv/instances/2026-02-24T06:00Z/locations/andoya> - data for Andøya (endre dato)
+- <https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-05T09:00Z/locations> - liste over lokasjoner
+- <https://interpol.met.no/collections/meps-det-vertical/instances/2026-03-05T09:00Z/locations/utsira> - data for Utsira
+
+Siden modellkjøringer kommer og går må dere sjekke `/instances` for å finne
+siste modellkjøring og bruke denne i de to siste linkene.
 
 ### IsobaricGRIB
+
+Denne tjenesten har griddede data for hele Sør-Norge, så kan brukes for
+tilfeldige posisjoner innen dekningsområdet.
 
 - [Isobarcgrib API](/api/grib) (GRIB2 for southern_norway)
 
