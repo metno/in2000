@@ -31,6 +31,7 @@ etter hva dere lurer på:
 - frost.met.no: <observasjon@met.no>
 - Drifty: [Vegard Bønes](mailto:vegardb@met.no)
 - PortalSpace: [Håkon Offernes](haakono@portalspace.no)
+- MCP-server: <mcp-server@met.no>
 
 Merk eposten med "IN2000" i subject-feltet så vi skjønner hva det er snakk om.
 Ikke send epost til flere adresser samtidig, da ender vi opp med multiple saker i

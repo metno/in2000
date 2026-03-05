@@ -39,3 +39,7 @@ før de velger å bruke serveren.
 - [Connect to remote MCP Servers](https://modelcontextprotocol.io/docs/develop/connect-remote-servers)
 - [Add an MCP server in Android Studio](https://developer.android.com/studio/gemini/add-mcp-server)
 - [Ollama](https://ollama.com/) med [gpt-oss](https://ollama.com/library/gpt-oss)
+
+## Kontakt
+
+Ved spørsmål, send epost til <mcp-server@met.no>.

@@ -31,6 +31,20 @@ heller vil bruke denne):
 Deres [datakatalog](https://www.vegvesen.no/fag/teknologi/apne-data/sok-i-dataportalen/)
 har også trafikkstatistikk, miljødata m.m.
 
+## MeteoGate
+
+MET samarbeider med flere andre meteorologiske institutter med å levere data til
+en felles portaltjeneste. Dette skal gjøre det mulig for brukere å finne alle
+europeiske data på ett sentralt sted, uten å måtte lære seg 40 forskjellige
+grensesnitt/APIer.
+
+På sikt kan det kanskje også føre til at hvert land ikke lenger vil tilby egne
+APIer, men i stedet henvise til portalen. Vi ønsker derfor å lære om brukernes
+erfaringer med å bruke denne nye tjenesten. Merk at deler av tjenesten krever
+registrering.
+
+- [MeteoGate APIs](https://meteogate.eu/) - europeisk hub for meteorologiske data
+
 ## Radardata
 
 Radarobservasjoner er den beste kilden for å varsle nedbør.
@@ -43,8 +57,8 @@ Disse må dekodes før dataene kan plottes på kart.
 
 - [OpenRadarData API](https://radar.meteogate.eu/api/docs) -  European weather radar observations from OPERA-EUMETNET
 
-Begge bruker et [EDR](/edr/)-grensesnitt, i likhet med mange andre tjenster
-fra de europeiske meteorologiske instituttene.
+Begge bruker et [EDR](/edr/)-grensesnitt, som er i ferd med å bli en standard for
+alle tjenster fra de europeiske meteorologiske instituttene.
 
 ## Felles datakatalog
 
@@ -57,9 +71,9 @@ har Kartverket for geofaglige data.
 Siden MET bruker mye tid på å publisere metadata om våre tjenester på disse
 portalene, ønsker vi å vite mer om hvor godt kjent disse er og hvor lette de
 er å bruke. Oppgaven blir å lete litt rundt i disse katalogene og finne noen data dere
-synes er interessante, og kombinere disse med værdata fra MET i en app.
-Prosessen må dokumenteres, med en vurdering av disse portalene.
-
+synes er interessante (både fra oss og andre produsenter), og kombinere disse
+med værdata fra MET i en app. Prosessen må dokumenteres, med en vurdering av
+disse portalene.
 
 ## KI – MCP-server
 

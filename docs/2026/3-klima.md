@@ -73,11 +73,14 @@ For disse bør man bruke v0 hvis man ikke finner de i v1.
 
 - [Frost v0](https://frost.met.no/) - dagens versjon (under utfasing)
 - [Frost v1](https://frost-rc.met.no/) - ny versjon i beta, lanseres til høsten
-- [EUMETNET Climate Observations](https://api.meteogate.eu/eu-eumetnet-climate-observations/v1) - aggregerte europeiske klimadata
 
 I tillegg anbefaler vi SeKlima for manuelt å finne data:
 
 - [seklima.met.no](https://seklima.met.no/) - GUI, ikke API
+
+Hvis man ønsker å utvide caset til hele Europa kan man finne aggregerte europeiske klimadata her:
+
+- [EUMETNET Climate Observations](https://api.meteogate.eu/eu-eumetnet-climate-observations/v1)
 
 ### Karttjenester
 
