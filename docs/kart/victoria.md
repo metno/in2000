@@ -1,10 +1,13 @@
 ---
 layout: page
 title: Victoria WMS
-parent: Generelle ressurser
+parent: Kart
+grand_parent: Generelle ressurser
 nav_order: 25
 date: 2026-02-20
 author: Geir Aalberg
+summary: >
+    Ny offentlig kartserver fra MET
 ---
 
 ![](Victoria.png)
@@ -14,12 +17,10 @@ offentlige karttjenesten fra MET, oppkalt etter det første
 [skipet](https://en.wikipedia.org/wiki/Victoria_(ship)) som gjorde
 jordomseiling.
 
-For en introduksjon til WMS, se [tutorial fra
-NOAA](https://sos.noaa.gov/support/sos/how-to/wms-tutorial/all/).
-
 ## WMS
 
-Grensesnittet til Victoria er åpent uten registrering og kan finnes her:
+Victoria benytter [WMS-protokollen](./wms).
+Grensesnittet er åpent uten registrering og kan finnes her:
 
 - <https://public-victoria.met.no/docs>
 
@@ -49,7 +50,7 @@ mens grupper (med tilhørende modeller) finnes på
 [/get-model-groups](https://public-victoria.met.no/get-model-groups).
 
 - [WMS Capabilities](https://public-victoria.met.no/wms?service=WMS&version=1.3.0&request=GetCapabilities&format=image%2Fpng&transparent=true&model=meps_det_vdiv_2_5km_calculations) - MEPS (calculated), 600 KB
-- [Eksempelkode](/assets/wms_test_victoria.html) for hvordan vise WMS-kart fra Victoria i MapLible
+- [Eksempelkode](/assets/wms_test_victoria.html) for hvordan vise WMS-kart fra Victoria i MapLibre
 
 ### Kartlag
 
