@@ -50,7 +50,7 @@ mens grupper (med tilhørende modeller) finnes på
 [/get-model-groups](https://public-victoria.met.no/get-model-groups).
 
 - [WMS Capabilities](https://public-victoria.met.no/wms?service=WMS&version=1.3.0&request=GetCapabilities&format=image%2Fpng&transparent=true&model=meps_det_vdiv_2_5km_calculations) - MEPS (calculated), 600 KB
-- [Eksempelkode](/assets/wms_test_victoria.html) for hvordan vise WMS-kart fra Victoria i MapLibre
+- [Eksempel](/assets/wms_test_victoria.html) på hvordan vise WMS-kart fra Victoria i MapLibre (velg "view source")
 
 ### Kartlag
 

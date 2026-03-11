@@ -33,3 +33,7 @@ NOAA](https://sos.noaa.gov/support/sos/how-to/wms-tutorial/all/).
 Fordelen med OpenLayers er at den kan lese GetCapabilities direkte og lage
 layer- og styleselector automatisk. For de andre er man nødt til å skimme
 gjennom XMLen og finne aktuelle lag/styles som må hardkodes i klienten.
+
+## Andre verktøy
+
+Anbefaler å bruke [QGIS](https://qgis.org/) for å sjekke innhold på WMS-tjenester.
