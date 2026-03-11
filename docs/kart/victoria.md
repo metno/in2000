@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Victoria WMS
+title: Victoria
 parent: Kart
 grand_parent: Generelle ressurser
 nav_order: 25
