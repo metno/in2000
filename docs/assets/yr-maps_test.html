@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>OSM Yr-maps</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
+    <!-- script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl-dev.js"></script -->
+    <link href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" rel="stylesheet" />
+    <script src="https://unpkg.com/maplibre-grid@1.0.0/dist/maplibre-grid.js"></script>
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; z-index: -10; }
+        .dropbtn {
+            background-color: #36a;
+            color: white;
+            margin-left: 16px;
+            margin-top: 16px;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #999;
+            border-radius: 5px;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            font-family: sans-serif;
+            background-color: #f1f1f1;
+            margin-left: 16px;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            width: 250px;
+            border-bottom: solid #999 1px;
+        }
+        .dropdown-content a:hover {background-color: #ddd;}
+        .dropdown:hover .dropdown-content {display: block;}
+        .dropdown:hover .dropbtn {background-color: #69f;}
+
+        .slidecontainer {
+            position: fixed;
+            left: 50%;
+            bottom: 1px;
+            transform: translate(-50%, -50%);
+            margin: 0 auto;
+            width: 260px;
+            border-radius: 12px;
+            margin: auto;
+            text-align: center;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.5);
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+        .slidecontainer input {  cursor: ew-resize; }
+        #layertime { padding: 3px; }
+        #playtoggle {
+            float: left;
+            font-size: 36px;
+            width: 40px;
+            text-align: center;
+            border: solid black 2px;
+            border-radius: 6px;
+        }
+        #playtoggle:hover { background-color: white; }
+
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropbtn">Datasets</button>
+        <div id="datasets" class="dropdown-content"></div>
+    </div>
+    <div class="slidecontainer">
+      <div id="playtoggle">&vrtri;</div>
+      <span id="layertime"></span><br>
+      <input type="range" min="0" max="23" value="0" id="timeseries">
+    </div>
+    <div id='map'></div>
+    <script>
+        // base map
+        var map = new maplibregl.Map({
+            container: 'map',
+            style: 'https://osm.api.met.no/styles/basic-preview/style.json',
+            center: [15, 65],
+            zoom: 5,
+            maxZoom: 6,
+            minZoom: 0
+        });
+        map.addControl(new maplibregl.NavigationControl({
+            showZoom: true,
+            showCompass: true
+        }));
+        map.addControl(new MaplibreGrid.Grid({
+            gridWidth: 10,
+            gridHeight: 10,
+            units: 'degrees',
+            paint: { 'line-opacity': 0.2 }
+        }));
+        let slider = document.getElementById("timeseries");
+        let output = document.getElementById("layertime");
+
+        // load weather map data
+        const base_url = 'https://beta.yr-maps.met.no/api/';
+        let dataset_urls = new Map([]);
+        fetch_json(base_url + 'available.json').then(
+            function(value) {
+                datasets = value;
+                //console.log('<<<', datasets);
+                for (let i in datasets) {
+                    //console.log(datasets[i]);
+                    dataset_urls.set(datasets[i].name, datasets[i].url);
+                    document.getElementById('datasets').innerHTML +=
+                        '<a href="#" onclick="change_dataset(\'' + datasets[i].name + '\')">' + datasets[i].description + '</a>';
+                }
+            }
+        );
+        //console.log(dataset_urls);
+
+        let times = null;
+        let displaytimeindex = 0;
+        let dataset = null;
+
+        async function change_dataset(name) {
+            //alert(name);
+            fetch_json( dataset_urls.get(name) ).then(
+                function(available) {
+                    //console.log(available);
+                    map.getLayersOrder().forEach(function (layer) {
+                        //console.log(layer);
+                        if (layer.includes(dataset)) {
+                            map.removeLayer(layer);
+                            map.removeSource(layer); // may be updated since last use
+                        }
+                    });
+                    dataset = name;
+                    times = [];
+
+                    available.times.forEach( function (item, index) {
+                        //console.log(item, index);
+                        times[index] = item.time;
+                        let tile_url = item.tiles.webp;
+                        //let time = item.time;
+                        let layer = name + '-' + index;
+                        //console.log(layer);
+                        map.addSource( layer, {
+                            'type': 'raster',
+                            'tiles': [ tile_url ],
+                            'scheme': 'xyz',
+                            'tileSize': 256,
+                            'bounds': available.bounds,
+                            'maxzoom': available.maxzoom
+                        });
+                        map.addLayer({
+                            'id': layer,
+                            'type': 'raster',
+                            'source': layer,
+                            'layout': { 'visibility': index == 0 ? "visible" : "none" },
+                            'paint': {
+                                'raster-opacity': 0.4,
+                                'raster-brightness-min': 0
+                            }
+                        });
+                    });
+                    output.innerHTML = localtime( available.times[0].time );
+                    slider.max = available.times.length - 1; // adjust # of steps in slider
+                    slider.value = 0;
+                    //console.log(times);
+                }
+            );
+        }
+
+        // Update the current slider value (each time you drag the slider handle)
+        function updateTime() {
+            if (dataset != null) {
+                map.setLayoutProperty(dataset + '-' + displaytimeindex, 'visibility', 'none');
+                displaytimeindex = slider.value;
+                output.innerHTML = localtime( times[displaytimeindex] );
+                map.setLayoutProperty(dataset + '-' + displaytimeindex, 'visibility', 'visible');
+            }
+        }
+        slider.addEventListener("change", updateTime);
+
+        function localtime(isodate) {
+            let lt = new Date(isodate);
+            return lt.toLocaleDateString() + ' ' + lt.toLocaleTimeString().substring(0,5);
+        }
+
+        // toggle animation
+        let interval = null;
+        playtoggle.onclick = function() {
+            if (dataset) {
+                if (interval) {
+                    clearInterval(interval);
+                    interval = null;
+                    playtoggle.innerHTML = '&vrtri;';
+                } else {
+                    interval = setInterval(() => {
+                        slider.value = ++slider.value % slider.max;
+                        updateTime();
+                    }, 700);
+                    playtoggle.innerHTML = '&#8545;';
+                }
+            }
+        };
+
+        async function fetch_json(url) {
+            let obj = null;
+            try {
+                obj = await (await fetch(url)).json();
+            } catch(e) {
+                console.log('Error: ' + url);
+            }
+            //console.log(obj);
+            return(obj);
+        }
+    </script>
+</body>
+</html>

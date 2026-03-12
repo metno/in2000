@@ -58,6 +58,7 @@ Kartilene bruker WebMercator-projeksjon, som er default i de fleste kartklienter
 - [Dokumentasjon fra NRK](https://nrkno.github.io/yr-map-docs/) på tile rendering med [kildekode](https://github.com/nrkno/yr-map-docs)
 - [TileConvert](https://github.com/metno/tileconvert) - Go-kode for proxy server for produksjon av tiles som kan leses direkte inn i kartbibliotek
 - [Yr-maps demo client](https://client.yr-maps.met.no/)
+- [Eksempel](/assets/yr-maps_test.html) på hvordan vise mbtiles-kart fra Yr-Maps i MapLibre (velg “view source”)
 
 ## Spørsmål?
 
