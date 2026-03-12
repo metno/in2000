@@ -113,6 +113,9 @@ Merk at denne er laget primært for sjøfart og ikke greier å vise alle paramet
 i høyden (fx vind). Den kan heller ikke parse GRIB1-filer fra IsobaricGRIB.
 Det er også mulig å bruke [QGIS](https://qgis.org/), men det er litt mer tungvint.
 
+- [LuckGRIB](https://luckgrib.com/) - GRIB-viewer for seilere (Mac/iOS)
+- [qtVlm](https://meltemus.com/index.php/en/) - navigasjonsapp (Windows, Mac, Linux og Raspberry Pi)
+
 ### Parsing av GRIB-filer
 
 Det finnes en rekke [GRIB-parsere for Java](https://github.com/search?q=grib2+language%3AJava&type=repositories&l=Java)
