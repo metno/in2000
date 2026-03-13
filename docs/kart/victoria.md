@@ -82,10 +82,10 @@ Denne returnerer et bilde med angitt dimensjon og innhold. Eksempel:
 Noen av disse parameterne (som `bbox`) greier typisk kartklienten selv å beregne,
 mens andre må dere legge inn selv. Det inkluderer bl.a. flg:
 
-- crs (kartprojeksjon)
-- layers
-- styles
-- time
+- `crs` (kartprojeksjon)
+- `layers`
+- `styles`
+- `time`
 
 Alle disse verdiene finner dere listet i GetCapabilities. Under hvert layer
 er det listet en rekke styles som kan brukes; hvis dere bruker en style som
@@ -93,6 +93,18 @@ tilhører et annet lag vil dere typisk få `500 Server Error`.
 
 For `crs` anbefaler vi å bruke `EPSG:3857`, også kjent som WebMercator som er
 det samme som brukes på Google Maps og OpenStreetMap.
+
+`time` angis på ISO 8601-format, à la `2026-03-13T03:00+0000Z`. Eksemplet over
+er litt spesielt siden det har historiske data, men for de fleste lag er det
+et flytende tidsvindu typisk fra neste hele time og noen dager fram i tid. Dette
+er angitt under `<Dimension>` på flg format:
+
+    2026-03-09T21:00+0000/2026-03-15T21:00+0000/PT1H
+
+Denne angir start- og slutt-tidspunkt, mens `PT1H` betyr at den repeteres med
+timesintervaller.
+
+### Eksempelkode
 
 Vi har laget et eksempel på hvordan bruke GetMap fra Victoria i MapLibre (velg
 "view source" i browseren):
