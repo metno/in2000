@@ -17,16 +17,16 @@ offentlige karttjenesten fra MET, oppkalt etter det første
 [skipet](https://en.wikipedia.org/wiki/Victoria_(ship)) som gjorde
 jordomseiling.
 
-## WMS
-
-Victoria benytter [WMS-protokollen](./wms).
-Grensesnittet er åpent uten registrering og kan finnes her:
+Tjenesten er åpen uten registrering og kan finnes her:
 
 - <https://public-victoria.met.no/docs>
 
+## WMS
+
+Victoria benytter [WMS-protokollen](./wms).
 I WMS bruker man vanligvis to operasjoner, `GetCapabilities` og `GetMap`.
 
-## GetCapabilities
+### GetCapabilities
 
 Dette returnerer en liste med lag med tilhørende styles og gyldige kartprojeksjoner.
 For å teste, legg inn flg verdier under "GET /wms":
@@ -58,7 +58,7 @@ Komplett liste over modeller kan lastes ned på
 mens grupper (med tilhørende modeller) finnes på
 [/get-model-groups](https://public-victoria.met.no/get-model-groups).
 
-## GetMap
+### GetMap
 
 Denne returnerer et bilde med angitt dimensjon og innhold. Eksempel:
 
@@ -94,7 +94,8 @@ tilhører et annet lag vil dere typisk få `500 Server Error`.
 For `crs` anbefaler vi å bruke `EPSG:3857`, også kjent som WebMercator som er
 det samme som brukes på Google Maps og OpenStreetMap.
 
-Vi har laget et eksempel på hvordan bruke GetMap fra Victoria i MapLibre (velg "view source"):
+Vi har laget et eksempel på hvordan bruke GetMap fra Victoria i MapLibre (velg
+"view source" i browseren):
 
 - [MapLibre eksempel](/assets/wms_test_victoria.html)
 
@@ -128,4 +129,3 @@ Vi anbefaler å bruke flg layers:
 
 Merk at listen over tilgjengelige layers endrer seg hele tiden, så hvis noe
 plutselig slutter å virke må dere sjekke at laget fortsatt finnes i GetCapabilities.
-
