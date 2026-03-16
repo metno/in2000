@@ -48,9 +48,13 @@ Målgrupper kan være:
 - kommunale etater som ønsker mer informasjon enn hva som finnes på varsom.no
 - bønder som risikerer tap i avling pga tørke eller mye nedbør
 - bønder som ser etter nye arter som tåler fremtidens klima bedre
-- ski/turgåere i fjellet
+- ski/turgåere i fjellet eller arrangører av slike turer
 
 Appen bør komme med anbefalinger på klimatilpasning/andre tiltak for valgte målgrupper.
+
+{: .note}
+Merk at fokus i dette caset er på historiske data (klima). Det er ikke en app
+for å varsle været hvis man skal ut på tur!
 
 ### Kart
 
@@ -65,7 +69,7 @@ det på Wikipedia:
 
 ## Datakilder
 
-### Klimadata
+### Klimadata (obligatorisk)
 
 Begge versjoner av Frost har observasjonsdata, men aggregerte data (fx
 middeltemperatur/mnd eller nedbør per døgn) er ikke kopiert inn i v1 ennå.
@@ -82,7 +86,8 @@ Hvis man ønsker å utvide caset til hele Europa kan man finne aggregerte europe
 
 - [EUMETNET Climate Observations](https://api.meteogate.eu/eu-eumetnet-climate-observations/v1)
 
-### Karttjenester
+### NVE
 
+- [NVE API](https://api.nve.no/doc/) - har bl.a. flom-, flo- og snøskredfarevarsler
 - [NVEs Kartkatalog](https://kartkatalog.nve.no/#wms) . har bl.a. flom- og skredkart i WMS-format
 - [NVE Sikringshåndbok](https://veiledere.nve.no/sikringshandboka/moduler/modul-f1-300-mulige-tiltak-mot-flom-og-oversvommelse/) - Mulige tiltak mot flom og oversvømmelse
