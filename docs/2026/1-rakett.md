@@ -75,7 +75,7 @@ ligger inne i Interpol:
 Siden modellkjøringer kommer og går må dere sjekke `/instances` for å finne
 siste modellkjøring og bruke denne i de to siste linkene.
 
-### IsobaricGRIB
+### IsobaricGRIB (anbefalt)
 
 Denne tjenesten har griddede data for hele Sør-Norge, så kan brukes for
 tilfeldige posisjoner innen dekningsområdet.
@@ -88,9 +88,9 @@ og at vind angis som vektor med x- og y-komponent (u og v).
 
 For mer informasjon, se [dokumentasjon for GRIB-formatet](/api/grib).
 
-### Locationforecast
+### Værvarsel for utskytningssted (obligatorisk)
 
-- [Locationforecast](/intro) på api.met.no for bakkedata
+- [Locationforecast/Nowcast](/intro) på api.met.no
 
 ### Frost
 

@@ -54,7 +54,7 @@ Appen bør komme med anbefalinger på klimatilpasning/andre tiltak for valgte m�
 
 {: .note}
 Merk at fokus i dette caset er på historiske data (klima). Det er ikke en app
-for å sjekke været når hvis man skal ut på tur!
+for å sjekke været hvis man skal ut på tur!
 
 ### Kart
 
