@@ -54,7 +54,7 @@ Appen bør komme med anbefalinger på klimatilpasning/andre tiltak for valgte m�
 
 {: .note}
 Merk at fokus i dette caset er på historiske data (klima). Det er ikke en app
-for å varsle været hvis man skal ut på tur!
+for å varsle når hvis man skal ut på tur!
 
 ### Kart
 
@@ -85,6 +85,10 @@ I tillegg anbefaler vi SeKlima for manuelt å finne data:
 Hvis man ønsker å utvide caset til hele Europa kan man finne aggregerte europeiske klimadata her:
 
 - [EUMETNET Climate Observations](https://api.meteogate.eu/eu-eumetnet-climate-observations/v1)
+
+Det utarbeides også rapporter for ekstremværhendelser med mye nyttig informasjon:
+
+- [Ekstremvær-rapporter](https://www.met.no/publikasjoner/met-info/ekstremvaer)
 
 ### NVE
 
