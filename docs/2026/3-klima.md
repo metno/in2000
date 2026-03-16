@@ -48,13 +48,13 @@ Målgrupper kan være:
 - kommunale etater som ønsker mer informasjon enn hva som finnes på varsom.no
 - bønder som risikerer tap i avling pga tørke eller mye nedbør
 - bønder som ser etter nye arter som tåler fremtidens klima bedre
-- ski/turgåere i fjellet eller arrangører av slike turer
+- de som vedlikeholder skiløyper og turstier, eller arrangerer slike turer
 
 Appen bør komme med anbefalinger på klimatilpasning/andre tiltak for valgte målgrupper.
 
 {: .note}
 Merk at fokus i dette caset er på historiske data (klima). Det er ikke en app
-for å varsle når hvis man skal ut på tur!
+for å sjekke været når hvis man skal ut på tur!
 
 ### Kart
 
@@ -88,7 +88,7 @@ Hvis man ønsker å utvide caset til hele Europa kan man finne aggregerte europe
 
 Det utarbeides også rapporter for ekstremværhendelser med mye nyttig informasjon:
 
-- [Ekstremvær-rapporter](https://www.met.no/publikasjoner/met-info/ekstremvaer)
+- [Ekstremvær-rapporter](https://www.met.no/publikasjoner/met-info/ekstremvaer) fra MET
 
 ### NVE
 
