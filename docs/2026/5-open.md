@@ -9,9 +9,6 @@ author: Geir Aalberg
 
 Her kan dere i prinsippe lage hva dere vil, men dere må bruke minst én av datakildene nedenfor.
 
-{: .warning }
-Caselisten er foreløpig under utarbeidelse og teksten under må betraktest som kladd.
-
 ## Vegvær og luftkvalitet
 
 Utslipp og svevestøv fra vegtrafikken er en av hovedkildene til helseskader grunnet
@@ -101,4 +98,3 @@ i 2026.
 Eksempler på interessante data som mange etterlyser:
 
 - [Skogbrannfareindeks](https://thredds.met.no/thredds/catalog/fwi/catalog.html) - datagrunnlag for [skogbrannfare.met.no](https://skogbrannfare.met.no/)
-
