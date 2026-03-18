@@ -38,8 +38,8 @@ må man bruke EC-data overalt.
 ### Farevarsler **(obligatorisk)**
 
 Appen skal kunne vise gyldige farevarsler som polygoner på kartet. Det er ønskelig
-at dere henter farevarsler for hele Europa fra MeteoGate, men hvis dere ikke får det
-til kan dere bruke MetAlerts på api.met.no.
+at dere henter farevarsler for hele Europa fra MeteoAlarm (en del av MeteoGate),
+men hvis dere ikke får det til kan dere bruke MetAlerts på api.met.no.
 
 ### Punktdata
 

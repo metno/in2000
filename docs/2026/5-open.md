@@ -40,7 +40,7 @@ APIer, men i stedet henvise til portalen. Vi ønsker derfor å lære om brukerne
 erfaringer med å bruke denne nye tjenesten. Merk at deler av tjenesten krever
 registrering.
 
-- [MeteoGate APIs](https://meteogate.eu/) - europeisk hub for meteorologiske data
+- [MeteoGate APIs](https://meteogate.eu/) - europeisk hub for meteorologiske data (inkl farevarsler fra MeteoAlarm)
 
 ## Radardata
 
