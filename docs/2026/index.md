@@ -22,6 +22,8 @@ nav_order: 3
 - [Case 4. Kart til allmenheten](./4-kart)
 - [Case 5. Åpent case](./5-open)
 
+![Fordeling av caser](./fordeling.svg)
+
 ## Kontaktinfo
 
 For spørsmål vedr METs tjenester, send en epost til en **(og kun én)** av følgende adresser alt
