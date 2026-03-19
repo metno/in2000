@@ -34,7 +34,7 @@ i byggteknikk fra Høgskolen i Gjøvik.
 
 ## Funksjonelle krav
 
-Appen skal formidle nyttig informasjon om en eller flere naturhendelser av typen:
+Appen skal formidle nyttig klimainformasjon om en eller flere naturhendelser av typen:
 
 - flom fra vassdrag
 - snøskred
@@ -48,13 +48,13 @@ flere år, ikke bare de neste ukene.**
 
 ### Målgrupper
 
-Målgrupper kan være:
+Målgrupper kan f.eks. være:
 
 - boligbyggere som vil unngå flom- og rasutsatte tomter
 - boligeiere som vil sjekke risiko for flom/ras og få råd om tiltak (drenering, fjellsikring, beplantning)
 - kommunale etater som ønsker mer informasjon enn hva som finnes på varsom.no
 - bønder som risikerer tap i avling pga tørke eller mye nedbør
-- bønder som ser etter nye arter som tåler fremtidens klima bedre
+- bønder eller hagedyrkere som ser etter nye arter som tåler fremtidens klima bedre
 - de som vedlikeholder skiløyper og turstier, eller arrangerer slike turer
 
 Appen bør komme med anbefalinger på klimatilpasning/andre tiltak for valgte målgrupper.
