@@ -18,7 +18,7 @@ varsler, og mer er i kjømda.
 
 En av tingene vi jobber med er en MCP-server, som er et eget grensesnitt for
 KI-baserte agenter. Denne har allerede koblinger mot Locationforecast og
-MetAlerts, og vi håper å få på plass kobling mot Frost ASAP. Vi tar gjerne imot
+MetAlerts, flere integrasjoner kommer kanskje etterhvert. Vi tar gjerne imot
 forslag om nye tjenester og features som kan integreres.
 
 MCP-serveren skal i prinsippet fungere mot alle AI-modeller som støtter MCP (dvs
