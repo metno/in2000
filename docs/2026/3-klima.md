@@ -26,6 +26,12 @@ samme som i Champagne-regionen for hundre år siden, noe som har ført til et
 oppsving i engelsk vinproduksjon. Kanskje kan vi dyrke vindruer i Norge om noen
 generasjoner?
 
+![](klimadef.jpg)
+
+For de som ikke vet forskjellen på vær og klima, anbefaler vi [denne
+presentasjonen](https://www.slideserve.com/rob/v-r-og-klima) fra en forelesning
+i byggteknikk fra Høgskolen i Gjøvik.
+
 ## Funksjonelle krav
 
 Appen skal formidle nyttig informasjon om en eller flere naturhendelser av typen:
@@ -37,7 +43,8 @@ Appen skal formidle nyttig informasjon om en eller flere naturhendelser av typen
 - bølger og springflo
 
 Det er valgfritt om dere ønsker å dekke alle typer hendelser, eller velge noen
-enkelte hvor dere går mer i dybden.
+enkelte hvor dere går mer i dybden. **Uansett skal tidshorisonten være over
+flere år, ikke bare de neste ukene.**
 
 ### Målgrupper
 
@@ -92,6 +99,8 @@ Det utarbeides også rapporter for ekstremværhendelser med mye nyttig informasj
 
 ### NVE
 
-- [NVE API](https://api.nve.no/doc/) - har bl.a. flom-, flo- og snøskredfarevarsler
 - [NVEs Kartkatalog](https://kartkatalog.nve.no/#wms) . har bl.a. flom- og skredkart i WMS-format
 - [NVE Sikringshåndbok](https://veiledere.nve.no/sikringshandboka/moduler/modul-f1-300-mulige-tiltak-mot-flom-og-oversvommelse/) - Mulige tiltak mot flom og oversvømmelse
+
+NVE har også [flom-, flo- og snøskredfarevarsler](https://api.nve.no/doc/), men
+det lite relevant for dette caset siden det er værvarsling og ikke klima.
