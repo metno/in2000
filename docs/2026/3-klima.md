@@ -41,6 +41,7 @@ Appen skal formidle nyttig klimainformasjon om en eller flere naturhendelser av 
 - styrtregn
 - kraftig vind
 - bølger og springflo
+- smelting av isbreer
 
 Det er valgfritt om dere ønsker å dekke alle typer hendelser, eller velge noen
 enkelte hvor dere går mer i dybden. **Uansett skal tidshorisonten være over
@@ -100,6 +101,7 @@ Det utarbeides også rapporter for ekstremværhendelser med mye nyttig informasj
 ### NVE
 
 - [NVEs Kartkatalog](https://kartkatalog.nve.no/#wms) . har bl.a. flom- og skredkart i WMS-format
+- [Bredata](https://www.nve.no/vann-og-vassdrag/vannets-kretsloep/bre/bredata/) som kart og nedlastbare data
 - [NVE Sikringshåndbok](https://veiledere.nve.no/sikringshandboka/moduler/modul-f1-300-mulige-tiltak-mot-flom-og-oversvommelse/) - Mulige tiltak mot flom og oversvømmelse
 
 NVE har også [flom-, flo- og snøskredfarevarsler](https://api.nve.no/doc/), men
