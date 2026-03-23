@@ -30,9 +30,10 @@ For spørsmål vedr METs tjenester, send en epost til en **(og kun én)** av fø
 etter hva dere lurer på:
 
 - api.met.no: <weatherapi-adm@met.no>
-- frost.met.no: <observasjon@met.no>
-- Drifty: [Vegard Bønes](mailto:vegardb@met.no)
 - PortalSpace: [Håkon Offernes](haakono@portalspace.no)
+- Drifty: [Vegard Bønes](mailto:vegardb@met.no)
+- frost.met.no: <observasjon@met.no>
+- Victoria: <victoria@met.no>
 - MCP-server: <mcp-server@met.no>
 
 Merk eposten med "IN2000" i subject-feltet så vi skjønner hva det er snakk om.
