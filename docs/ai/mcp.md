@@ -6,7 +6,7 @@ date: 2026-03-02
 author: Geir Aalberg
 ---
 
-![Vær-robot](ai_weather.jpg)
+![Vær-robot](/images/ai_weather.jpg)
 
 ## Bakgrunn
 

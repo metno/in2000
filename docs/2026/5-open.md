@@ -78,7 +78,7 @@ Kunstig intelligens brukes nå overalt innen IT, og vi har fått mange ønsker o
 en sentral MCP-tjeneste som kan brukes mot LLMer. MET har laget en prototype på
 en [MCP-server](/ai/mcp) som er åpen for testing.
 
-- [MET MCP-server](https://webapi.met.no/mcp-docs/) - se [presentasjon](/ai/MET_Norway_MCP_server.pdf)
+- [MET MCP-server](/ai/mcp/) - se [presentasjon](/ai/MET_Norway_MCP_server.pdf)
 
 Merk at denne ikke er satt opp for IN2000, men etter påtrykk fra brukere av
 api.met.no. Det er foreløpig uvisst om IFI har LLM-ressurser som kan benytte
