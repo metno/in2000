@@ -72,12 +72,6 @@ synes er interessante (både fra oss og andre produsenter), og kombinere disse
 med værdata fra MET i en app. Prosessen må dokumenteres, med en vurdering av
 disse portalene.
 
-{:.note}
-Pga en feil i importen vises ikke METs APIer på data.norge.no. Vi jobber med å
-rette opp dette. De kan fortsatt finnes på DigDirs
-[testserver](https://demo.fellesdatakatalog.digdir.no/data-services?orgPath=%2FSTAT%2F972417882%2F971274042&sortfield=FIRST_HARVESTED&page=0).
-
-
 ## KI – MCP-server
 
 Kunstig intelligens brukes nå overalt innen IT, og vi har fått mange ønsker om
