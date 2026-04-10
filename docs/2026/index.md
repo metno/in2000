@@ -38,8 +38,8 @@ etter hva dere lurer på:
 - Generelle spørsmål om casens: <geira@met.no>
 
 {:.warning}
-Ikke send epost til post@met.no, da havner det i det generelle arkivsystemet
-og blir mye rot med forwarding til riktig person!
+Ikke send epost til post@met.no, da havner det hos Arkivtjenesten i Miljødirektoratet
+før saken havner på rundgang inntil den (kanskje) kommer til riktig instans.
 
 Merk eposten med "IN2000" i subject-feltet så vi skjønner hva det er snakk om.
 Ikke send epost til flere adresser samtidig, da ender vi opp med multiple saker i
