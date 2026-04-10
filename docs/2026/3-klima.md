@@ -54,7 +54,7 @@ Målgrupper kan f.eks. være:
 - boligbyggere som vil unngå flom- og rasutsatte tomter
 - boligeiere som vil sjekke risiko for flom/ras og få råd om tiltak (drenering, fjellsikring, beplantning)
 - kommunale etater som ønsker mer informasjon enn hva som finnes på varsom.no
-- bønder som risikerer tap i avling pga tørke eller mye nedbør
+- [bønder som risikerer tap i avling pga tørke eller mye nedbør](https://www.norceresearch.no/aktuelt/den-ubrukte-verdien-av-langtidsvarsler-under-torkesommeren-2018)
 - bønder eller hagedyrkere som ser etter nye arter som tåler fremtidens klima bedre
 - de som vedlikeholder skiløyper og turstier, eller arrangerer slike turer
 
@@ -93,9 +93,11 @@ I tillegg anbefaler vi SeKlima for manuelt å finne data:
 Hvis man ønsker å utvide caset til hele Europa kan man finne aggregerte europeiske klimadata her:
 
 - [EUMETNET Climate Observations](https://api.meteogate.eu/eu-eumetnet-climate-observations/v1)
+- [EUMETNET Surface Observations](https://observations.meteogate.eu/collections/observations)
 
-Det utarbeides også rapporter for ekstremværhendelser med mye nyttig informasjon:
+Det utarbeides også rapporter for klima og ekstremværhendelser med mye nyttig informasjon:
 
+- [Klima i Norge 2025](https://klimaservicesenter.no/kss/rapporter/kin-2025) med klimaframskrivinger og datasett
 - [Ekstremvær-rapporter](https://www.met.no/publikasjoner/met-info/ekstremvaer) fra MET
 
 ### NVE

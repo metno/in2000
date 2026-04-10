@@ -35,7 +35,13 @@ etter hva dere lurer på:
 - frost.met.no: <observasjon@met.no>
 - Victoria: <victoria@met.no>
 - MCP-server: <mcp-server@met.no>
+- Generelle spørsmål om casens: <geira@met.no>
+
+{:.warning}
+Ikke send epost til post@met.no, da havner det i det generelle arkivsystemet
+og blir mye rot med forwarding til riktig person!
 
 Merk eposten med "IN2000" i subject-feltet så vi skjønner hva det er snakk om.
 Ikke send epost til flere adresser samtidig, da ender vi opp med multiple saker i
 forskjellige ticketsystemer, noe som genererer mye støy, kaos og ekstraarbeid.
+
