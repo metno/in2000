@@ -35,7 +35,7 @@ etter hva dere lurer på:
 - frost.met.no: <observasjon@met.no>
 - Victoria: <victoria@met.no>
 - MCP-server: <mcp-server@met.no>
-- Generelle spørsmål om casens: <geira@met.no>
+- Generelle spørsmål om casene: <geira@met.no>
 
 {:.warning}
 Ikke send epost til post@met.no, da havner det hos Arkivtjenesten i Miljødirektoratet

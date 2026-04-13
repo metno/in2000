@@ -59,6 +59,12 @@ alle tjenster fra de europeiske meteorologiske instituttene.
 
 ## Felles datakatalog
 
+<iframe title="vimeo-player"
+src="https://player.vimeo.com/video/523705765?h=ad5ccf4826" width="640"
+height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"
+allow="autoplay; fullscreen; picture-in-picture; clipboard-write;
+encrypted-media; web-share" allowfullscreen></iframe>
+
 DigDir har laget en katalogtjeneste for offentlige APIer og datasett, det samme
 har Kartverket for geofaglige data.
 
