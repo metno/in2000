@@ -105,6 +105,7 @@ Det utarbeides også rapporter for klima og ekstremværhendelser med mye nyttig 
 - [NVEs Kartkatalog](https://kartkatalog.nve.no/#wms) . har bl.a. flom- og skredkart i WMS-format
 - [Bredata](https://www.nve.no/vann-og-vassdrag/vannets-kretsloep/bre/bredata/) som kart og nedlastbare data
 - [NVE Sikringshåndbok](https://veiledere.nve.no/sikringshandboka/moduler/modul-f1-300-mulige-tiltak-mot-flom-og-oversvommelse/) - Mulige tiltak mot flom og oversvømmelse
+- [Isbredata](https://www.nve.no/vann-og-vassdrag/vannets-kretsloep/bre/bredata/) med lange tidsserier
 
 NVE har også [flom-, flo- og snøskredfarevarsler](https://api.nve.no/doc/), men
 det lite relevant for dette caset siden det er værvarsling og ikke klima.

@@ -63,5 +63,6 @@ Hvis dere har ekstra tid vil vi anbefale flg funksjoner:
 - [MeteoGate Surface Observations API](https://observations.meteogate.eu/) - europeiske observasjoner siste 24 timer
 - [MeteoGate Climate API](https://api.meteogate.eu/eu-eumetnet-climate-observations/v1) - historiske observasjoner
 - [MeteoGate portal](https://meteogate.eu/) - linker til dokumentasjon
+- [Vegvær](https://www.vegvesen.no/fag/teknologi/apne-data/et-utvalg-apne-data/ogc-karttjenester/kartlag/) fra Statens vegvesen
 
 Alt fra MeteoGate/MeteoAlarm bruker [EDR-grensesnitt](/edr).
