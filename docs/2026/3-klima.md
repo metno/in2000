@@ -42,6 +42,7 @@ Appen skal formidle nyttig klimainformasjon om en eller flere naturhendelser av 
 - kraftig vind
 - bølger og springflo
 - smelting av isbreer
+- endring i vekstvilkår for planter
 
 Det er valgfritt om dere ønsker å dekke alle typer hendelser, eller velge noen
 enkelte hvor dere går mer i dybden. **Uansett skal tidshorisonten være over
