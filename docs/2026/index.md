@@ -12,7 +12,7 @@ nav_order: 3
 - [Emneside for kurset](https://www.uio.no/studier/emner/matnat/ifi/IN2000/)
 - [Semesterside for 2026](https://www.uio.no/studier/emner/matnat/ifi/IN2000/v26/)
 - [Timeplan](https://tp.educloud.no/uio/app/schedule?semester=26v&scheduleType=course&filterOpen=false&summary=true&pastWeeks=false&tab=teaching&course=IN2000%C2%A41)
-
+- [Prisutdeling](./prisutdeling)
 
 ## Casebeskrivelser
 
@@ -24,13 +24,18 @@ nav_order: 3
 
 ![Fordeling av caser](./fordeling.svg)
 
+## MET-prisen
+
+Prisutdelingen avholdes 16. juni kl 14–16, og [streames på Zoom](https://met-no.zoom.us/j/63943197899).
+For detaljer, se [egen side](./prisutdeling).
+
 ## Kontaktinfo
 
 For spørsmål vedr METs tjenester, send en epost til en **(og kun én)** av følgende adresser alt
 etter hva dere lurer på:
 
 - api.met.no: <weatherapi-adm@met.no>
-- PortalSpace: [Håkon Offernes](haakono@portalspace.no)
+- PortalSpace: [Håkon Offernes](mailto:haakono@portalspace.no)
 - Drifty: [Vegard Bønes](mailto:vegardb@met.no)
 - frost.met.no: <observasjon@met.no>
 - Victoria: <victoria@met.no>
@@ -44,4 +49,3 @@ før saken havner på rundgang inntil den (kanskje) kommer til riktig instans.
 Merk eposten med "IN2000" i subject-feltet så vi skjønner hva det er snakk om.
 Ikke send epost til flere adresser samtidig, da ender vi opp med multiple saker i
 forskjellige ticketsystemer, noe som genererer mye støy, kaos og ekstraarbeid.
-
