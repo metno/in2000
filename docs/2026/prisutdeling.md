@@ -25,14 +25,24 @@ Møt gjerne opp noen minutter før så dere får satt dere ned før presentasjon
 
 ## Nominerte team
 
-Kandidatene til prisen annonseres løpende etter at invitasjon har blitt sendt ut
-og bekreftet.
+Følgende team er nominerte til å delta i konkurransen (casenr. står i parentes):
+
+- Team  4 (4) Klart
+- Team  8 (3) Blomster & Bier
+- Team  9 (5) Spor AI
+- Team 14 (3) Åkerblikk
+- Team 16 (5) SoppSporer
+- Team 17 (1) Paralax
+- Team 18 (2) ArcticPath
+- Team 20 (3) Geomerking
+- Team 22 (2) Havblikk
+- Team 48 (4) Klaring
+
 
 Merk at for å kvalifisere til prisen må teamet ha fylt ut [nettskjema om bruk av
 APIer](https://nettskjema.no/a/628460)!
 
 ### Informasjon til teamene
-
 
 Når dere blir kalt opp og får koblet dere til projektor, skal dere først vise en
 slide med flg info:

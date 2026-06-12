@@ -7,7 +7,7 @@ date: 2026-02-26
 author: Geir Aalberg
 ---
 
-Her kan dere i prinsippe lage hva dere vil, men dere må bruke minst én av datakildene nedenfor.
+Her kan dere i prinsippe lage hva dere vil, men dere må bruke **minst én av datakildene nedenfor**.
 
 ## Vegvær og luftkvalitet
 
@@ -75,8 +75,8 @@ Siden MET bruker mye tid på å publisere metadata om våre tjenester på disse
 portalene, ønsker vi å vite mer om hvor godt kjent disse er og hvor lette de
 er å bruke. Oppgaven blir å lete litt rundt i disse katalogene og finne noen data dere
 synes er interessante (både fra oss og andre produsenter), og kombinere disse
-med værdata fra MET i en app. Prosessen må dokumenteres, med en vurdering av
-disse portalene.
+med værdata fra MET i en app. **Prosessen må dokumenteres, med en vurdering av
+disse portalene.**
 
 ## KI – MCP-server
 
