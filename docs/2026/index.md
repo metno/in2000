@@ -12,7 +12,7 @@ nav_order: 3
 - [Emneside for kurset](https://www.uio.no/studier/emner/matnat/ifi/IN2000/)
 - [Semesterside for 2026](https://www.uio.no/studier/emner/matnat/ifi/IN2000/v26/)
 - [Timeplan](https://tp.educloud.no/uio/app/schedule?semester=26v&scheduleType=course&filterOpen=false&summary=true&pastWeeks=false&tab=teaching&course=IN2000%C2%A41)
-- [Prisutdeling](./prisutdeling)
+- [MET-prisen](./prisvinnere)
 
 ## Casebeskrivelser
 
@@ -26,8 +26,7 @@ nav_order: 3
 
 ## MET-prisen
 
-Prisutdelingen avholdes 16. juni kl 14–16, og [streames på Zoom](https://met-no.zoom.us/j/63943197899).
-For detaljer, se [egen side](./prisutdeling).
+- [Vinnerne av årets MET-pris ble Team 17 med appen Paralax](./prisvinnere).
 
 ## Kontaktinfo
 

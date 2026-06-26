@@ -4,6 +4,7 @@ title: Prisutdeling
 parent: Årets caser
 #parent: 2026
 #grand_parent: Tidligere års caser
+nav_exclude: true
 date: 2025-06-09
 author: Geir Aalberg
 ---
