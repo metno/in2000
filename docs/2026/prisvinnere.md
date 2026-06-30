@@ -15,7 +15,9 @@ Av årets 51 team ble det nominert 10 team som fikk anledning til å presentere 
 apper for de ansatte på Meteorologisk institutt.
 
 For tredje år på rad var det et team som hadde valgt rakettoppskytning som case
-som vant MET-prisen, nemlig **Team 17** med appen *Paralax*. Disse fikk Yr-caps,
+som vant MET-prisen, nemlig **Team 17** med appen *Paralax*. Teamet besto av
+Eleonora Skaugvolldal Strzelecki, Lilia Al Houari, Mats Henrik de Carvalho Egedal,
+Prabhlin Kaur Sidhu, Purbina Shahi og Sara Ghaffar. Disse fikk Yr-caps,
 paraplyer og handlenett, samt et gavekort på 1000 kr.
 
 På delt andreplass kom to team som begge hadde valgt case 3 (klima), nemlig
